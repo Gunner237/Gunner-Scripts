@@ -180,21 +180,24 @@ function desktopMB(){
                    ');
     console.log("Desktop version of the Menu Bar has been loaded and applied.")
 }
-function mobileMB(){
 
-document.write('<ul>\
-               <li class="dropdown"><a class="dropbtn" class = "menubar" href="http://www.gunner.online/#">&#9776;</a>\
-               <div class="dropdown-content">\
-               <a href="http://www.gunner.online/home.html">Home</a>\
-               <a href="http://www.gunner.online/documents.html">Documents</a>\
-               <a href="http://www.gunner.online/construction_mobile.html">Games</a>\
-               <a href="http://www.gunner.online/media.html">Media</a>\
-               <a href="http://www.gunner.online/tools.html">Tools\\Utilities</a>\
-               <a href="http://www.gunner.online/externalLinks.html">Useful Websites</a>\
-               <a href="http://www.gunner.online/aboutIndex.html">About</a>\
-               </div>\
-               </li>\
-               </ul>\
-               ');
-console.log("Mobile version of the Menu Bar has been loaded and applied.")
+
+function mobileMB(){
+    document.write('<ul>\
+                   <li class="dropdown"><a class="dropbtn" class = "menubar" href="http://www.gunner.online/#">&#9776;</a>\
+                   <div class="dropdown-content">\
+                   <a href="http://www.gunner.online/home.html">Home</a>\
+                   <a href="http://www.gunner.online/documents.html">Documents</a>\
+                   <a href="http://www.gunner.online/construction_mobile.html">Games</a>\
+                   <a href="http://www.gunner.online/media.html">Media</a>\
+                   <a href="http://www.gunner.online/tools.html">Tools\\Utilities</a>\
+                   <a href="http://www.gunner.online/externalLinks.html">Useful Websites</a>\
+                   <a href="http://www.gunner.online/aboutIndex.html">About</a>\
+                   </div>\
+                   </li>\
+                   </ul>\
+                   ');
+    console.log("Mobile version of the Menu Bar has been loaded and applied.")
+    console.log("Script run")
+    return
 }
