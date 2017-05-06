@@ -34,7 +34,7 @@ function footer(type){
     else if (type === "media"){
         document.write('</div>\
                        <div id="category_border" id="footer" class="video">\
-                       <span id="contact">All media is ; Gunner Family 1995-2017 unless stated otherwise</span>\
+                       <span id="contact">All media is Gunner Family 1995-2017 unless stated otherwise</span>\
                        <a class="footer_contact" href="contact.html">Contact Sebastian</a>\
                        </div>\
                        ')
