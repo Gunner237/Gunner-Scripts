@@ -30,7 +30,7 @@ function check(form)//function to check userid and password
         localStorage.betaPriv = "true"
         
         console.log("User " + localStorage.username + " logged in")
-        window.location.href = "https://betasite.gunner.online/index.html"
+        window.location.href = "https://betasite.gunner.online/homeBeta.html"
     }
     else if(form.userid.value == "dev" && sha256(sha256(form.pswrd.value)) == devHash256_2)
     {
@@ -39,7 +39,7 @@ function check(form)//function to check userid and password
         localStorage.betaPriv = "true"
         
         console.log("User " + localStorage.username + " logged in")
-        window.location.href = "https://betasite.gunner.online/index.html"
+        window.location.href = "https://betasite.gunner.online/homeBeta.html"
     }
     else
     {
