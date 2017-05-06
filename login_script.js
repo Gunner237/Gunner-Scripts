@@ -85,5 +85,5 @@ function logout(){
     localStorage.betaPriv = "false"
     console.log("Logged out")
     document.getElementById("loginStatement").innerHTML = "You have been logged out";
-    window.location.href = "index.html"
+    window.location.href = "https://www.gunner.online/index.html"
 }
