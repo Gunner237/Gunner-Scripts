@@ -183,7 +183,7 @@ function desktopMB(){
 
     var onerun = 0
 function mobileMB(){
-    if (onerun <= 1){
+    if (onerun < 1){
     document.write('<ul>\
                    <li class="dropdown"><a class="dropbtn" class = "menubar" href="http://www.gunner.online/#">&#9776;</a>\
                    <div class="dropdown-content">\
