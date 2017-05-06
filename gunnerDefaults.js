@@ -1,6 +1,8 @@
 var total = 0
 var current = 0
 function launch(type){
+    document.write('<script src="https://apis.google.com/js/platform.js" async defer></script>\
+                   <meta name="google-signin-client_id" content="195902047279-0muavdc94lbo6q4ruj6ud20rul8l3h43.apps.googleusercontent.com.apps.googleusercontent.com">')
     console.log("Gunner Intranet "+type+" scripts initialising...")
     if (type === "standard") {
         total = 6

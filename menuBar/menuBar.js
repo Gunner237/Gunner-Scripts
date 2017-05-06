@@ -157,7 +157,7 @@ function desktopMB(){
                        <a href="https://www.gunner.online/testFiles/table.html">Table</a>\
                        </div>\
                        </li>\
-                       ');
+                       <div class="g-signin2" data-onsuccess="onSignIn"></div>');
     }
     else{
     }
