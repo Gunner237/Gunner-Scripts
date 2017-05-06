@@ -243,6 +243,9 @@ function launch(type){
             document.location.href="InternalSites/home.html";
         }
     }
+    else if (type === "beta_home"){
+        window.location.href = "http://betasite.gunner.online/beta/homeBeta"
+    }
     else {
         total = 4
         console.warn("Page type could not be found or identified. Type identifier: " + type )
