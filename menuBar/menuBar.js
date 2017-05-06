@@ -175,7 +175,10 @@ function desktopMB(){
     else{
         document.write(localStorage.username)
     }
-    document.write('</a></li>\
+    document.write('</a>\
+                   <div class="dropdown-content">\
+                   <div class="g-signin2" data-onsuccess="onSignIn"></div>\
+                   <\div></li>\
                    </ul>\
                    ');
     console.log("Desktop version of the Menu Bar has been loaded and applied.")
