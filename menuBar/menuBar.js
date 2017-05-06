@@ -181,9 +181,8 @@ function desktopMB(){
     console.log("Desktop version of the Menu Bar has been loaded and applied.")
 }
 
-
-function mobileMB(){
     var onerun = 0
+function mobileMB(){
     if (onerun > 1){
     document.write('<ul>\
                    <li class="dropdown"><a class="dropbtn" class = "menubar" href="http://www.gunner.online/#">&#9776;</a>\
@@ -200,7 +199,7 @@ function mobileMB(){
                    </ul>\
                    ');
     console.log("Mobile version of the Menu Bar has been loaded and applied.")
-    console.log("Script run")
+    console.log("onerun is "+onerun)
     onerun = onerun + 1
     }
     else{
