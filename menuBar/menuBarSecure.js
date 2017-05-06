@@ -9,7 +9,7 @@ function desktopMB(){
 var executed = "none";
 document.write('<ul>\
                <li class="dropdown">\
-               <a href="../index.html"\
+               <a href="http://www.gunner.online/index.html"\
                ')
 if (localStorage.directory == "home"){
     document.write('class = "active"')
@@ -20,7 +20,7 @@ else{
 document.write('>Home</a>\
                ')
 if (localStorage.betaPriv == "true"){
-    document.write('<a href="../beta/indexBetaRedirect.html">Beta Home Page</a>\
+    document.write('<a href="http://betasite.gunner.online/beta/indexBetaRedirect.html">Beta Home Page</a>\
                    ');
 }
 else{
@@ -28,7 +28,7 @@ else{
 document.write('</div>\
                </li>\
                <li class="dropdown">\
-               <a href="../documents.html"')
+               <a href="http://www.gunner.online/documents.html"')
 if (localStorage.directory == "documents"){
     document.write('class = "active"')
 }
@@ -40,7 +40,7 @@ document.write('>Documents</a>\
                </div>\
                </li>\
                <li class="dropdown">\
-               <a href="../games.html" ')
+               <a href="http://www.gunner.online/games.html" ')
 if (localStorage.directory == "games"){
     document.write('class = "active"')
 }
@@ -52,7 +52,7 @@ document.write('>Games</a>\
                </div>\
                </li>\
                <li class="dropdown">\
-               <a href="../media.html"')
+               <a href="http://www.gunner.online/media.html"')
 if (localStorage.directory == "media"){
     document.write('class = "active"')
 }
@@ -64,7 +64,7 @@ document.write('>Media</a>\
                </div>\
                </li>\
                <li class="dropdown">\
-               <a href="../tools.html"')
+               <a href="http://www.gunner.online/tools.html"')
 if (localStorage.directory == "tools"){
     document.write('class = "active"')
 }
@@ -76,7 +76,7 @@ document.write('>Tools/Utilities</a>\
                </div>\
                </li>\
                <li class="dropdown">\
-               <a href="../externalLinks.html"')
+               <a href="http://www.gunner.online/externalLinks.html"')
 if (localStorage.directory == "external"){
     document.write('class = "active"')
 }
@@ -90,7 +90,7 @@ document.write('>Useful Websites</a>\
                ');
 if (localStorage.betaPriv == "true"){
     document.write('<li class="dropdown">\
-                   <a href="../development.html" ')
+                   <a href="http://www.gunner.online/development.html" ')
     if (localStorage.directory == "development"){
         document.write('class = "active"')
     }
@@ -102,7 +102,7 @@ if (localStorage.betaPriv == "true"){
                    </div>\
                    </li>\
                    <li class="dropdown">\
-                   <a href="../legacy.html" ')
+                   <a href="http://www.gunner.online/legacy.html" ')
     if (localStorage.directory == "legacy"){
         document.write('class = "active"')
     }
@@ -124,7 +124,7 @@ if (localStorage.directory == "login"){
 else{
     document.write('class="dropbtn"')
 }
-document.write(' href="hidden/construction.html">')
+document.write(' href="http://www.gunner.onine/hidden/construction.html">')
 if (localStorage.username == null){
     document.write('Login')
 }
@@ -140,13 +140,13 @@ function mobileMB(){
     document.write('<ul>\
                    <li class="dropdown"><a class="dropbtn" class = "menubar" href="#">&#9776;</a>\
                    <div class="dropdown-content">\
-                   <a href="home.html">Home</a>\
-                   <a href="documents.html">Documents</a>\
-                   <a href="construction_mobile.html">Games</a>\
-                   <a href="construction_mobile.html">Media</a>\
-                   <a href="tools.html">Tools\\Utilities</a>\
-                   <a href="externalLinks.html">Useful Websites</a>\
-                   <a href="aboutIndex.html">About</a>\
+                   <a href="http://www.gunner.onine/home.html">Home</a>\
+                   <a href="http://www.gunner.onine/documents.html">Documents</a>\
+                   <a href="http://www.gunner.onine/construction_mobile.html">Games</a>\
+                   <a href="http://www.gunner.onine/construction_mobile.html">Media</a>\
+                   <a href="http://www.gunner.onine/tools.html">Tools\\Utilities</a>\
+                   <a href="http://www.gunner.onine/externalLinks.html">Useful Websites</a>\
+                   <a href="http://www.gunner.onine/aboutIndex.html">About</a>\
                    </div>\
                    </li>\
                    </ul>\

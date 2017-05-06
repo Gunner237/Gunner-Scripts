@@ -12,7 +12,7 @@ function desktopMB(){
     var executed = "none";
     document.write('<ul>\
                    <li class="dropdown">\
-                   <a href="index.html"\
+                   <a href="http://www.gunner.online/index.html"\
                    ')
     if (localStorage.directory == "home"){
         document.write('class = "active"')
@@ -22,12 +22,12 @@ function desktopMB(){
     }
     document.write('>Home</a>\
                    <div class="dropdown-content">\
-                   <a href="aboutIndex.html">About</a>\
-                   <a href="contact.html">Contact me</a>\
-                   <a href="home.html">Default home page</a>\
+                   <a href="http://www.gunner.online/aboutIndex.html">About</a>\
+                   <a href="http://www.gunner.online/contact.html">Contact me</a>\
+                   <a href="http://www.gunner.online/home.html">Default home page</a>\
                    ')
     if (localStorage.betaPriv == "true"){
-        document.write('<a href="beta/homeBetaRedirect.html">Beta Home Page</a>\
+        document.write('<a href="http://www.gunner.online/beta/homeBetaRedirect.html">Beta Home Page</a>\
                        ');
     }
     else{
@@ -35,7 +35,7 @@ function desktopMB(){
     document.write('</div>\
                    </li>\
                    <li class="dropdown">\
-                   <a href="documents.html"')
+                   <a href="http://www.gunner.online/documents.html"')
     if (localStorage.directory == "documents"){
         document.write('class = "active"')
     }
@@ -44,12 +44,12 @@ function desktopMB(){
     }
     document.write('>Documents</a>\
                    <div class="dropdown-content">\
-                   <a href="academia.html">Academia (WIP)</a>\
-                   <a href="techDocs.html">Tech Guides (WIP)</a>\
+                   <a href="http://www.gunner.online/academia.html">Academia (WIP)</a>\
+                   <a href="http://www.gunner.online/techDocs.html">Tech Guides (WIP)</a>\
                    </div>\
                    </li>\
                    <li class="dropdown">\
-                   <a href="games.html" ')
+                   <a href="http://www.gunner.online/games.html" ')
     if (localStorage.directory == "games"){
         document.write('class = "active"')
     }
@@ -58,13 +58,13 @@ function desktopMB(){
     }
     document.write('>Games</a>\
                    <div class="dropdown-content">\
-                   <a href="numberGuesserLatest.html">Number Guesser</a>\
-                   <a href="piFinder.html">Pi Finder</a>\
-                   <a href="rockPaperScissorsLatest.html">Rock Paper Scissors</a>\
+                   <a href="http://www.gunner.online/numberGuesserLatest.html">Number Guesser</a>\
+                   <a href="http://www.gunner.online/piFinder.html">Pi Finder</a>\
+                   <a href="http://www.gunner.online/rockPaperScissorsLatest.html">Rock Paper Scissors</a>\
                    </div>\
                    </li>\
                    <li class="dropdown">\
-                   <a href="media.html"')
+                   <a href="http://www.gunner.online/media.html"')
     if (localStorage.directory == "media"){
         document.write('class = "active"')
     }
@@ -73,12 +73,12 @@ function desktopMB(){
     }
     document.write('>Media</a>\
                    <div class="dropdown-content">\
-                   <a href="imageGallery.html">Photo Gallery (disabled)</a>\
-                   <a href="videoGallery.html">Video Gallery</a>\
+                   <a href="http://www.gunner.online/imageGallery.html">Photo Gallery (disabled)</a>\
+                   <a href="http://www.gunner.online/videoGallery.html">Video Gallery</a>\
                    </div>\
                    </li>\
                    <li class="dropdown">\
-                   <a href="tools.html" ')
+                   <a href="http://www.gunner.online/tools.html" ')
     if (localStorage.directory == "tools"){
         document.write('class = "active"')
     }
@@ -89,19 +89,19 @@ function desktopMB(){
                    <div class="dropdown-content">\
                    ')
     if (localStorage.betaPriv == "true"){
-        document.write('<a href="hidden/cleanse.html">Local Storage Cleanser</a>\
-                       <a href="hidden/maintainance.html">Maintainance Site</a>\
+        document.write('<a href="http://www.gunner.online/hidden/cleanse.html">Local Storage Cleanser</a>\
+                       <a href="http://www.gunner.online/hidden/maintainance.html">Maintainance Site</a>\
                        ')
     }
     else{
     }
-    document.write('<a href="adminFilter.html" onClick="return hasher()">MD5 Hasher</a>\
-                   <a href="adminFilter.html" onClick="return hasher2()">SHA256 Hasher</a>\
-                   <a href="primeFinder.html">Prime Finder</a>\
+    document.write('<a href="http://www.gunner.online/adminFilter.html" onClick="return hasher()">MD5 Hasher</a>\
+                   <a href="http://www.gunner.online/adminFilter.html" onClick="return hasher2()">SHA256 Hasher</a>\
+                   <a href="http://www.gunner.online/primeFinder.html">Prime Finder</a>\
                    </div>\
                    </li>\
                    <li class="dropdown">\
-                   <a href="externalLinks.html"')
+                   <a href="http://www.gunner.online/externalLinks.html"')
     if (localStorage.directory == "external"){
         document.write('class = "active"')
     }
@@ -125,7 +125,7 @@ function desktopMB(){
                    ');
     if (localStorage.betaPriv == "true"){
         document.write('<li class="dropdown">\
-                       <a href="development.html" ')
+                       <a href="http://www.gunner.online/development.html" ')
         if (localStorage.directory == "development"){
             document.write('class = "active"')
         }
@@ -134,14 +134,14 @@ function desktopMB(){
         }
         document.write('>Development</a>\
                        <div class="dropdown-content">\
-                       <a href="beta/test.html">Test Site</a>\
-                       <a href="beta/gunSystemsBeta.html">GunSystems</a>\
-                       <a href="beta/musicLibrary.html">Music library</a>\
-                       <a href="beta/videoGalleryBeta.html">Video Gallery v2.1</a>\
+                       <a href="http://betasite.gunner.online/test.html">Test Site</a>\
+                       <a href="http://betasite.gunner.online/gunSystemsBeta.html">GunSystems</a>\
+                       <a href="http://betasite.gunner.online/musicLibrary.html">Music library</a>\
+                       <a href="http://betasite.gunner.online/videoGalleryBeta.html">Video Gallery v2.1</a>\
                        </div>\
                        </li>\
                        <li class="dropdown">\
-                       <a href="legacy.html" ')
+                       <a href="http://www.gunner.online/legacy.html" ')
         if (localStorage.directory == "legacy"){
             document.write('class = "active"')
         }
@@ -150,11 +150,11 @@ function desktopMB(){
         }
         document.write('>Legacy Sites</a>\
                        <div class="dropdown-content">\
-                       <a href="hidden/videoGalleryLegacy.html">Video Gallery LEGACY</a>\
-                       <a href="beta/landingPageChangelog.html">landingPageChangelog</a>\
-                       <a href="testFiles/progressBarTest.html">Progress bar test</a>\
-                       <a href="beta/toytimeAllocator0.1.html">Toytime Allocator</a>\
-                       <a href="testFiles/table.html">Table</a>\
+                       <a href="http://www.gunner.online/hidden/videoGalleryLegacy.html">Video Gallery LEGACY</a>\
+                       <a href="http://www.gunner.online/beta/landingPageChangelog.html">landingPageChangelog</a>\
+                       <a href="http://www.gunner.online/testFiles/progressBarTest.html">Progress bar test</a>\
+                       <a href="http://www.gunner.online/beta/toytimeAllocator0.1.html">Toytime Allocator</a>\
+                       <a href="http://www.gunner.online/testFiles/table.html">Table</a>\
                        </div>\
                        </li>\
                        ');
@@ -168,7 +168,7 @@ function desktopMB(){
     else{
         document.write('class="dropbtn"')
     }
-    document.write(' href="hidden/construction.html">')
+    document.write(' href="http://www.gunner.online/hidden/construction.html">')
     if (localStorage.username == null){
         document.write('Login')
     }
@@ -183,15 +183,15 @@ function desktopMB(){
 function mobileMB(){
 
 document.write('<ul>\
-               <li class="dropdown"><a class="dropbtn" class = "menubar" href="#">&#9776;</a>\
+               <li class="dropdown"><a class="dropbtn" class = "menubar" href="http://www.gunner.online/#">&#9776;</a>\
                <div class="dropdown-content">\
-               <a href="home.html">Home</a>\
-               <a href="documents.html">Documents</a>\
-               <a href="construction_mobile.html">Games</a>\
-               <a href="media.html">Media</a>\
-               <a href="tools.html">Tools\\Utilities</a>\
-               <a href="externalLinks.html">Useful Websites</a>\
-               <a href="aboutIndex.html">About</a>\
+               <a href="http://www.gunner.online/home.html">Home</a>\
+               <a href="http://www.gunner.online/documents.html">Documents</a>\
+               <a href="http://www.gunner.online/construction_mobile.html">Games</a>\
+               <a href="http://www.gunner.online/media.html">Media</a>\
+               <a href="http://www.gunner.online/tools.html">Tools\\Utilities</a>\
+               <a href="http://www.gunner.online/externalLinks.html">Useful Websites</a>\
+               <a href="http://www.gunner.online/aboutIndex.html">About</a>\
                </div>\
                </li>\
                </ul>\
