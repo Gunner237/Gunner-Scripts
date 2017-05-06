@@ -9,7 +9,7 @@ function login(username){
             localStorage.username = "Seb"
             localStorage.adminPriv = true
             console.log(localStorage.adminPriv)
-            window.location.href = "beta/indexBeta.html"
+            window.location.href = "https://betasite.gunner.online/homeBetaRedirect.html"
         }
         else {
             username = null
@@ -30,38 +30,7 @@ function check(form)//function to check userid and password
         localStorage.betaPriv = "true"
         
         console.log("User " + localStorage.username + " logged in")
-    }
-    else if(form.userid.value == "xavier" && sha256(form.pswrd.value) == xavierHash256)
-    {
-        localStorage.username = "Xavier"
-        localStorage.adminPriv = true
-        localStorage.betaPriv = "false"
-        
-        console.log("User " + localStorage.username + " logged in")
-    }
-    else if(form.userid.value == "iona" && md5(md5(form.pswrd.value)) == xavierHash2)
-    {
-        localStorage.username = "Iona"
-        localStorage.adminPriv = false
-        localStorage.betaPriv = "false"
-        
-        console.log("User " + localStorage.username + " logged in")
-    }
-    else if(form.userid.value == "francesca" && md5(md5(form.pswrd.value)) == francescaHash2)
-    {
-        localStorage.username = "Francesca"
-        localStorage.adminPriv = false
-        localStorage.betaPriv = "false"
-        
-        console.log("User " + localStorage.username + " logged in")
-    }
-    else if(form.userid.value == "laurence" && md5(md5(form.pswrd.value)) == xavierHash2)
-    {
-        localStorage.username = "Laurence"
-        localStorage.adminPriv = false
-        localStorage.betaPriv = "false"
-        
-        console.log("User " + localStorage.username + " logged in")
+        window.location.href = "https://betasite.gunner.online/index.html"
     }
     else if(form.userid.value == "dev" && sha256(sha256(form.pswrd.value)) == devHash256_2)
     {
@@ -70,13 +39,15 @@ function check(form)//function to check userid and password
         localStorage.betaPriv = "true"
         
         console.log("User " + localStorage.username + " logged in")
+        window.location.href = "https://betasite.gunner.online/index.html"
     }
     else
     {
         error(003)
+        window.location.href = "https://www.gunner.online/index.html"
     }
     localStorage.user = 1;
-    window.location.href = "index.html"
+    
 }
 
 function logout(){
