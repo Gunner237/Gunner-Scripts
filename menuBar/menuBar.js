@@ -203,6 +203,6 @@ function mobileMB(){
     onerun = onerun + 1
     }
     else{
-        console.warn("Menubar attempted to run twice")
+        console.warn("Menubar attempted to run "+onerun+" times")
     }
 }
