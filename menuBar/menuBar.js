@@ -183,6 +183,8 @@ function desktopMB(){
 
 
 function mobileMB(){
+    var onerun = 0
+    if (onerun > 1){
     document.write('<ul>\
                    <li class="dropdown"><a class="dropbtn" class = "menubar" href="http://www.gunner.online/#">&#9776;</a>\
                    <div class="dropdown-content">\
@@ -199,5 +201,9 @@ function mobileMB(){
                    ');
     console.log("Mobile version of the Menu Bar has been loaded and applied.")
     console.log("Script run")
-    return
+    onerun = onerun + 1
+    }
+    else{
+        console.warn("Menubar attempted to run twice")
+    }
 }
