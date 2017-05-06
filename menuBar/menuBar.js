@@ -120,7 +120,6 @@ function desktopMB(){
                    <a href="httpss://www.wolframalpha.com">Wolfram Alpha</a>\
                    <a href="httpss://www.youtube.com/feed/subscriptions">Youtube</a>\
                    <a href="httpss://www.youtube.com/channel/UCicjrjHFJtrN7Gg9OlLG7dg">Youtube Channel</a>\
-                   <div class="g-signin2" data-onsuccess="onSignIn"></div>\
                    </div>\
                    </li>\
                    ');
