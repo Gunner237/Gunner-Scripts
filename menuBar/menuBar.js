@@ -168,7 +168,7 @@ function desktopMB(){
     else{
         document.write('class="dropbtn"')
     }
-    document.write(' href="https://www.gunner.online/hidden/construction.html">')
+    document.write(' href="https://betasite.gunner.online/login.html">')
     if (localStorage.username == null){
         document.write('Login')
     }

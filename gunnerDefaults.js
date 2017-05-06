@@ -67,9 +67,9 @@ function launch(type){
         document.write('<script src="https://scripts.gunner.online/email.js"></script>');
         current = current + 1
         console.log("Email script located ("+current+"/"+total+")")
-        document.write('<script src="https://scripts.gunner.online/passwords.js"></script>');
+        document.write('<script src="https://scripts.gunner.online/login.js"></script>');
         current = current + 1
-        console.log("Password script located ("+current+"/"+total+")")
+        console.log("Login script located ("+current+"/"+total+")")
         document.write('<script src="https://scripts.gunner.online/menuBar/responsiveMenuBarSecureTop.js"></script>');
         current = current + 1
         console.log("Menubar secure script located ("+current+"/"+total+")")
