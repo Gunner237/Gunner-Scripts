@@ -120,6 +120,7 @@ function desktopMB(){
                    <a href="httpss://www.wolframalpha.com">Wolfram Alpha</a>\
                    <a href="httpss://www.youtube.com/feed/subscriptions">Youtube</a>\
                    <a href="httpss://www.youtube.com/channel/UCicjrjHFJtrN7Gg9OlLG7dg">Youtube Channel</a>\
+                   <div class="g-signin2" data-onsuccess="onSignIn"></div>\
                    </div>\
                    </li>\
                    ');
@@ -157,7 +158,7 @@ function desktopMB(){
                        <a href="https://www.gunner.online/testFiles/table.html">Table</a>\
                        </div>\
                        </li>\
-                       <div class="g-signin2" data-onsuccess="onSignIn"></div>');
+                       ');
     }
     else{
     }
@@ -175,10 +176,7 @@ function desktopMB(){
     else{
         document.write(localStorage.username)
     }
-    document.write('</a>\
-                   <div class="dropdown-content">\
-                   <div class="g-signin2" data-onsuccess="onSignIn"></div>\
-                   <\div></li>\
+    document.write('</a></li>\
                    </ul>\
                    ');
     console.log("Desktop version of the Menu Bar has been loaded and applied.")
