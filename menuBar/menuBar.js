@@ -110,16 +110,16 @@ function desktopMB(){
     }
     document.write('>Useful Websites</a>\
                    <div class="dropdown-content">\
-                   <a href="httpss://www.google.co.uk">Google</a>\
-                   <a href="httpss://www.apple.co.uk">Apple</a>\
-                   <a href="httpss://www.bbc.co.uk">BBC</a>\
-                   <a href="httpss://www.dropbox.com/login/">Dropbox</a>\
-                   <a href="httpss://www.linustechtips.com/main">LinusTechTips</a>\
-                   <a href="httpss://portal.office365.com">Outlook Online</a>\
-                   <a href="httpss://www.synology.co.uk">Synology</a>\
-                   <a href="httpss://www.wolframalpha.com">Wolfram Alpha</a>\
-                   <a href="httpss://www.youtube.com/feed/subscriptions">Youtube</a>\
-                   <a href="httpss://www.youtube.com/channel/UCicjrjHFJtrN7Gg9OlLG7dg">Youtube Channel</a>\
+                   <a href="https://www.google.co.uk">Google</a>\
+                   <a href="https://www.apple.co.uk">Apple</a>\
+                   <a href="https://www.bbc.co.uk">BBC</a>\
+                   <a href="https://www.dropbox.com/login/">Dropbox</a>\
+                   <a href="https://www.linustechtips.com/main">LinusTechTips</a>\
+                   <a href="https://portal.office365.com">Outlook Online</a>\
+                   <a href="https://www.synology.co.uk">Synology</a>\
+                   <a href="https://www.wolframalpha.com">Wolfram Alpha</a>\
+                   <a href="https://www.youtube.com/feed/subscriptions">Youtube</a>\
+                   <a href="https://www.youtube.com/channel/UCicjrjHFJtrN7Gg9OlLG7dg">Youtube Channel</a>\
                    </div>\
                    </li>\
                    ');
