@@ -212,9 +212,9 @@ function launch(type){
             window.location.href = "development.html"
         }
         else{
-            window.location.href = "https://www.gunner.online/home.html";
-            location.href="https://www.gunner.online/home.html"
-            document.location.href="https://www.gunner.online/home.html";
+            window.location.href = "https://www.gunner.online/home";
+            location.href="https://www.gunner.online/home"
+            document.location.href="https://www.gunner.online/home";
         }
     }
     else if (type === "home_redirect_top") {

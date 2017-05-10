@@ -12,7 +12,7 @@ function desktopMB(){
     var executed = "none";
     document.write('<ul>\
                    <li class="dropdown">\
-                   <a href="https://www.gunner.online/index"\
+                   <a href="https://www.gunner.online/"\
                    ')
     if (localStorage.directory == "home"){
         document.write('class = "active"')
