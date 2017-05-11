@@ -44,8 +44,8 @@ function desktopMB(){
     }
     document.write('>Documents</a>\
                    <div class="dropdown-content">\
-                   <a href="https://www.gunner.online/academia">Academia (WIP)</a>\
-                   <a href="https://www.gunner.online/techDocs">Tech Guides (WIP)</a>\
+                   <a href="https://betasite.gunner.online/academia">Academia (beta)</a>\
+                   <a href="https://www.gunner.online/techDocs">Tech Guides</a>\
                    </div>\
                    </li>\
                    <li class="dropdown">\
