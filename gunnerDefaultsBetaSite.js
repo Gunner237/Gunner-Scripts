@@ -2,9 +2,10 @@ var total = 0
 var current = 0
 function launch(type){
     console.log("Gunner Intranet "+type+" scripts initialising...")
+    console.warn("ATTENTION! THIS IS A BETA SCRIPT.")
     if (type === "standard") {
         total = 6
-        document.write('<script src="https://scripts.gunner.online/CSS/responsiveCSS.js"></script>');
+        document.write('<script src="https://scripts.gunner.online/CSS/responsiveCSSBeta.js"></script>');
         current = current + 1
         console.log("responsive CSS located ("+current+"/"+total+")")
         document.write('<script src="https://scripts.gunner.online/error.js"></script>');
@@ -16,7 +17,7 @@ function launch(type){
         document.write('<script src="https://scripts.gunner.online/email.js"></script>');
         current = current + 1
         console.log("Email script located ("+current+"/"+total+")")
-        document.write('<script src="https://scripts.gunner.online/menuBar/responsiveMenuBar.js"></script>');
+        document.write('<script src="https://scripts.gunner.online/menuBar/responsiveMenuBarBeta.js"></script>');
         current = current + 1
         console.log("Menubar script located ("+current+"/"+total+")")
         document.write('<script src="https://scripts.gunner.online/googleAnalytics.js"></script>');
@@ -97,7 +98,6 @@ function launch(type){
     }
     else if (type === "beta") {
         total = 7
-        console.warn("ATTENTION! THIS IS A BETA SCRIPT. THIS SHOULD BE RUN BY PAGES 1 DIRECTORY DOWN ONLY.")
         document.write('<script src="https://scripts.gunner.online/CSS/responsiveCSSBeta.js"></script>');
         current = current + 1
         console.log("responsive CSS (Beta) located ("+current+"/"+total+")")
