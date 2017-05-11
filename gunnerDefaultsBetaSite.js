@@ -189,27 +189,27 @@ function launch(type){
     else if (type === "maintainance") {
         localStorage.prevPage = window.location.href;
         console.log("Gunner Intranet maintainance redirect initialising...")
-        window.location.href = "https://www.gunner.online/hidden/maintainance.html"
+        window.location.href = "https://www.gunner.online/hidden/maintainance"
     }
     else if (type === "home_redirect") {
         console.log("Gunner Intranet home portal redirect initialising...")
         if (localStorage.username == "Sebastian"){
-            window.location.href = "beta/indexBetaRedirect.html"
+            window.location.href = "beta/indexBetaRedirect"
         }
         else if (localStorage.username == "Xavier"){
-            window.location.href = "home.html"
+            window.location.href = "home"
         }
         else if (localStorage.username == "Iona"){
-            window.location.href = "home.html"
+            window.location.href = "home"
         }
         else if (localStorage.username == "Francesca"){
-            window.location.href = "home.html"
+            window.location.href = "home"
         }
         else if (localStorage.username == "Laurence"){
-            window.location.href = "home.html"
+            window.location.href = "home"
         }
         else if (localStorage.username == "Gunner Developer"){
-            window.location.href = "development.html"
+            window.location.href = "development"
         }
         else{
             window.location.href = "https://www.gunner.online/home";
@@ -220,31 +220,31 @@ function launch(type){
     else if (type === "home_redirect_top") {
         console.log("Gunner Intranet home portal redirect initialising...")
         if (localStorage.username == "Sebastian"){
-            window.location.href = "InternalSites/beta/indexBetaRedirect.html"
+            window.location.href = "InternalSites/beta/indexBetaRedirect"
         }
         else if (localStorage.username == "Xavier"){
-            window.location.href = "InternalSites/home.html"
+            window.location.href = "InternalSites/home"
         }
         else if (localStorage.username == "Iona"){
-            window.location.href = "InternalSites/home.html"
+            window.location.href = "InternalSites/home"
         }
         else if (localStorage.username == "Francesca"){
-            window.location.href = "InternalSites/home.html"
+            window.location.href = "InternalSites/home"
         }
         else if (localStorage.username == "Laurence"){
-            window.location.href = "InternalSites/home.html"
+            window.location.href = "InternalSites/home"
         }
         else if (localStorage.username == "Gunner Developer"){
-            window.location.href = "InternalSites/development.html"
+            window.location.href = "InternalSites/development"
         }
         else{
-            window.location.href = "InternalSites/home.html";
-            location.href="InternalSites/home.html"
-            document.location.href="InternalSites/home.html";
+            window.location.href = "InternalSites/home";
+            location.href="InternalSites/home"
+            document.location.href="InternalSites/home";
         }
     }
     else if (type === "beta_home"){
-        window.location.href = "https://betasite.gunner.online/beta/homeBeta.html"
+        window.location.href = "https://betasite.gunner.online/beta/homeBeta"
     }
     else {
         total = 4
