@@ -73,7 +73,7 @@ function desktopMB(){
     }
     document.write('>Media</a>\
                    <div class="dropdown-content">\
-                   <a href="https://www.gunner.online/imageGallery">Photo Gallery (disabled)</a>\
+                   <a href="https://www.gunner.online/imageGallery">Photo Gallery</a>\
                    <a href="https://www.gunner.online/videoGallery">Video Gallery</a>\
                    </div>\
                    </li>\
