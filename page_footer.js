@@ -3,7 +3,7 @@ function footer(type){
         document.write('</div>\
                        <div id="category_border" id="footer" class="video">\
                        <span id="contact"> Sebastian Gunner 2017</span>\
-                       <a class="footer_contact" href="contact">Contact Me</a>\
+                       <a class="footer_contact" href="https://www.gunner.online/contact">Contact Me</a>\
                        </div>\
                        ')
         
@@ -13,7 +13,7 @@ function footer(type){
         document.write('</div>\
                        <div id="category_border" id="footer" class="video">\
                        <span id="contact"> Sebastian Gunner 2017</span>\
-                       <a class="footer_contact" href="../contact">Contact Me</a>\
+                       <a class="footer_contact" href="https://www.gunner.online/contact">Contact Me</a>\
                        </div>\
                        ')
         
@@ -25,7 +25,7 @@ function footer(type){
                        <span id="contact"> Sebastian Gunner, Nicholas Yelland 2016</span>\
                        <a class="footer_contact" href="mailto:nic.is.a.nic@gmail.com?Subject=Pi%20Finder">Contact Nicholas </a>\
                        <a class="footer_contact">. | .</span>\
-                       <a class="footer_contact" href="contact">Contact Sebastian</a>\
+                       <a class="footer_contact" href="https://www.gunner.online/contact">Contact Sebastian</a>\
                        </div>\
                        ')
         
@@ -35,7 +35,7 @@ function footer(type){
         document.write('</div>\
                        <div id="category_border" id="footer" class="video">\
                        <span id="contact">All media is Gunner Family 1995-2017 unless stated otherwise</span>\
-                       <a class="footer_contact" href="contact">Contact Sebastian</a>\
+                       <a class="footer_contact" href="https://www.gunner.online/contact">Contact Sebastian</a>\
                        </div>\
                        ')
         console.log("The media page footer has been loaded and applied");
@@ -44,7 +44,7 @@ function footer(type){
         document.write('</div>\
                        <div id="category_border" id="footer" class="video">\
                        <span id="contact"> Sebastian Gunner 2016</span>\
-                       <a class="footer_contact" href="contact">Contact Me</a>\
+                       <a class="footer_contact" href="https://www.gunner.online/contact">Contact Me</a>\
                        </div>\
                        ')
         console.log("The 2016 page footer has been loaded and applied");
@@ -53,7 +53,7 @@ function footer(type){
         document.write('</div>\
                        <div id="category_border" id="footer" class="video">\
                        <span id="contact">Sebastian Gunner 2017</span>\
-                       <a class="footer_contact" href="contact">Contact Me</a>\
+                       <a class="footer_contact" href="https://www.gunner.online/contact">Contact Me</a>\
                        </div>\
                        ')
         console.warn("Page type: " + type + " could not be identified. No copyright applied.")
