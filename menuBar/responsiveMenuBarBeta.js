@@ -1,6 +1,5 @@
 var screenwidth = screen.width;
-alert("Page using out-dated script. Page needs to be updated")
-document.write('<script src="https://scripts.gunner.online/menuBar/menuBar.js"></script>')
+document.write('<script src="https://scripts.gunner.online/menuBar/menuBarBeta.js"></script>')
 
 if (screen.width < 800){
     console.log("Mobile MenuBar selected")

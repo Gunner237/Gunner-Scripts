@@ -48,54 +48,6 @@ function launch(type){
         current = current + 1
         console.log("Menubar secure script located ("+current+"/"+total+")")
     }
-    else if (type === "login") {
-        total = 8
-        document.write('<script src="https://scripts.gunner.online/CSS/responsiveCSS.js"></script>');
-        current = current + 1
-        console.log("responsive CSS located ("+current+"/"+total+")")
-        document.write('<script src="https://scripts.gunner.online/error.js"></script>');
-        current = current + 1
-        console.log("error notification located ("+current+"/"+total+")")
-        document.write('<script src="https://scripts.gunner.online/jQuery.js"></script>');
-        current = current + 1
-        console.log("jQuery located ("+current+"/"+total+")")
-        document.write('<script src="https://scripts.gunner.online/md5.js"></script>');
-        current = current + 1
-        console.log("MD5 located ("+current+"/"+total+")")
-        document.write('<script src="https://scripts.gunner.online/sha256.js"></script>');
-        current = current + 1
-        console.log("SHA256 located ("+current+"/"+total+")")
-        document.write('<script src="https://scripts.gunner.online/email.js"></script>');
-        current = current + 1
-        console.log("Email script located ("+current+"/"+total+")")
-        document.write('<script src="https://scripts.gunner.online/login.js"></script>');
-        current = current + 1
-        console.log("Login script located ("+current+"/"+total+")")
-        document.write('<script src="https://scripts.gunner.online/menuBar/responsiveMenuBarSecureTop.js"></script>');
-        current = current + 1
-        console.log("Menubar secure script located ("+current+"/"+total+")")
-    }
-    else if (type === "hidden") {
-        total = 7
-        document.write('<script src="https://scripts.gunner.online/CSS/responsiveCSSBeta.js"></script>');
-        current = current + 1
-        console.log("responsive CSS located ("+current+"/"+total+")")
-        document.write('<script src="https://scripts.gunner.online/error.js"></script>');
-        current = current + 1
-        console.log("error notification located ("+current+"/"+total+")")
-        document.write('<script src="https://scripts.gunner.online/jQuery.js"></script>');
-        current = current + 1
-        console.log("jQuery located ("+current+"/"+total+")")
-        document.write('<script src="https://scripts.gunner.online/md5.js"></script>');
-        current = current + 1
-        console.log("MD5 located ("+current+"/"+total+")")
-        document.write('<script src="https://scripts.gunner.online/email.js"></script>');
-        current = current + 1
-        console.log("Email script located ("+current+"/"+total+")")
-        document.write('<script src="https://scripts.gunner.online/menuBar/responsiveMenuBar.js"></script>');
-        current = current + 1
-        console.log("Menubar script located ("+current+"/"+total+")")
-    }
     else if (type === "beta") {
         total = 7
         document.write('<script src="https://scripts.gunner.online/CSS/responsiveCSSBeta.js"></script>');
