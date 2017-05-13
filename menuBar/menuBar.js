@@ -45,6 +45,7 @@ function desktopMB(){
     document.write('>Documents</a>\
                    <div class="dropdown-content">\
                    <a href="https://betasite.gunner.online/academia">Academia (beta)</a>\
+                   <a href="https://www.gunner.online/downloads">Downloads</a>\
                    <a href="https://www.gunner.online/techDocs">Tech Guides</a>\
                    </div>\
                    </li>\
