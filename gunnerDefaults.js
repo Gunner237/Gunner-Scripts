@@ -58,6 +58,55 @@ function launch(type){
         location.href="https://www.gunner.online/home"
         document.location.href="https://www.gunner.online/home";
     }
+    //----------------LEGACY--------------
+    else if (type === "legacy_desktop") {
+        total = 4
+        document.write('<script src="https://scripts.gunner.online/CSS/desktopCSS.js"></script>');
+        current = current + 1
+        console.log("Desktop CSS located ("+current+"/"+total+")")
+        document.write('<script src="https://scripts.gunner.online/jQuery.js"></script>');
+        current = current + 1
+        console.log("jQuery located ("+current+"/"+total+")")
+        document.write('<script src="https://scripts.gunner.online/email.js"></script>');
+        current = current + 1
+        console.log("Email script located ("+current+"/"+total+")")
+        document.write('<script src="https://scripts.gunner.online/menuBar/responsiveMenuBar.js"></script>');
+        current = current + 1
+        console.log("Menubar script located ("+current+"/"+total+")")
+    }
+    else if (type === "legacy_design") {
+        total = 4
+        document.write('<script src="https://scripts.gunner.online/CSS/legacyCSS.js"></script>');
+        document.write('<script src="https://scripts.gunner.online/CSS/legacyCSS.js"></script>');
+        current = current + 1
+        console.log("Desktop CSS located ("+current+"/"+total+")")
+        document.write('<script src="https://scripts.gunner.online/jQuery.js"></script>');
+        current = current + 1
+        console.log("jQuery located ("+current+"/"+total+")")
+        document.write('<script src="https://scripts.gunner.online/email.js"></script>');
+        current = current + 1
+        console.log("Email script located ("+current+"/"+total+")")
+        document.write('<script src="https://scripts.gunner.online/menuBar/responsiveMenuBar.js"></script>');
+        document.write('<script src="https://scripts.gunner.online/menuBar/responsiveMenuBarBeta.js"></script>');
+        current = current + 1
+        console.log("Menubar script located ("+current+"/"+total+")")
+    }
+    else if (type === "legacy_mobile") {
+        total = 4
+        document.write('<script src="https://scripts.gunner.online/CSS/mobileCSS.js"></script>');
+        current = current + 1
+        console.log("Mobile CSS located ("+current+"/"+total+")")
+        document.write('<script src="https://scripts.gunner.online/jQuery.js"></script>');
+        current = current + 1
+        console.log("jQuery located ("+current+"/"+total+")")
+        document.write('<script src="https://scripts.gunner.online/email.js"></script>');
+        current = current + 1
+        console.log("Email script located ("+current+"/"+total+")")
+        document.write('<script src="https://scripts.gunner.online/menuBar/responsiveMenuBar.js"></script>');
+        current = current + 1
+        console.log("Menubar script located ("+current+"/"+total+")")
+    }
+    //---------------------NOT FOUND-----------------
 else {
     total = 4
     console.warn("Page type could not be found or identified. Type identifier: " + type )
