@@ -1,4 +1,5 @@
 var screenwidth = screen.width;
+alert("Page MUST be updated")
 if (screen.width < 800){
     document.write('<script src="https://scripts.gunner.online/menuBar/menuBarSecure.js"></script>\
                    <script>mobileMB()</script>');

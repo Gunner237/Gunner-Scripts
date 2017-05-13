@@ -1,11 +1,11 @@
 var screenwidth = screen.width;
+document.write('<script src="https://scripts.gunner.online/menuBar/menuBarSecure.js"></script>')
 if (screen.width < 800){
-    document.write('<script src="https://scripts.gunner.online/menuBar/menuBarSecure.js"></script>\
-                   <script>mobileMB()</script>');
-    console.log("Mobile MenuBar applied")
+    console.log("Mobile MenuBar selected")
+    document.write('<script>mobileMB()</script>');
 }
 else {
-        document.write('<script src="https://scripts.gunner.online/menuBar/menuBarSecure.js"></script>\
-                       <script>desktopMB()</script>');
-        console.log("Desktop MenuBar applied")
+    console.log("Desktop MenuBar selected")
+        document.write('<script>desktopMB()</script>');
+    
 }
