@@ -108,7 +108,7 @@ function desktopMB(){
                    </li>\
                    ');
     document.write('<li class="dropdown">\
-                   <a href="https://www.gunner.online/development" ')
+                   <a href="https://betasite.gunner.online/development" ')
     if (localStorage.directory == "development"){
         document.write('class = "active"')
     }
@@ -118,9 +118,6 @@ function desktopMB(){
     document.write('>Development</a>\
                    <div class="dropdown-content">\
                    <a href="https://betasite.gunner.online/test">Test Site</a>\
-                   <a href="https://betasite.gunner.online/gunSystemsBeta">GunSystems</a>\
-                   <a href="https://betasite.gunner.online/musicLibrary">Music library</a>\
-                   <a href="https://betasite.gunner.online/videoGalleryBeta">Video Gallery v2.1</a>\
                    </div>\
                    </li>\
                    <li class="dropdown">\
@@ -163,13 +160,12 @@ function mobileMB(){
         document.write('<ul>\
                        <li class="dropdown"><a class="dropbtn" class = "menubar" href="https://www.gunner.online/#">&#9776;</a>\
                        <div class="dropdown-content">\
-                       <a href="https://www.gunner.online/home">Home</a>\
-                       <a href="https://www.gunner.online/documents">Documents</a>\
-                       <a href="https://www.gunner.online/construction_mobile">Games</a>\
-                       <a href="https://www.gunner.online/media">Media</a>\
-                       <a href="https://www.gunner.online/tools">Tools\\Utilities</a>\
-                       <a href="https://www.gunner.online/externalLinks">Useful Websites</a>\
-                       <a href="https://www.gunner.online/aboutIndex">About</a>\
+                       <a href="https://betasite.gunner.online/home">BetaSite</a>\
+                       <a href="https://betasite.gunner.online/academia">Academia</a>\
+                       <a href="https://www.gunner.online/construction_mobile">Video Library 2.1</a>\
+                       <a href="https://betasite.gunner.online/hidden/md5_hasher">MD5 Hasher</a>\
+                       <a href="https://betasite.gunner.online/hidden/sha256_hasher">SHA256 Hasher</a>\
+                       <a href="https://www.gunner.online">Main Site (www)</a>\
                        </div>\
                        </li>\
                        </ul>\
