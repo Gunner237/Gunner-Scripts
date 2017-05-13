@@ -160,9 +160,10 @@ function mobileMB(){
         document.write('<ul>\
                        <li class="dropdown"><a class="dropbtn" class = "menubar" href="https://www.gunner.online/#">&#9776;</a>\
                        <div class="dropdown-content">\
-                       <a href="https://betasite.gunner.online/home">BetaSite</a>\
+                       <a href="https://betasite.gunner.online/homeBeta">BetaSite</a>\
+                       <a href="https://betasite.gunner.online/test">Test site</a>\
                        <a href="https://betasite.gunner.online/academia">Academia</a>\
-                       <a href="https://www.gunner.online/construction_mobile">Video Library 2.1</a>\
+                       <a href="https://betasite.gunner.online/construction_mobile">Video Library 2.1</a>\
                        <a href="https://betasite.gunner.online/hidden/md5_hasher">MD5 Hasher</a>\
                        <a href="https://betasite.gunner.online/hidden/sha256_hasher">SHA256 Hasher</a>\
                        <a href="https://www.gunner.online">Main Site (www)</a>\
