@@ -110,7 +110,7 @@ function launch(type){
 else {
     total = 4
     console.warn("Page type could not be found or identified. Type identifier: " + type )
-    alert("Script type MUST be updated")
+    alert("Script type MUST be updated: Page type could not be found or identified. Type identifier: " + type )
     console.log("Gunner Intranet default scripts initialising...")
     document.write('<script src="https://scripts.gunner.online/CSS/desktopCSS.js"></script>');
     current = current + 1
