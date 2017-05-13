@@ -149,7 +149,7 @@ function launch(type){
         }
     }
     else if (type === "beta_home"){
-        window.location.href = "https://betasite.gunner.online/beta/homeBeta"
+        window.location.href = "https://betasite.gunner.online/homeBeta"
     }
     else {
         total = 4
