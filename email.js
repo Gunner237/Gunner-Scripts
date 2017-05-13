@@ -18,6 +18,12 @@ function sendMail(type) {
         + "&body=" + escape("")
         ;
     }
+    else if (type == 'link'){
+        var link = "mailto:gunnerwebsite@gmail.com?"
+        + "&subject=" + escape("Dead Link | Gunner Website")
+        + "&body=" + escape("")
+        ;
+    }
     else if (type == 'yelland'){
         var link = "mailto:gunnerwebsite@gmail.com?"
         + "&subject=" + escape("Pi Finder | Gunner Website")
