@@ -22,7 +22,7 @@ function desktopMB(){
     }
     document.write('>BetaSite</a>\
                    <div class="dropdown-content">\
-                   <a href="https://www.gunner.online/home">Main home page (www)</a>\
+                   <a href="https://www.gunner.online/">Main home page (www)</a>\
                    <a href="https://backup1.gunner.online/">Backup home page</a>\
                    <a href="https://noscript.gunner.online/">Noscript home page</a>\
                    <a href="https://progsoc.gunner.online/">ProgSoc home page</a>\

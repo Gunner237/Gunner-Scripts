@@ -24,7 +24,7 @@ function desktopMB(){
                    <div class="dropdown-content">\
                    <a href="https://www.gunner.online/aboutIndex">About</a>\
                    <a href="https://www.gunner.online/contact">Contact me</a>\
-                   <a href="https://www.gunner.online/home">Default home page</a>\
+                   <a href="https://www.gunner.online">Default home page</a>\
                    ')
     if (localStorage.betaPriv == "true"){
         document.write('<a href="https://www.gunner.online/beta/homeBetaRedirect">Beta Home Page</a>\
@@ -171,7 +171,7 @@ function desktopMB(){
     }
     document.write(' href="https://betasite.gunner.online/login">')
     if (localStorage.username == null){
-        document.write('Login')
+        document.write('Gunner Website')
     }
     else{
         document.write(localStorage.username)
