@@ -24,6 +24,27 @@ function launch(type){
         current = current + 1
         console.log("Google analytics script located ("+current+"/"+total+")")
     }
+    if (type === "release") {
+        total = 6
+        document.write('<script src="https://scripts.gunner.online/CSS/responsiveCSS.js"></script>');
+        current = current + 1
+        console.log("responsive CSS located ("+current+"/"+total+")")
+        document.write('<script src="https://scripts.gunner.online/error.js"></script>');
+        current = current + 1
+        console.log("error notification located ("+current+"/"+total+")")
+        document.write('<script src="https://scripts.gunner.online/jQuery.js"></script>');
+        current = current + 1
+        console.log("jQuery located ("+current+"/"+total+")")
+        document.write('<script src="https://scripts.gunner.online/email.js"></script>');
+        current = current + 1
+        console.log("Email script located ("+current+"/"+total+")")
+        document.write('<script src="https://scripts.gunner.online/menuBar/responsiveMenuBar.js"></script>');
+        current = current + 1
+        console.log("Menubar script located ("+current+"/"+total+")")
+        document.write('<script src="https://scripts.gunner.online/googleAnalytics.js"></script>');
+        current = current + 1
+        console.log("Google analytics script located ("+current+"/"+total+")")
+    }
     else if (type === "secure") {
         total = 7
         document.write('<script src="https://scripts.gunner.online/CSS/responsiveCSS.js"></script>');
