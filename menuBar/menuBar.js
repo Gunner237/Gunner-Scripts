@@ -157,35 +157,37 @@ function desktopMB(){
                        <a href="https://www.gunner.online/beta/toytimeAllocator0.1">Toytime Allocator</a>\
                        <a href="https://www.gunner.online/testFiles/table">Table</a>\
                        </div>\
-                       </li>\
-                       <li style="float:right"><a id = username class="dropbtn" href="https://www.gunner.online">\
-                       Gunner Website\
-                       </a></li>\
-                       </ul>\
-                       ');
-    console.log("Desktop version of the Menu Bar has been loaded and applied.")
-}
-
-    var onerun = 0
-function mobileMB(){
-    if (onerun < 1){
-    document.write('<ul>\
-                   <li class="dropdown"><a class="dropbtn" class = "menubar" href="https://www.gunner.online/#">&#9776;</a>\
-                   <div class="dropdown-content">\
-                   <a href="https://www.gunner.online">Home</a>\
-                   <a href="https://www.gunner.online/documents">Documents</a>\
-                   <a href="https://www.gunner.online/construction_mobile">Games</a>\
-                   <a href="https://www.gunner.online/media">Media</a>\
-                   <a href="https://www.gunner.online/tools">Tools\\Utilities</a>\
-                   <a href="https://www.gunner.online/externalLinks">Useful Websites</a>\
-                   <a href="https://www.gunner.online/aboutIndex">About</a>\
-                   </div>\
-                   </li>\
+                       </li>')
+    }
+    document.write('<li style="float:right"><a id = username class="dropbtn" href="https://www.gunner.online">\
+                   Gunner Website\
+                   </a></li>\
                    </ul>\
                    ');
-    console.log("Mobile version of the Menu Bar has been loaded and applied.")
-    console.log("onerun is "+onerun)
-    onerun = onerun + 1
+    console.log("Desktop version of the Menu Bar has been loaded and applied.")
+}
+}
+
+var onerun = 0
+function mobileMB(){
+    if (onerun < 1){
+        document.write('<ul>\
+                       <li class="dropdown"><a class="dropbtn" class = "menubar" href="https://www.gunner.online/#">&#9776;</a>\
+                       <div class="dropdown-content">\
+                       <a href="https://www.gunner.online">Home</a>\
+                       <a href="https://www.gunner.online/documents">Documents</a>\
+                       <a href="https://www.gunner.online/construction_mobile">Games</a>\
+                       <a href="https://www.gunner.online/media">Media</a>\
+                       <a href="https://www.gunner.online/tools">Tools\\Utilities</a>\
+                       <a href="https://www.gunner.online/externalLinks">Useful Websites</a>\
+                       <a href="https://www.gunner.online/aboutIndex">About</a>\
+                       </div>\
+                       </li>\
+                       </ul>\
+                       ');
+        console.log("Mobile version of the Menu Bar has been loaded and applied.")
+        console.log("onerun is "+onerun)
+        onerun = onerun + 1
     }
     else{
         console.warn("Menubar attempted to run "+onerun+" times")
