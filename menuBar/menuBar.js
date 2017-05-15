@@ -166,7 +166,6 @@ function desktopMB(){
                    ');
     console.log("Desktop version of the Menu Bar has been loaded and applied.")
 }
-}
 
 var onerun = 0
 function mobileMB(){
