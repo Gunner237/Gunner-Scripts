@@ -158,27 +158,11 @@ function desktopMB(){
                        <a href="https://www.gunner.online/testFiles/table">Table</a>\
                        </div>\
                        </li>\
+                       <li style="float:right"><a id = username class="dropbtn" href="https://www.gunner.online">\
+                       Gunner Website\
+                       </a></li>\
+                       </ul>\
                        ');
-    }
-    else{
-    }
-    document.write('<li style="float:right"><a id = username ')
-    if (localStorage.directory == "login"){
-        document.write('class = "active"')
-    }
-    else{
-        document.write('class="dropbtn"')
-    }
-    document.write(' href="https://betasite.gunner.online/login">')
-    if (localStorage.username == null){
-        document.write('Gunner Website')
-    }
-    else{
-        document.write(localStorage.username)
-    }
-    document.write('</a></li>\
-                   </ul>\
-                   ');
     console.log("Desktop version of the Menu Bar has been loaded and applied.")
 }
 
@@ -188,7 +172,7 @@ function mobileMB(){
     document.write('<ul>\
                    <li class="dropdown"><a class="dropbtn" class = "menubar" href="https://www.gunner.online/#">&#9776;</a>\
                    <div class="dropdown-content">\
-                   <a href="https://www.gunner.online/home">Home</a>\
+                   <a href="https://www.gunner.online">Home</a>\
                    <a href="https://www.gunner.online/documents">Documents</a>\
                    <a href="https://www.gunner.online/construction_mobile">Games</a>\
                    <a href="https://www.gunner.online/media">Media</a>\

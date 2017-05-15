@@ -137,18 +137,9 @@ function desktopMB(){
                    <a href="https://www.gunner.online/testFiles/table">Table</a>\
                    </div>\
                    </li>\
-                   ');
-    document.write('<li style="float:right"><a id = username ')
-    if (localStorage.directory == "login"){
-        document.write('class = "active"')
-    }
-    else{
-        document.write('class="dropbtn"')
-    }
-    document.write(' href="https://betasite.gunner.online">')
-    document.write('BetaSite')
-    
-    document.write('</a></li>\
+                   <li style="float:right"><a id = username class="dropbtn" href="https://betasite.gunner.online">\
+                   Gunner Website (Beta)\
+                   </a></li>\
                    </ul>\
                    ');
     console.log("Desktop version of the Menu Bar has been loaded and applied.")
@@ -160,7 +151,7 @@ function mobileMB(){
         document.write('<ul>\
                        <li class="dropdown"><a class="dropbtn" class = "menubar" href="https://www.gunner.online/#">&#9776;</a>\
                        <div class="dropdown-content">\
-                       <a href="https://betasite.gunner.online/homeBeta">BetaSite</a>\
+                       <a href="https://betasite.gunner.online">BetaSite</a>\
                        <a href="https://betasite.gunner.online/test">Test site</a>\
                        <a href="https://betasite.gunner.online/academia">Academia</a>\
                        <a href="https://betasite.gunner.online/construction_mobile">Video Library 2.1</a>\
