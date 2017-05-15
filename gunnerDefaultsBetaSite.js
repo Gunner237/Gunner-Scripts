@@ -1,5 +1,6 @@
 var total = 0
 var current = 0
+var located = 0
 function launch(type){
     console.log("Gunner Intranet "+type+" scripts initialising...")
     console.warn("ATTENTION! THIS IS A BETA SCRIPT.")
@@ -23,6 +24,7 @@ function launch(type){
         document.write('<script src="https://scripts.gunner.online/googleAnalytics.js"></script>');
         current = current + 1
         console.log("Google analytics script located ("+current+"/"+total+")")
+        located = 1
     }
     if (type === "release") {
         total = 6
@@ -44,6 +46,7 @@ function launch(type){
         document.write('<script src="https://scripts.gunner.online/googleAnalytics.js"></script>');
         current = current + 1
         console.log("Google analytics script located ("+current+"/"+total+")")
+        located = 1
     }
     else if (type === "secure") {
         total = 7
@@ -68,6 +71,7 @@ function launch(type){
         document.write('<script src="https://scripts.gunner.online/menuBar/responsiveMenuBarSecure.js"></script>');
         current = current + 1
         console.log("Menubar secure script located ("+current+"/"+total+")")
+        located = 1
     }
     else if (type === "beta") {
         total = 7
@@ -92,6 +96,7 @@ function launch(type){
         document.write('<script src="https://scripts.gunner.online/menuBar/responsiveMenuBarBeta.js"></script>');
         current = current + 1
         console.log("Menubar script located ("+current+"/"+total+")")
+        located = 1
     }
     else if (type === "dev") {
         console.warn("The page type is currently recognised as development. Alpha scripts selected.")
@@ -111,11 +116,13 @@ function launch(type){
         document.write('<script src="https://scripts.gunner.online/menuBar/responsiveMenuBarBeta.js"></script>');
         current = current + 1
         console.log("Menubar script located ("+current+"/"+total+")")
+        located = 1
     }
     else if (type === "maintainance") {
         localStorage.prevPage = window.location.href;
         console.log("Gunner Intranet maintainance redirect initialising...")
         window.location.href = "https://www.gunner.online/hidden/maintainance"
+        located = 1
     }
     else if (type === "home_redirect") {
         console.log("Gunner Intranet home portal redirect initialising...")
@@ -142,6 +149,7 @@ function launch(type){
             location.href="https://www.gunner.online/home"
             document.location.href="https://www.gunner.online/home";
         }
+        located = 1
     }
     else if (type === "home_redirect_top") {
         console.log("Gunner Intranet home portal redirect initialising...")
@@ -168,11 +176,14 @@ function launch(type){
             location.href="InternalSites/home"
             document.location.href="InternalSites/home";
         }
+        located = 1
     }
     else if (type === "beta_home"){
         window.location.href = "https://betasite.gunner.online/homeBeta"
+        located = 1
     }
     else {
+        if (located == 0){
         total = 4
         console.warn("Page type could not be found or identified. Type identifier: " + type )
         console.log("Gunner Intranet default scripts initialising...")
@@ -188,6 +199,10 @@ function launch(type){
         document.write('<script src="https://scripts.gunner.online/menuBar/responsiveMenuBar.js"></script>');
         current = current + 1
         console.log("Menubar script located ("+current+"/"+total+")")
+        }
+        else{
+            console.warn("Attempted to load two default scripts")
+        }
     }
     if (current != total){
         console.error("Error 004: Script count mismatch. Not all scripts may be loaded. Loading "+current+" out of "+total+" scripts")
