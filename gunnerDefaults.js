@@ -65,6 +65,27 @@ function launch(type){
         current = current + 1
         console.log("Google analytics script gelegen ("+current+"/"+total+")")
     }
+    else if (type == "francais") {
+        total = 6
+        document.write('<script src="https://scripts.gunner.online/CSS/responsiveCSS.js"></script>');
+        current = current + 1
+        console.log("responsive CSS gelegen ("+current+"/"+total+")")
+        document.write('<script src="https://scripts.gunner.online/error.js"></script>');
+        current = current + 1
+        console.log("error notification gelegen ("+current+"/"+total+")")
+        document.write('<script src="https://scripts.gunner.online/jQuery.js"></script>');
+        current = current + 1
+        console.log("jQuery gelegen ("+current+"/"+total+")")
+        document.write('<script src="https://scripts.gunner.online/email.js"></script>');
+        current = current + 1
+        console.log("Email script gelegen ("+current+"/"+total+")")
+        document.write('<script src="https://scripts.gunner.online/menuBar/responsiveMenuBarFR.js"></script>');
+        current = current + 1
+        console.log("Menubar script (th) gelegen ("+current+"/"+total+")")
+        document.write('<script src="https://scripts.gunner.online/googleAnalytics.js"></script>');
+        current = current + 1
+        console.log("Google analytics script gelegen ("+current+"/"+total+")")
+    }
     else if (type == "secure") {
         total = 7
         document.write('<script src="https://scripts.gunner.online/CSS/responsiveCSS.js"></script>');
