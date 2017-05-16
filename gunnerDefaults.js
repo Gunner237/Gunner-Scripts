@@ -44,7 +44,7 @@ function launch(type){
         current = current + 1
         console.log("Google analytics script gelegen ("+current+"/"+total+")")
     }
-    else if (type === "secure") {
+    else if (type == "secure") {
         total = 7
         document.write('<script src="https://scripts.gunner.online/CSS/responsiveCSS.js"></script>');
         current = current + 1
@@ -68,19 +68,19 @@ function launch(type){
         current = current + 1
         console.log("Menubar secure script located ("+current+"/"+total+")")
     }
-    else if (type === "maintainance") {
+    else if (type == "maintainance") {
         localStorage.prevPage = window.location.href;
         console.log("Gunner Intranet maintainance redirect initialising...")
         window.location.href = "https://www.gunner.online/hidden/maintainance"
     }
-    else if (type === "home_redirect") {
+    else if (type == "home_redirect") {
         console.log("Gunner Intranet home portal redirect initialising...")
         window.location.href = "https://www.gunner.online/home";
         location.href="https://www.gunner.online/home"
         document.location.href="https://www.gunner.online/home";
     }
     //----------------LEGACY--------------
-    else if (type === "legacy_desktop") {
+    else if (type == "legacy_desktop") {
         total = 4
         document.write('<script src="https://scripts.gunner.online/CSS/desktopCSS.js"></script>');
         current = current + 1
@@ -95,7 +95,7 @@ function launch(type){
         current = current + 1
         console.log("Menubar script located ("+current+"/"+total+")")
     }
-    else if (type === "legacy_design") {
+    else if (type == "legacy_design") {
         total = 4
         document.write('<script src="https://scripts.gunner.online/CSS/legacyCSS.js"></script>');
         document.write('<script src="https://scripts.gunner.online/CSS/legacyCSS.js"></script>');
@@ -131,7 +131,7 @@ function launch(type){
 else {
     total = 4
     console.warn("Page type could not be found or identified. Type identifier: " + type )
-    alert("Script type MUST be updated: Page type could not be found or identified. Type identifier: " + type )
+    //alert("Script type MUST be updated: Page type could not be found or identified. Type identifier: " + type )
     console.log("Gunner Intranet default scripts initialising...")
     document.write('<script src="https://scripts.gunner.online/CSS/desktopCSS.js"></script>');
     current = current + 1
