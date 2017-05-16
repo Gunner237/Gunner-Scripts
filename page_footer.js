@@ -9,6 +9,16 @@ function footer(type){
         
         console.log("The standard page footer has been loaded and applied");
     }
+    if (type === "deutsch"){
+        document.write('</div>\
+                       <div id="category_border" id="footer" class="video">\
+                       <span id="contact"> Sebastian Gunner 2017</span>\
+                       <a class="footer_contact" href="https://www.gunner.online/contact">Kontaktieren Sie mich (en-gb)</a>\
+                       </div>\
+                       ')
+        
+        console.log("The standard page footer has been loaded and applied");
+    }
     else if (type === "beta"){
         document.write('</div>\
                        <div id="category_border" id="footer" class="video">\

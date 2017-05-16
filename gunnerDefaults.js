@@ -1,7 +1,7 @@
 var total = 0
 var current = 0
 function launch(type){
-    console.log("Gunner Intranet "+type+" scripts initialising...")
+    console.log("Gunner Website "+type+" scripts initialising...")
     if (type === "standard") {
         total = 6
         document.write('<script src="https://scripts.gunner.online/CSS/responsiveCSS.js"></script>');
@@ -22,6 +22,27 @@ function launch(type){
         document.write('<script src="https://scripts.gunner.online/googleAnalytics.js"></script>');
         current = current + 1
         console.log("Google analytics script located ("+current+"/"+total+")")
+    }
+    if (type === "deutsch") {
+        total = 6
+        document.write('<script src="https://scripts.gunner.online/CSS/responsiveCSS.js"></script>');
+        current = current + 1
+        console.log("responsive CSS gelegen ("+current+"/"+total+")")
+        document.write('<script src="https://scripts.gunner.online/error.js"></script>');
+        current = current + 1
+        console.log("error notification gelegen ("+current+"/"+total+")")
+        document.write('<script src="https://scripts.gunner.online/jQuery.js"></script>');
+        current = current + 1
+        console.log("jQuery gelegen ("+current+"/"+total+")")
+        document.write('<script src="https://scripts.gunner.online/email.js"></script>');
+        current = current + 1
+        console.log("Email script gelegen ("+current+"/"+total+")")
+        document.write('<script src="https://scripts.gunner.online/menuBar/responsiveMenuBarDE.js"></script>');
+        current = current + 1
+        console.log("Menubar script (de) gelegen ("+current+"/"+total+")")
+        document.write('<script src="https://scripts.gunner.online/googleAnalytics.js"></script>');
+        current = current + 1
+        console.log("Google analytics script gelegen ("+current+"/"+total+")")
     }
     else if (type === "secure") {
         total = 7
