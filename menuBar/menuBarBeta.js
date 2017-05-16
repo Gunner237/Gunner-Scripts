@@ -10,6 +10,7 @@ function hasher2(){
 
 function desktopMB(){
     var executed = "none";
+    document.write('<link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">');
     document.write('<ul>\
                    <li class="dropdown">\
                    <a href="https://betasite.gunner.online/"\
@@ -140,6 +141,7 @@ function desktopMB(){
                    <li style="float:right"><a id = username class="dropbtn" href="https://betasite.gunner.online">\
                    Gunner Website (Beta)\
                    </a></li>\
+                   <li style="float:right"><i class="em em-gb"></i></li>\
                    </ul>\
                    ');
     console.log("Desktop version of the Menu Bar has been loaded and applied.")
