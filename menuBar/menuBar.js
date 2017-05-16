@@ -201,7 +201,7 @@ function desktopMBde(){
     else{
         document.write('class="dropbtn"')
     }
-    document.write('>Documents</a>\
+    document.write('>Dokumente</a>\
                    <div class="dropdown-content">\
                    <a href="https://betasite.gunner.online/academia">Wissenschaft (beta) (en-gb)</a>\
                    <a href="https://www.gunner.online/downloads">Downloads (en-gb)</a>\
