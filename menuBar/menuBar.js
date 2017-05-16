@@ -293,9 +293,9 @@ function desktopMBfr(){
     }
     document.write('>Documents</a>\
                    <div class="dropdown-content">\
-                   <a href="https://betasite.gunner.online/academia">Wissenschaft (beta) (en-gb)</a>\
-                   <a href="https://www.gunner.online/downloads">Downloads (en-gb)</a>\
-                   <a href="https://www.gunner.online/techDocs">Technologie Hilfe (en-gb)</a>\
+                   <a href="https://betasite.gunner.online/academia">Travail (beta) (en-gb)</a>\
+                   <a href="https://www.gunner.online/downloads">Téléchargements (en-gb)</a>\
+                   <a href="https://www.gunner.online/techDocs">Support Technique (en-gb)</a>\
                    </div>\
                    </li>\
                    <li class="dropdown">\
@@ -306,11 +306,11 @@ function desktopMBfr(){
     else{
         document.write('class="dropbtn"')
     }
-    document.write('>Spielen (en-gb)</a>\
+    document.write('>Jeux (en-gb)</a>\
                    <div class="dropdown-content">\
-                   <a href="https://www.gunner.online/numberGuesserLatest">Nummer Rater (en-gb)</a>\
-                   <a href="https://www.gunner.online/piFinder">Pi Sucher (en-gb)</a>\
-                   <a href="https://www.gunner.online/rockPaperScissorsLatest">Schnick Schnack Schnuck (en-gb)</a>\
+                   <a href="https://www.gunner.online/numberGuesserLatest">Nummer Guesser (en-gb)</a>\
+                   <a href="https://www.gunner.online/piFinder">Pi découvreur (en-gb)</a>\
+                   <a href="https://www.gunner.online/rockPaperScissorsLatest">Roche-Papier-Ciseaux (en-gb)</a>\
                    </div>\
                    </li>\
                    <li class="dropdown">\
@@ -321,10 +321,10 @@ function desktopMBfr(){
     else{
         document.write('class="dropbtn"')
     }
-    document.write('>Medien (en-gb)</a>\
+    document.write('>Médias (en-gb)</a>\
                    <div class="dropdown-content">\
-                   <a href="https://www.gunner.online/imageGallery">Fotogalerie (en-gb)</a>\
-                   <a href="https://www.gunner.online/videoGallery">Videogalerie (en-gb)</a>\
+                   <a href="https://www.gunner.online/imageGallery">Galerie de photos (en-gb)</a>\
+                   <a href="https://www.gunner.online/videoGallery">Galerie vidéo (en-gb)</a>\
                    </div>\
                    </li>\
                    <li class="dropdown">\
@@ -358,7 +358,7 @@ function desktopMBfr(){
     else{
         document.write('class="dropbtn"')
     }
-    document.write('>N&uuml;tzliche Webseiten</a>\
+    document.write('>Des sites Internet utiles.</a>\
                    <div class="dropdown-content">\
                    <a href="https://www.google.de">Google</a>\
                    <a href="https://www.apple.de">Apple</a>\
@@ -369,13 +369,20 @@ function desktopMBfr(){
                    <a href="https://www.synology.co.uk">Synology</a>\
                    <a href="https://www.wolframalpha.com">Wolfram Alpha</a>\
                    <a href="https://www.youtube.com/feed/subscriptions">Youtube</a>\
-                   <a href="https://www.youtube.com/channel/UCicjrjHFJtrN7Gg9OlLG7dg">Youtube Kanal</a>\
+                   <a href="https://www.youtube.com/channel/UCicjrjHFJtrN7Gg9OlLG7dg">chaîne YouTube</a>\
                    </div>\
                    </li>\
                    ');
     document.write('<li style="float:right"><a id = username class="dropbtn" href="https://www.gunner.online">\
-                   Gunner Website (en-gb)\
-                   </a></li>\
+                   Français\
+                   </a>\
+                   <div class="dropdown-content">\
+                   <a href="https://www.gunner.online">English UK</a>\
+                   <a href="https://de.gunner.online">Deutsch</a>\
+                   <a href="https://es.gunner.online">Español</a>\
+                   <a href="https://th.gunner.online">&#3652;&#3607;&#3618;</a>\
+                   </div>\
+                   </li>\
                    </ul>\
                    ');
     console.log("Desktop (deutsch) version of the Menu Bar has been loaded and applied.")
