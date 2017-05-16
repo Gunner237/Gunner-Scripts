@@ -9,7 +9,7 @@ function footer(type){
         
         console.log("The standard page footer has been loaded and applied");
     }
-    if (type === "deutsch"){
+    else if (type === "deutsch"){
         document.write('</div>\
                        <div id="category_border" id="footer" class="video">\
                        <span id="contact"> Sebastian Gunner 2017</span>\
