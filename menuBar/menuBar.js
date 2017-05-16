@@ -249,8 +249,15 @@ function desktopMBde(){
                    </li>\
                    ');
     document.write('<li style="float:right"><a id = username class="dropbtn" href="https://www.gunner.online">\
-                   Gunner Website (en-gb)\
-                   </a></li>\
+                   English UK\
+                   </a>\
+                   <div class="dropdown-content">\
+                   <a href="https://de.gunner.online">Deutsch</a>\
+                   <a href="https://fr.gunner.online">Français</a>\
+                   <a href="https://es.gunner.online">Español</a>\
+                   <a href="https://th.gunner.online">&#3652;&#3607;&#3618;</a>\
+                   </div>\
+                   </li>\
                    </ul>\
                    ');
     console.log("Desktop (deutsch) version of the Menu Bar has been loaded and applied.")
@@ -270,16 +277,10 @@ function desktopMBfr(){
     }
     document.write('>Page d\'acceil</a>\
                    <div class="dropdown-content">\
-                   <a href="https://www.gunner.online/aboutIndex">&Uuml;ber die Website</a>\
-                   <a href="https://www.gunner.online/contact">Kontactieren sie mich</a>\
+                   <a href="https://www.gunner.online/aboutIndex">Concernant le site web (en-gb)</a>\
+                   <a href="https://www.gunner.online/contact">Communiquer avec moi (en-gb)</a>\
                    <a href="https://www.gunner.online">Home Page (en-gb)</a>\
                    ')
-    if (localStorage.betaPriv == "true"){
-        document.write('<a href="https://www.gunner.online/beta/homeBetaRedirect">Beta Home Page</a>\
-                       ');
-    }
-    else{
-    }
     document.write('</div>\
                    </li>\
                    <li class="dropdown">\
@@ -290,7 +291,7 @@ function desktopMBfr(){
     else{
         document.write('class="dropbtn"')
     }
-    document.write('>Dokumente</a>\
+    document.write('>Documents</a>\
                    <div class="dropdown-content">\
                    <a href="https://betasite.gunner.online/academia">Wissenschaft (beta) (en-gb)</a>\
                    <a href="https://www.gunner.online/downloads">Downloads (en-gb)</a>\
