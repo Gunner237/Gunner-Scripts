@@ -17,7 +17,17 @@ function footer(type){
                        </div>\
                        ')
         
-        console.log("The standard page footer has been loaded and applied");
+        console.log("The german page footer has been loaded and applied");
+    }
+    else if (type === "thai"){
+        document.write('</div>\
+                       <div id="category_border" id="footer" class="video">\
+                       <span id="contact"> Sebastian Gunner 2017</span>\
+                       <a class="footer_contact" href="https://www.gunner.online/contact">&#3605;&#3636;&#3604;&#3605;&#3656;&#3629;&#3593;&#3633;&#3609; (en-gb)</a>\
+                       </div>\
+                       ')
+        
+        console.log("The german page footer has been loaded and applied");
     }
     else if (type === "beta"){
         document.write('</div>\

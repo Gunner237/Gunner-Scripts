@@ -60,7 +60,7 @@ function launch(type){
         console.log("Email script gelegen ("+current+"/"+total+")")
         document.write('<script src="https://scripts.gunner.online/menuBar/responsiveMenuBarTH.js"></script>');
         current = current + 1
-        console.log("Menubar script (de) gelegen ("+current+"/"+total+")")
+        console.log("Menubar script (th) gelegen ("+current+"/"+total+")")
         document.write('<script src="https://scripts.gunner.online/googleAnalytics.js"></script>');
         current = current + 1
         console.log("Google analytics script gelegen ("+current+"/"+total+")")

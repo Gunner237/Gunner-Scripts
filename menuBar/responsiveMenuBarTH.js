@@ -6,6 +6,6 @@ if (screen.width < 800){
 }
 else {
         document.write('<script src="https://scripts.gunner.online/menuBar/menuBar.js"></script>\
-                       <script>desktopMBde()</script>');
+                       <script>desktopMBth()</script>');
         console.log("Desktop MenuBar selected")
 }
