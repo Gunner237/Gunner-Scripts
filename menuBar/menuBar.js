@@ -125,8 +125,15 @@ function desktopMB(){
                    </li>\
                    ');
     document.write('<li style="float:right"><a id = username class="dropbtn" href="https://www.gunner.online">\
-                   Gunner Website\
-                   </a></li>\
+                   English UK\
+                   </a>\
+                   <div class="dropdown-content">\
+                   <a href="https://de.gunner.online">Deutsch</a>\
+                   <a href="https://fr.gunner.online">Français</a>\
+                   <a href="https://es.gunner.online">Español</a>\
+                   <a href="https://th.gunner.online">&#3652;&#3607;&#3618;</a>\
+                   </div>\
+                   </li>\
                    </ul>\
                    ');
     console.log("Desktop version of the Menu Bar has been loaded and applied.")
@@ -248,7 +255,7 @@ function desktopMBde(){
                    </div>\
                    </li>\
                    ');
-    document.write('<li style="float:right"><a id = username class="dropbtn" href="https://www.gunner.online">\
+    document.write('<li style="float:right" class="dropdown"><a id = username class="dropbtn" href="https://www.gunner.online">\
                    English UK\
                    </a>\
                    <div class="dropdown-content">\
@@ -277,8 +284,8 @@ function desktopMBfr(){
     }
     document.write('>Page d\'acceil</a>\
                    <div class="dropdown-content">\
-                   <a href="https://www.gunner.online/aboutIndex">Concernant le site web (en-gb)</a>\
-                   <a href="https://www.gunner.online/contact">Communiquer avec moi (en-gb)</a>\
+                   <a href="https://www.gunner.online/aboutIndex">A propos (en-gb)</a>\
+                   <a href="https://www.gunner.online/contact">Contactez moi (en-gb)</a>\
                    <a href="https://www.gunner.online">Home Page (en-gb)</a>\
                    ')
     document.write('</div>\
@@ -308,9 +315,9 @@ function desktopMBfr(){
     }
     document.write('>Jeux (en-gb)</a>\
                    <div class="dropdown-content">\
-                   <a href="https://www.gunner.online/numberGuesserLatest">Nummer Guesser (en-gb)</a>\
+                   <a href="https://www.gunner.online/numberGuesserLatest">Number Guesser (en-gb)</a>\
                    <a href="https://www.gunner.online/piFinder">Pi découvreur (en-gb)</a>\
-                   <a href="https://www.gunner.online/rockPaperScissorsLatest">Roche-Papier-Ciseaux (en-gb)</a>\
+                   <a href="https://www.gunner.online/rockPaperScissorsLatest">Pierre-Papier-Ciseaux (en-gb)</a>\
                    </div>\
                    </li>\
                    <li class="dropdown">\
@@ -335,7 +342,7 @@ function desktopMBfr(){
     else{
         document.write('class= "dropbtn"')
     }
-    document.write('>Tools (en-gb)</a>\
+    document.write('>Outils (en-gb)</a>\
                    <div class="dropdown-content">\
                    ')
     if (localStorage.betaPriv == "true"){
@@ -347,7 +354,7 @@ function desktopMBfr(){
     }
     document.write('<a href="https://www.gunner.online/adminFilter" onClick="return hasher()">MD5 Hasher (en-gb)</a>\
                    <a href="https://www.gunner.online/adminFilter" onClick="return hasher2()">SHA256 Hasher (en-gb)</a>\
-                   <a href="https://www.gunner.online/primeFinder">Prime Sucher (en-gb)</a>\
+                   <a href="https://www.gunner.online/primeFinder">Prime Chercheur (en-gb)</a>\
                    </div>\
                    </li>\
                    <li class="dropdown">\
@@ -358,7 +365,7 @@ function desktopMBfr(){
     else{
         document.write('class="dropbtn"')
     }
-    document.write('>Des sites Internet utiles.</a>\
+    document.write('>Liens utils</a>\
                    <div class="dropdown-content">\
                    <a href="https://www.google.de">Google</a>\
                    <a href="https://www.apple.de">Apple</a>\
@@ -369,11 +376,11 @@ function desktopMBfr(){
                    <a href="https://www.synology.co.uk">Synology</a>\
                    <a href="https://www.wolframalpha.com">Wolfram Alpha</a>\
                    <a href="https://www.youtube.com/feed/subscriptions">Youtube</a>\
-                   <a href="https://www.youtube.com/channel/UCicjrjHFJtrN7Gg9OlLG7dg">chaîne YouTube</a>\
+                   <a href="https://www.youtube.com/channel/UCicjrjHFJtrN7Gg9OlLG7dg">Chaîne YouTube</a>\
                    </div>\
                    </li>\
                    ');
-    document.write('<li style="float:right"><a id = username class="dropbtn" href="https://www.gunner.online">\
+    document.write('<li style="float:right" class="dropdown"><a id = username class="dropbtn" href="https://www.gunner.online">\
                    Français\
                    </a>\
                    <div class="dropdown-content">\
