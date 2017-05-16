@@ -2,7 +2,7 @@ var total = 0
 var current = 0
 function launch(type){
     console.log("Gunner Website "+type+" scripts initialising...")
-    if (type === "standard") {
+    if (type == "standard") {
         total = 6
         document.write('<script src="https://scripts.gunner.online/CSS/responsiveCSS.js"></script>');
         current = current + 1
@@ -23,7 +23,7 @@ function launch(type){
         current = current + 1
         console.log("Google analytics script located ("+current+"/"+total+")")
     }
-    if (type === "deutsch") {
+    else if (type == "deutsch") {
         total = 6
         document.write('<script src="https://scripts.gunner.online/CSS/responsiveCSS.js"></script>');
         current = current + 1
