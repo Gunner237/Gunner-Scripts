@@ -201,7 +201,7 @@ function launch(type){
         console.log("Menubar script located ("+current+"/"+total+")")
         }
         else{
-            console.warn("Attempted to load two default scripts. Identifier: "+type". Recommended review")
+            console.warn("Attempted to load two default scripts. Identifier: "+type+". Recommended review")
         }
     }
     if (current != total){
