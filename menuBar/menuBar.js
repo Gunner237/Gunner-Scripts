@@ -167,7 +167,7 @@ function desktopMB(){
     console.log("Desktop version of the Menu Bar has been loaded and applied.")
 }
 //-------------------------------------------GERMAN-------------------------------------
-function desktopMB-de(){
+function desktopMBde(){
     var executed = "none";
     document.write('<ul>\
                    <li class="dropdown">\
