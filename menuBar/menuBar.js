@@ -181,7 +181,7 @@ function desktopMBde(){
     }
     document.write('>Home Page</a>\
                    <div class="dropdown-content">\
-                   <a href="https://www.gunner.online/aboutIndex">&Uuml;ber mich</a>\
+                   <a href="https://www.gunner.online/aboutIndex">&Uuml;ber die Website</a>\
                    <a href="https://www.gunner.online/contact">Kontactieren sie mich</a>\
                    <a href="https://www.gunner.online">Home Page (en-gb)</a>\
                    ')
