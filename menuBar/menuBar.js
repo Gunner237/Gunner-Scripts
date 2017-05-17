@@ -9,7 +9,6 @@ function hasher2(){
 }
 function language(){
     var languague = prompt("Please type the two letter country code","en")
-    switch(language) {
             if (language == ("en"){
                 window.location.href = "https://www.gunner.online"
                 }
@@ -38,7 +37,6 @@ function language(){
                 alert("Code "+language+"not recognised. Options: en(glish), de(utsch), fr(ancais), es(panol), th(ai), la(tin)")
                 language()
                     }
-                }
                 }
                 function en(){
                 homepage = "Homepage"
