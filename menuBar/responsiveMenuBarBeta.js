@@ -3,9 +3,9 @@ document.write('<script src="https://scripts.gunner.online/menuBar/menuBarBeta.j
 
 if (screen.width < 800){
     console.log("Mobile MenuBar selected")
-    document.write('<script>mobileMB()</script>');
+    document.write('<script>mobileMB("en")</script>');
 }
 else {
     console.log("Desktop MenuBar selected")
-    document.write('<script>desktopMB()</script>');
+    document.write('<script>desktopMB("en")</script>');
 }
