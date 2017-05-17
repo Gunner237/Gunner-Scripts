@@ -49,7 +49,7 @@ function desktopMB(lang){
         var usefulLinks = "Useful Websites"
         var ytChannel = "YouTube Channel"
     }
-    if (lang === "de"){
+    else if (lang === "de"){
         var prefix = "de"
         var homepage = "Homepage"
         var about = "About (de)"
