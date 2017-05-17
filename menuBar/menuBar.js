@@ -97,7 +97,7 @@ function desktopMB(lang){
         var currLang = "Deutsch"
         console.log("German menuBar selected")
     }
-    if (lang === "th"){
+    else if (lang === "th"){
         var prefix = "www"
         var homepage = "&#3627;&#3609;&#3657;&#3634;&#3649;&#3619;&#3585;"
         var about = "About (new)"
