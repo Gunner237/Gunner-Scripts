@@ -49,6 +49,7 @@ function desktopMB(lang){
         var usefulLinks = "Useful Websites"
         var ytChannel = "YouTube Channel"
         var currLang = "English"
+        console.log("English menuBar selected")
     }
     else if (lang === "de"){
         var prefix = "de"
@@ -58,19 +59,43 @@ function desktopMB(lang){
         var documents = "Dokumente"
         var academia = "Wissenschaft (beta)"
         var downloads = "Downloads"
-        var techDocs = "Technology Guides"
-        var games = "Games"
-        var numberGuesser = "Number Guesser"
-        var piFinder = "Pi Finder"
-        var rockPaperScissors = "Rock Paper Scissors"
-        var media = "Media"
-        var photoGallery = "Photo Gallery"
-        var videoGallery = "Video Gallery"
+        var techDocs = "Technologie Hilfe"
+        var games = "Spielen"
+        var numberGuesser = "Nummer Rater"
+        var piFinder = "Pi Sucher"
+        var rockPaperScissors = "Schnick Schnack Schnuck"
+        var media = "Medien"
+        var photoGallery = "Fotogalerie"
+        var videoGallery = "Videogalerie"
         var tools = "Tools//Utilities"
-        var primeFinder = "Prime Finder"
-        var usefulLinks = "Useful Websites"
-        var ytChannel = "YouTube Channel"
+        var primeFinder = "Prime Sucher"
+        var usefulLinks = "N&uuml;tzliche Webseiten"
+        var ytChannel = "YouTube Kanal"
         var currLang = "Deutsch"
+        console.log("German menuBar selected")
+    }
+    else if (lang === "la"){
+        var prefix = "la"
+        var homepage = "pagina domestica"
+        var about = "de loco telae"
+        var contact = "mihi eda"
+        var documents = "tabula"
+        var academia = "academia"
+        var downloads = "recepta"
+        var techDocs = "tabula technologia"
+        var games = "ludi"
+        var numberGuesser = "existimator numerorum"
+        var piFinder = "invenitor &#960;"
+        var rockPaperScissors = "saxum charta forfex"
+        var media = "media"
+        var photoGallery = "porticur imaginum"
+        var videoGallery = "porticur imaginum movantum"
+        var tools = "instrumenta"
+        var primeFinder = "invenitor proti"
+        var usefulLinks = "contexus utiles"
+        var ytChannel = "canalis TuTubae"
+        var currLang = "lingua Latina"
+        console.log("Latin menuBar selected")
     }
     else {
         var prefix = "www"
@@ -233,6 +258,7 @@ function desktopMB(lang){
     document.write(currLang)
     document.write('</a>\
                    <div class="dropdown-content">\
+                   <a href="https://www.gunner.online">English</a>\
                    <a href="https://de.gunner.online">Deutsch</a>\
                    <a href="https://fr.gunner.online">Français</a>\
                    <a href="https://es.gunner.online">Español</a>\
