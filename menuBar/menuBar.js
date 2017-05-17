@@ -48,14 +48,15 @@ function desktopMB(lang){
         var primeFinder = "Prime Finder"
         var usefulLinks = "Useful Websites"
         var ytChannel = "YouTube Channel"
+        var currLang = "English"
     }
     else if (lang === "de"){
         var prefix = "de"
         var homepage = "Homepage"
-        var about = "About (de)"
-        var contact = "Contact me"
-        var documents = "Documents"
-        var academia = "Academia"
+        var about = "&Uuml;ber die Website"
+        var contact = "Kontactieren sie mich"
+        var documents = "Dokumente"
+        var academia = "Wissenschaft (beta)"
         var downloads = "Downloads"
         var techDocs = "Technology Guides"
         var games = "Games"
@@ -69,6 +70,7 @@ function desktopMB(lang){
         var primeFinder = "Prime Finder"
         var usefulLinks = "Useful Websites"
         var ytChannel = "YouTube Channel"
+        var currLang = "Deutsch"
     }
     else {
         var prefix = "www"
@@ -90,6 +92,7 @@ function desktopMB(lang){
         var primeFinder = "Prime Finder"
         var usefulLinks = "Useful Websites"
         var ytChannel = "YouTube Channel"
+        var currLang = "Select Language"
     }
     
     
@@ -104,98 +107,110 @@ function desktopMB(lang){
     else{
         document.write('class="dropbtn">')
     }
-    document.write('>Home</a>\
+    document.write(homepage)
+    document.write('</a>\
                    <div class="dropdown-content">\
                    <a href="https://www.gunner.online/aboutIndex">')
     document.write(about)
     document.write('</a>\
-                   <a href="https://www.gunner.online/contact">Contact me</a>\
-                   <a href="https://www.gunner.online">Default home page</a>\
+                   <a href="https://www.gunner.online/contact">')
+    document.write(contact)
+    document.write('</a>\
                    ')
-    if (localStorage.betaPriv == "true"){
-        document.write('<a href="https://www.gunner.online/beta/homeBetaRedirect">Beta Home Page</a>\
-                       ');
-    }
-    else{
-    }
     document.write('</div>\
                    </li>\
                    <li class="dropdown">\
                    <a href="https://www.gunner.online/documents"')
     if (localStorage.directory == "documents"){
-        document.write('class = "active"')
+        document.write('class = "active">')
     }
     else{
-        document.write('class="dropbtn"')
+        document.write('class="dropbtn">')
     }
-    document.write('>Documents</a>\
+    document.write(documents)
+    document.write('</a>\
                    <div class="dropdown-content">\
-                   <a href="https://betasite.gunner.online/academia">Academia (beta)</a>\
-                   <a href="https://www.gunner.online/downloads">Downloads</a>\
-                   <a href="https://www.gunner.online/techDocs">Tech Guides</a>\
+                   <a href="https://betasite.gunner.online/academia">')
+    document.write(academia)
+    document.write('</a>\
+                   <a href="https://www.gunner.online/downloads">')
+    document.write(downloads)
+    document.write('</a>\
+                   <a href="https://www.gunner.online/techDocs">')
+    document.write(techDocs)
+    document.write('</a>\
                    </div>\
                    </li>\
                    <li class="dropdown">\
                    <a href="https://www.gunner.online/games" ')
     if (localStorage.directory == "games"){
-        document.write('class = "active"')
+        document.write('class = "active">')
     }
     else{
-        document.write('class="dropbtn"')
+        document.write('class="dropbtn">')
     }
-    document.write('>Games</a>\
+    document.write(games)
+    document.write('</a>\
                    <div class="dropdown-content">\
-                   <a href="https://www.gunner.online/numberGuesserLatest">Number Guesser</a>\
-                   <a href="https://www.gunner.online/piFinder">Pi Finder</a>\
-                   <a href="https://www.gunner.online/rockPaperScissorsLatest">Rock Paper Scissors</a>\
+                   <a href="https://www.gunner.online/numberGuesserLatest">')
+    document.write(numberGuesser)
+    document.write('</a>\
+                   <a href="https://www.gunner.online/piFinder">')
+    document.write(piFinder)
+    document.write('</a>\
+                   <a href="https://www.gunner.online/rockPaperScissorsLatest">')
+    document.write(rockPaperScissors)
+    document.write('</a>\
                    </div>\
                    </li>\
                    <li class="dropdown">\
                    <a href="https://www.gunner.online/media"')
     if (localStorage.directory == "media"){
-        document.write('class = "active"')
+        document.write('class = "active">')
     }
     else{
-        document.write('class="dropbtn"')
+        document.write('class="dropbtn">')
     }
-    document.write('>Media</a>\
+    document.write(media)
+    document.write('</a>\
                    <div class="dropdown-content">\
-                   <a href="https://www.gunner.online/imageGallery">Photo Gallery</a>\
-                   <a href="https://www.gunner.online/videoGallery">Video Gallery</a>\
+                   <a href="https://www.gunner.online/imageGallery">')
+    document.write(photoGallery)
+    document.write('</a>\
+                   <a href="https://www.gunner.online/videoGallery">')
+    document.write(videoGallery)
+    document.write('</a>\
                    </div>\
                    </li>\
                    <li class="dropdown">\
                    <a href="https://www.gunner.online/tools" ')
     if (localStorage.directory == "tools"){
-        document.write('class = "active"')
+        document.write('class = "active">')
     }
     else{
-        document.write('class= "dropbtn"')
+        document.write('class= "dropbtn">')
     }
-    document.write('>Tools/Utilities</a>\
+    document.write(tools)
+    document.write('</a>\
                    <div class="dropdown-content">\
                    ')
-    if (localStorage.betaPriv == "true"){
-        document.write('<a href="https://www.gunner.online/hidden/cleanse">Local Storage Cleanser</a>\
-                       <a href="https://www.gunner.online/hidden/maintainance">Maintainance Site</a>\
-                       ')
-    }
-    else{
-    }
     document.write('<a href="https://www.gunner.online/adminFilter" onClick="return hasher()">MD5 Hasher</a>\
                    <a href="https://www.gunner.online/adminFilter" onClick="return hasher2()">SHA256 Hasher</a>\
-                   <a href="https://www.gunner.online/primeFinder">Prime Finder</a>\
+                   <a href="https://www.gunner.online/primeFinder">')
+    document.write(primeFinder)
+    document.write('</a>\
                    </div>\
                    </li>\
                    <li class="dropdown">\
                    <a href="https://www.gunner.online/externalLinks"')
     if (localStorage.directory == "external"){
-        document.write('class = "active"')
+        document.write('class = "active">')
     }
     else{
-        document.write('class="dropbtn"')
+        document.write('class="dropbtn">')
     }
-    document.write('>Useful Websites</a>\
+    document.write(usefulLinks)
+    document.write('</a>\
                    <div class="dropdown-content">\
                    <a href="https://www.google.co.uk">Google</a>\
                    <a href="https://www.apple.co.uk">Apple</a>\
@@ -206,13 +221,17 @@ function desktopMB(lang){
                    <a href="https://www.synology.co.uk">Synology</a>\
                    <a href="https://www.wolframalpha.com">Wolfram Alpha</a>\
                    <a href="https://www.youtube.com/feed/subscriptions">Youtube</a>\
-                   <a href="https://www.youtube.com/channel/UCicjrjHFJtrN7Gg9OlLG7dg">Youtube Channel</a>\
+                   <a href="https://www.youtube.com/channel/UCicjrjHFJtrN7Gg9OlLG7dg">')
+    document.write(ytChannel)
+    document.write('</a>\
                    </div>\
                    </li>\
                    ');
-    document.write('<li style="float:right" class="dropdown"><a id = username class="dropbtn" href="https://www.gunner.online">\
-                   English UK\
-                   </a>\
+    document.write('<li style="float:right" class="dropdown"><a id = username class="dropbtn" href="https://')
+    document.write(prefix)
+    document.write('.gunner.online">')
+    document.write(currLang)
+    document.write('</a>\
                    <div class="dropdown-content">\
                    <a href="https://de.gunner.online">Deutsch</a>\
                    <a href="https://fr.gunner.online">Français</a>\
