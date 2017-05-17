@@ -58,6 +58,7 @@ function en(){
     primeFinder = "Prime Finder"
     usefulLinks = "Useful Websites"
     ytChannel = "YouTube Channel"
+    currLang = "English"
 }
 function de(){
     prefix = "de"
