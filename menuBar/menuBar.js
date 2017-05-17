@@ -117,7 +117,7 @@ function th(){
 }
 function la(){
     var prefix = "la"
-    var homepage = "pagina domestica"
+    homepage = "pagina domestica"
     var about = "de loco telae"
     var contact = "mihi eda"
     var documents = "tabula"
