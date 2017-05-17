@@ -7,6 +7,7 @@ function hasher(){
 function hasher2(){
     localStorage.destination = "hidden/sha256_hasher"
 }
+function en(){
 var homepage = "Homepage"
 var about = "About"
 var contact = "Contact me"
@@ -25,168 +26,168 @@ var tools = "Tools/Utilities"
 var primeFinder = "Prime Finder"
 var usefulLinks = "Useful Websites"
 var ytChannel = "YouTube Channel"
+}
+function de(){
+    var prefix = "de"
+    var homepage = "Homepage"
+    var about = "&Uuml;ber die Website"
+    var contact = "Kontactieren sie mich"
+    var documents = "Dokumente"
+    var academia = "Wissenschaft (beta)"
+    var downloads = "Downloads"
+    var techDocs = "Technologie Hilfe"
+    var games = "Spielen"
+    var numberGuesser = "Nummer Rater"
+    var piFinder = "Pi Sucher"
+    var rockPaperScissors = "Schnick Schnack Schnuck"
+    var media = "Medien"
+    var photoGallery = "Fotogalerie"
+    var videoGallery = "Videogalerie"
+    var tools = "tools"
+    var primeFinder = "Prime Sucher"
+    var usefulLinks = "N&uuml;tzliche Webseiten"
+    var ytChannel = "YouTube Kanal"
+    var currLang = "Deutsch"
+}
+function fr(){
+    var prefix = "fr"
+    var homepage = "Page d'acceil"
+    var about = "A propos"
+    var contact = "Contactez moi"
+    var documents = "Documents"
+    var academia = "Travail (beta)"
+    var downloads = "Téléchargements"
+    var techDocs = "Support technique"
+    var games = "Jeux"
+    var numberGuesser = "Number Guesser"
+    var piFinder = "Pi découvreur"
+    var rockPaperScissors = "Pierre-Papier-Ciseaux"
+    var media = "Médias"
+    var photoGallery = "Galerie de photos"
+    var videoGallery = "Galerie vidéo"
+    var tools = "Outils"
+    var primeFinder = "Prime Chercheur"
+    var usefulLinks = "Liens utils"
+    var ytChannel = "Chaîne YouTube"
+    var currLang = "Français"
+}
+function es(){
+    var prefix = "es"
+    var homepage = "Página web"
+    var about = "Sobre"
+    var contact = "Me Contacto"
+    var documents = "Documentos"
+    var academia = "Trabajo (beta)"
+    var downloads = "Descargas"
+    var techDocs = "Apoyo técnico"
+    var games = "Juegos"
+    var numberGuesser = "Número adivino"
+    var piFinder = "Pi buscador"
+    var rockPaperScissors = "Piedra, Papel, Tijera"
+    var media = "Medios"
+    var photoGallery = "Galería de fotos"
+    var videoGallery = "Galería de videos"
+    var tools = "Útiles"
+    var primeFinder = "Número primo buscador"
+    var usefulLinks = "enlaces útiles"
+    var ytChannel = "Canal de YouTube"
+    var currLang = "Español"
+}
+function th(){
+    var prefix = "www"
+    var homepage = "&#3627;&#3609;&#3657;&#3634;&#3649;&#3619;&#3585;"
+    var about = "About (new)"
+    var contact = "Contact me"
+    var documents = "Documents"
+    var academia = "Academia"
+    var downloads = "Downloads"
+    var techDocs = "Technology Guides"
+    var games = "Games"
+    var numberGuesser = "Number Guesser"
+    var piFinder = "Pi Finder"
+    var rockPaperScissors = "Rock Paper Scissors"
+    var media = "Media"
+    var photoGallery = "Galerie de photos"
+    var videoGallery = "Galerie vidéo"
+    var tools = "Tools/Utilities"
+    var primeFinder = "Prime Finder"
+    var usefulLinks = "Useful Websites"
+    var ytChannel = "YouTube Channel"
+    var currLang = "Thai"
+}
+function la(){
+    var prefix = "la"
+    var homepage = "pagina domestica"
+    var about = "de loco telae"
+    var contact = "mihi eda"
+    var documents = "tabula"
+    var academia = "academia"
+    var downloads = "recepta"
+    var techDocs = "tabula technologia"
+    var games = "ludi"
+    var numberGuesser = "existimator numerorum"
+    var piFinder = "invenitor &#960;"
+    var rockPaperScissors = "saxum charta forfex"
+    var media = "media"
+    var photoGallery = "porticur imaginum"
+    var videoGallery = "porticur imaginum movantum"
+    var tools = "instrumenta"
+    var primeFinder = "invenitor proti"
+    var usefulLinks = "contexus utiles"
+    var ytChannel = "canalis TuTubae"
+    var currLang = "lingua Latina"
+}
+var uk(){
+    var prefix = "www"
+    var homepage = "Homepage"
+    var about = "About (new)"
+    var contact = "Contact me"
+    var documents = "Documents"
+    var academia = "Academia"
+    var downloads = "Downloads"
+    var techDocs = "Technology Guides"
+    var games = "Games"
+    var numberGuesser = "Number Guesser"
+    var piFinder = "Pi Finder"
+    var rockPaperScissors = "Rock Paper Scissors"
+    var media = "Media"
+    var photoGallery = "Photo Gallery"
+    var videoGallery = "Video Gallery"
+    var tools = "Tools//Utilities"
+    var primeFinder = "Prime Finder"
+    var usefulLinks = "Useful Websites"
+    var ytChannel = "YouTube Channel"
+    var currLang = "Select Language"
+}
 
 
 function desktopMB(lang){
     if (lang === "en"){
-        var prefix = "www"
-        var homepage = "Homepage"
-        var about = "About (new)"
-        var contact = "Contact me"
-        var documents = "Documents"
-        var academia = "Academia"
-        var downloads = "Downloads"
-        var techDocs = "Technology Guides"
-        var games = "Games"
-        var numberGuesser = "Number Guesser"
-        var piFinder = "Pi Finder"
-        var rockPaperScissors = "Rock Paper Scissors"
-        var media = "Media"
-        var photoGallery = "Photo Gallery"
-        var videoGallery = "Video Gallery"
-        var tools = "Tools//Utilities"
-        var primeFinder = "Prime Finder"
-        var usefulLinks = "Useful Websites"
-        var ytChannel = "YouTube Channel"
-        var currLang = "English"
+        en()
         console.log("English menuBar selected")
     }
     else if (lang === "de"){
-        var prefix = "de"
-        var homepage = "Homepage"
-        var about = "&Uuml;ber die Website"
-        var contact = "Kontactieren sie mich"
-        var documents = "Dokumente"
-        var academia = "Wissenschaft (beta)"
-        var downloads = "Downloads"
-        var techDocs = "Technologie Hilfe"
-        var games = "Spielen"
-        var numberGuesser = "Nummer Rater"
-        var piFinder = "Pi Sucher"
-        var rockPaperScissors = "Schnick Schnack Schnuck"
-        var media = "Medien"
-        var photoGallery = "Fotogalerie"
-        var videoGallery = "Videogalerie"
-        var tools = "tools"
-        var primeFinder = "Prime Sucher"
-        var usefulLinks = "N&uuml;tzliche Webseiten"
-        var ytChannel = "YouTube Kanal"
-        var currLang = "Deutsch"
+        de()
         console.log("German menuBar selected")
     }
     else if (lang === "fr"){
-        var prefix = "fr"
-        var homepage = "Page d'acceil"
-        var about = "A propos"
-        var contact = "Contactez moi"
-        var documents = "Documents"
-        var academia = "Travail (beta)"
-        var downloads = "Téléchargements"
-        var techDocs = "Support technique"
-        var games = "Jeux"
-        var numberGuesser = "Number Guesser"
-        var piFinder = "Pi découvreur"
-        var rockPaperScissors = "Pierre-Papier-Ciseaux"
-        var media = "Médias"
-        var photoGallery = "Galerie de photos"
-        var videoGallery = "Galerie vidéo"
-        var tools = "Outils"
-        var primeFinder = "Prime Chercheur"
-        var usefulLinks = "Liens utils"
-        var ytChannel = "Chaîne YouTube"
-        var currLang = "Français"
+        fr()
         console.log("French menuBar selected")
     }
     else if (lang === "es"){
-        var prefix = "es"
-        var homepage = "Página web"
-        var about = "Sobre"
-        var contact = "Me Contacto"
-        var documents = "Documentos"
-        var academia = "Trabajo (beta)"
-        var downloads = "Descargas"
-        var techDocs = "Apoyo técnico"
-        var games = "Juegos"
-        var numberGuesser = "Número adivino"
-        var piFinder = "Pi buscador"
-        var rockPaperScissors = "Piedra, Papel, Tijera"
-        var media = "Medios"
-        var photoGallery = "Galería de fotos"
-        var videoGallery = "Galería de videos"
-        var tools = "Útiles"
-        var primeFinder = "Número primo buscador"
-        var usefulLinks = "enlaces útiles"
-        var ytChannel = "Canal de YouTube"
-        var currLang = "Español"
+        es()
         console.log("Spanish menuBar selected")
     }
     else if (lang === "th"){
-        var prefix = "www"
-        var homepage = "&#3627;&#3609;&#3657;&#3634;&#3649;&#3619;&#3585;"
-        var about = "About (new)"
-        var contact = "Contact me"
-        var documents = "Documents"
-        var academia = "Academia"
-        var downloads = "Downloads"
-        var techDocs = "Technology Guides"
-        var games = "Games"
-        var numberGuesser = "Number Guesser"
-        var piFinder = "Pi Finder"
-        var rockPaperScissors = "Rock Paper Scissors"
-        var media = "Media"
-        var photoGallery = "Galerie de photos"
-        var videoGallery = "Galerie vidéo"
-        var tools = "Tools/Utilities"
-        var primeFinder = "Prime Finder"
-        var usefulLinks = "Useful Websites"
-        var ytChannel = "YouTube Channel"
-        var currLang = "Thai"
+        th()
         console.log("Thai menuBar selected")
     }
     else if (lang === "la"){
-        var prefix = "la"
-        var homepage = "pagina domestica"
-        var about = "de loco telae"
-        var contact = "mihi eda"
-        var documents = "tabula"
-        var academia = "academia"
-        var downloads = "recepta"
-        var techDocs = "tabula technologia"
-        var games = "ludi"
-        var numberGuesser = "existimator numerorum"
-        var piFinder = "invenitor &#960;"
-        var rockPaperScissors = "saxum charta forfex"
-        var media = "media"
-        var photoGallery = "porticur imaginum"
-        var videoGallery = "porticur imaginum movantum"
-        var tools = "instrumenta"
-        var primeFinder = "invenitor proti"
-        var usefulLinks = "contexus utiles"
-        var ytChannel = "canalis TuTubae"
-        var currLang = "lingua Latina"
+        la()
         console.log("Latin menuBar selected")
     }
     else {
-        var prefix = "www"
-        var homepage = "Homepage"
-        var about = "About (new)"
-        var contact = "Contact me"
-        var documents = "Documents"
-        var academia = "Academia"
-        var downloads = "Downloads"
-        var techDocs = "Technology Guides"
-        var games = "Games"
-        var numberGuesser = "Number Guesser"
-        var piFinder = "Pi Finder"
-        var rockPaperScissors = "Rock Paper Scissors"
-        var media = "Media"
-        var photoGallery = "Photo Gallery"
-        var videoGallery = "Video Gallery"
-        var tools = "Tools//Utilities"
-        var primeFinder = "Prime Finder"
-        var usefulLinks = "Useful Websites"
-        var ytChannel = "YouTube Channel"
-        var currLang = "Select Language"
+        uk()
     }
     
     
@@ -338,18 +339,59 @@ function desktopMB(lang){
     console.log("Desktop version of the Menu Bar has been loaded and applied.")
 }
 var onerun = 0
-function mobileMB(){
+function mobileMB(lang){
+    if (lang === "en"){
+        en()
+        console.log("English menuBar selected")
+    }
+    else if (lang === "de"){
+        de()
+        console.log("German menuBar selected")
+    }
+    else if (lang === "fr"){
+        fr()
+        console.log("French menuBar selected")
+    }
+    else if (lang === "es"){
+        es()
+        console.log("Spanish menuBar selected")
+    }
+    else if (lang === "th"){
+        th()
+        console.log("Thai menuBar selected")
+    }
+    else if (lang === "la"){
+        la()
+        console.log("Latin menuBar selected")
+    }
+    else {
+        uk()
+    }
     if (onerun < 1){
         document.write('<ul>\
                        <li class="dropdown"><a class="dropbtn" class = "menubar" href="https://www.gunner.online/#">&#9776;</a>\
                        <div class="dropdown-content">\
-                       <a href="https://www.gunner.online">Home</a>\
-                       <a href="https://www.gunner.online/documents">Documents</a>\
-                       <a href="https://www.gunner.online/construction_mobile">Games</a>\
-                       <a href="https://www.gunner.online/media">Media</a>\
-                       <a href="https://www.gunner.online/tools">Tools\\Utilities</a>\
-                       <a href="https://www.gunner.online/externalLinks">Useful Websites</a>\
-                       <a href="https://www.gunner.online/aboutIndex">About</a>\
+                       <a href="https://www.gunner.online">')
+        document.write(homepage)
+        document.write('</a>\
+                       <a href="https://www.gunner.online/documents">')
+        document.write(documents)
+        document.write('</a>\
+                       <a href="https://www.gunner.online/construction_mobile">')
+        document.write(games)
+        document.write('</a>\
+                       <a href="https://www.gunner.online/media">')
+        document.write(media)
+        document.write('</a>\
+                       <a href="https://www.gunner.online/tools">')
+                       document.write(tools)
+        document.write('</a>\
+                       <a href="https://www.gunner.online/externalLinks">')
+        document.write(usefulLinks)
+        document.write('</a>\
+                       <a href="https://www.gunner.online/aboutIndex">')
+        document.write(about)
+        document.write('</a>\
                        </div>\
                        </li>\
                        </ul>\
