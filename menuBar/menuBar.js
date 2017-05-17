@@ -137,7 +137,7 @@ function la(){
     var ytChannel = "canalis TuTubae"
     var currLang = "lingua Latina"
 }
-var uk(){
+function uk(){
     var prefix = "www"
     var homepage = "Homepage"
     var about = "About (new)"
