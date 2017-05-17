@@ -288,9 +288,7 @@ function desktopMB(lang){
     document.write('</a>\
                    <div class="dropdown-content">\
                    ')
-    document.write('<a href="https://www.gunner.online/adminFilter" onClick="return hasher()">MD5 Hasher</a>\
-                   <a href="https://www.gunner.online/adminFilter" onClick="return hasher2()">SHA256 Hasher</a>\
-                   <a href="https://www.gunner.online/primeFinder">')
+    document.write('<a href="https://www.gunner.online/primeFinder">')
     document.write(primeFinder)
     document.write('</a>\
                    </div>\
