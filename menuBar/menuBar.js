@@ -331,6 +331,7 @@ function desktopMB(lang){
                    <a href="https://de.gunner.online">Deutsch</a>\
                    <a href="https://fr.gunner.online">Français</a>\
                    <a href="https://es.gunner.online">Español</a>\
+                   <a href="https://la.gunner.online">Lingua Latina</a>\
                    <a href="https://th.gunner.online">&#3652;&#3607;&#3618;</a>\
                    </div>\
                    </li>\
