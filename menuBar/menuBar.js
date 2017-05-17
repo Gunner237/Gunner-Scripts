@@ -9,27 +9,27 @@ function hasher2(){
 }
 function language(){
     var languague = prompt("Please type the two letter country code","en")
-            if (language == ("en"){
+            if (language == "en"){
                 window.location.href = "https://www.gunner.online"
                 }
                 
-                else if (language == ("de"){
+                else if (language == "de"){
                 window.location.href = "https://de.gunner.online"
                     }
                 
-                else if (language == ("fr"){
+                else if (language == "fr"){
                 window.location.href = "https://fr.gunner.online"
                     }
                 
-                else if (language == ("es"){
+                else if (language == "es"){
                 window.location.href = "https://es.gunner.online"
                          }
                 
-                if (language == ("th"){
+                if (language == "th"){
                 window.location.href = "https://th.gunner.online"
                     }
                 
-                if (language == ("la"){
+                if (language == "la"){
                 window.location.href = "https://la.gunner.online"
                     }
                     
