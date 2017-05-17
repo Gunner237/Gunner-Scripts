@@ -74,6 +74,52 @@ function desktopMB(lang){
         var currLang = "Deutsch"
         console.log("German menuBar selected")
     }
+    else if (lang === "fr"){
+        var prefix = "fr"
+        var homepage = "Homepage"
+        var about = "&Uuml;ber die Website"
+        var contact = "Kontactieren sie mich"
+        var documents = "Dokumente"
+        var academia = "Wissenschaft (beta)"
+        var downloads = "Downloads"
+        var techDocs = "Technologie Hilfe"
+        var games = "Spielen"
+        var numberGuesser = "Nummer Rater"
+        var piFinder = "Pi Sucher"
+        var rockPaperScissors = "Schnick Schnack Schnuck"
+        var media = "Medien"
+        var photoGallery = "Fotogalerie"
+        var videoGallery = "Videogalerie"
+        var tools = "tools"
+        var primeFinder = "Prime Sucher"
+        var usefulLinks = "N&uuml;tzliche Webseiten"
+        var ytChannel = "YouTube Kanal"
+        var currLang = "Deutsch"
+        console.log("German menuBar selected")
+    }
+    if (lang === "th"){
+        var prefix = "www"
+        var homepage = "&#3627;&#3609;&#3657;&#3634;&#3649;&#3619;&#3585;"
+        var about = "About (new)"
+        var contact = "Contact me"
+        var documents = "Documents"
+        var academia = "Academia"
+        var downloads = "Downloads"
+        var techDocs = "Technology Guides"
+        var games = "Games"
+        var numberGuesser = "Number Guesser"
+        var piFinder = "Pi Finder"
+        var rockPaperScissors = "Rock Paper Scissors"
+        var media = "Media"
+        var photoGallery = "Photo Gallery"
+        var videoGallery = "Video Gallery"
+        var tools = "Tools//Utilities"
+        var primeFinder = "Prime Finder"
+        var usefulLinks = "Useful Websites"
+        var ytChannel = "YouTube Channel"
+        var currLang = "English"
+        console.log("Thai menuBar selected")
+    }
     else if (lang === "la"){
         var prefix = "la"
         var homepage = "pagina domestica"
