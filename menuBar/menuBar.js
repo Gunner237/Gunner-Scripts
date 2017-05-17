@@ -67,7 +67,7 @@ function desktopMB(lang){
         var media = "Medien"
         var photoGallery = "Fotogalerie"
         var videoGallery = "Videogalerie"
-        var tools = "Tools//Utilities"
+        var tools = "tools"
         var primeFinder = "Prime Sucher"
         var usefulLinks = "N&uuml;tzliche Webseiten"
         var ytChannel = "YouTube Kanal"
