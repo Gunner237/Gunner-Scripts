@@ -7,22 +7,108 @@ function hasher(){
 function hasher2(){
     localStorage.destination = "hidden/sha256_hasher"
 }
+var homepage = "Homepage"
+var about = "About"
+var contact = "Contact me"
+var documents = "Documents"
+var academia = "Academia"
+var downloads = "Downloads"
+var techDocs = "Technology Guides"
+var games = "Games"
+var numberGuesser = "Number Guesser"
+var piFinder = "Pi Finder"
+var rockPaperScissors = "Rock Paper Scissors"
+var media = "Media"
+var photoGallery = "Photo Gallery"
+var videoGallery = "Video Gallery"
+var tools = "Tools//Utilities"
+var primeFinder = "Prime Finder"
+var usefulLinks = "Useful Websites"
+var ytChannel = "YouTube Channel"
 
-function desktopMB(){
+
+function desktopMB(lang){
+    if (lang === "en"){
+        var prefix = "www"
+        var homepage = "Homepage"
+        var about = "About (new)"
+        var contact = "Contact me"
+        var documents = "Documents"
+        var academia = "Academia"
+        var downloads = "Downloads"
+        var techDocs = "Technology Guides"
+        var games = "Games"
+        var numberGuesser = "Number Guesser"
+        var piFinder = "Pi Finder"
+        var rockPaperScissors = "Rock Paper Scissors"
+        var media = "Media"
+        var photoGallery = "Photo Gallery"
+        var videoGallery = "Video Gallery"
+        var tools = "Tools//Utilities"
+        var primeFinder = "Prime Finder"
+        var usefulLinks = "Useful Websites"
+        var ytChannel = "YouTube Channel"
+    }
+    if (lang === "de"){
+        var prefix = "de"
+        var homepage = "Homepage"
+        var about = "About (de)"
+        var contact = "Contact me"
+        var documents = "Documents"
+        var academia = "Academia"
+        var downloads = "Downloads"
+        var techDocs = "Technology Guides"
+        var games = "Games"
+        var numberGuesser = "Number Guesser"
+        var piFinder = "Pi Finder"
+        var rockPaperScissors = "Rock Paper Scissors"
+        var media = "Media"
+        var photoGallery = "Photo Gallery"
+        var videoGallery = "Video Gallery"
+        var tools = "Tools//Utilities"
+        var primeFinder = "Prime Finder"
+        var usefulLinks = "Useful Websites"
+        var ytChannel = "YouTube Channel"
+    }
+    else {
+        var prefix = "www"
+        var homepage = "Homepage"
+        var about = "About (new)"
+        var contact = "Contact me"
+        var documents = "Documents"
+        var academia = "Academia"
+        var downloads = "Downloads"
+        var techDocs = "Technology Guides"
+        var games = "Games"
+        var numberGuesser = "Number Guesser"
+        var piFinder = "Pi Finder"
+        var rockPaperScissors = "Rock Paper Scissors"
+        var media = "Media"
+        var photoGallery = "Photo Gallery"
+        var videoGallery = "Video Gallery"
+        var tools = "Tools//Utilities"
+        var primeFinder = "Prime Finder"
+        var usefulLinks = "Useful Websites"
+        var ytChannel = "YouTube Channel"
+    }
+    
+    
     var executed = "none";
     document.write('<ul>\
                    <li class="dropdown">\
                    <a href="https://www.gunner.online/"\
                    ')
     if (localStorage.directory == "home"){
-        document.write('class = "active"')
+        document.write('class = "active">')
     }
     else{
-        document.write('class="dropbtn"')
+        document.write('class="dropbtn">')
     }
     document.write('>Home</a>\
                    <div class="dropdown-content">\
-                   <a href="https://www.gunner.online/aboutIndex">About</a>\
+                   <a href="https://www.gunner.online/aboutIndex">')
+    document.write(about)
+    document.write('</a>\
                    <a href="https://www.gunner.online/contact">Contact me</a>\
                    <a href="https://www.gunner.online">Default home page</a>\
                    ')
@@ -124,7 +210,7 @@ function desktopMB(){
                    </div>\
                    </li>\
                    ');
-    document.write('<li style="float:right"><a id = username class="dropbtn" href="https://www.gunner.online">\
+    document.write('<li style="float:right" class="dropdown"><a id = username class="dropbtn" href="https://www.gunner.online">\
                    English UK\
                    </a>\
                    <div class="dropdown-content">\
