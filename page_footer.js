@@ -72,10 +72,10 @@ function footer(type){
     else if (type === "progsoc"){
         document.write('</div>\
                        <div id="category_border" id="footer" class="video">\
-                       <span id="contact"> Win:Coll Programming Society 2017</span>\
+                       <span id="contact">Programming Society 2017</span>\
                        </div>\
                        ')
-        console.log("The 2016 page footer has been loaded and applied");
+        console.log("The progsoc page footer has been loaded and applied");
     }
     else {
         document.write('</div>\
