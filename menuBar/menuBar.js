@@ -59,7 +59,7 @@ function en(){
     usefulLinks = "Useful Websites"
     ytChannel = "YouTube Channel"
     progSoc = "Prog:Soc"
-    currLang = "English"
+    currLang = "English (United Kingdom)"
 }
 function de(){
     prefix = "de"
@@ -82,7 +82,7 @@ function de(){
     usefulLinks = "N&uuml;tzliche Webseiten"
     ytChannel = "YouTube Kanal"
     progSoc = "Prog:Soc"
-    currLang = "Deutsch"
+    currLang = "Deutsch (Deutschland)"
 }
 function fr(){
     prefix = "fr"
@@ -105,7 +105,7 @@ function fr(){
     usefulLinks = "Liens utils"
     ytChannel = "Chaîne YouTube"
     progSoc = "Prog:Soc"
-    currLang = "Français"
+    currLang = "Français (France)"
 }
 function es(){
     prefix = "es"
@@ -128,7 +128,7 @@ function es(){
     usefulLinks = "enlaces útiles"
     ytChannel = "Canal de YouTube"
     progSoc = "Prog:Soc"
-    currLang = "Español"
+    currLang = "Español (España)"
 }
 function th(){
     prefix = "th"
@@ -151,7 +151,7 @@ function th(){
     usefulLinks = "Useful Websites"
     ytChannel = "YouTube Channel"
     progSoc = "Prog:Soc"
-    currLang = "&#3652;&#3607;&#3618;"
+    currLang = "&#3652;&#3607;&#3618; (&#3611;&#3619;&#3632;&#3648;&#3607;&#3624;&#3652;&#3607;&#3618;)"
 }
 function la(){
     prefix = "la"
@@ -174,7 +174,7 @@ function la(){
     usefulLinks = "contexus utiles"
     ytChannel = "canalis TuTubae"
     progSoc = "Prog:Soc"
-    currLang = "lingua Latina"
+    currLang = "lingua Latina (Roma)"
 }
 function uk(){
     prefix = "www"
