@@ -8,7 +8,7 @@ function hasher2(){
     localStorage.destination = "hidden/sha256_hasher"
 }
 function language(){
-    var languague = prompt("Please type the two letter country code","en")
+    var language = prompt("Please type the two letter country code","en")
     if (language == "en"){
         window.location.href = "https://www.gunner.online"
     }
