@@ -58,6 +58,7 @@ function en(){
     primeFinder = "Prime Finder"
     usefulLinks = "Useful Websites"
     ytChannel = "YouTube Channel"
+    progSoc = "Prog:Soc"
     currLang = "English"
 }
 function de(){
@@ -80,6 +81,7 @@ function de(){
     primeFinder = "Prime Sucher"
     usefulLinks = "N&uuml;tzliche Webseiten"
     ytChannel = "YouTube Kanal"
+    progSoc = "Prog:Soc"
     currLang = "Deutsch"
 }
 function fr(){
@@ -102,6 +104,7 @@ function fr(){
     primeFinder = "Prime Chercheur"
     usefulLinks = "Liens utils"
     ytChannel = "Chaîne YouTube"
+    progSoc = "Prog:Soc"
     currLang = "Français"
 }
 function es(){
@@ -124,10 +127,11 @@ function es(){
     primeFinder = "Número primo buscador"
     usefulLinks = "enlaces útiles"
     ytChannel = "Canal de YouTube"
+    progSoc = "Prog:Soc"
     currLang = "Español"
 }
 function th(){
-    prefix = "www"
+    prefix = "th"
     homepage = "&#3627;&#3609;&#3657;&#3634;&#3649;&#3619;&#3585;"
     about = "About (new)"
     contact = "Contact me"
@@ -146,7 +150,8 @@ function th(){
     primeFinder = "Prime Finder"
     usefulLinks = "Useful Websites"
     ytChannel = "YouTube Channel"
-    currLang = "Thai"
+    progSoc = "Prog:Soc"
+    currLang = "&#3652;&#3607;&#3618;"
 }
 function la(){
     prefix = "la"
@@ -168,6 +173,7 @@ function la(){
     primeFinder = "invenitor proti"
     usefulLinks = "contexus utiles"
     ytChannel = "canalis TuTubae"
+    progSoc = "Prog:Soc"
     currLang = "lingua Latina"
 }
 function uk(){
@@ -190,6 +196,7 @@ function uk(){
     primeFinder = "Prime Finder"
     usefulLinks = "Useful Websites"
     ytChannel = "YouTube Channel"
+    progSoc = "Prog:Soc"
     currLang = "Select Language"
 }
 
@@ -350,6 +357,22 @@ function desktopMB(lang){
                    <a href="https://www.youtube.com/channel/UCicjrjHFJtrN7Gg9OlLG7dg">')
     document.write(ytChannel)
     document.write('</a>\
+                   </div>\
+                   </li>\
+                   <li class="dropdown">\
+                   <a href="https://progsoc.gunner.online/"')
+    if (localStorage.directory == "progsoc"){
+        document.write('class = "active">')
+    }
+    else{
+        document.write('class="dropbtn">')
+    }
+    document.write(progSoc)
+    document.write('</a>\
+                   <div class="dropdown-content">\
+                   <a href="https://progsoc.gunner.online/code">HTML Page Code</a>\
+                   <a href="https://progsoc.gunner.online/converter">Speed converter</a>\
+                   </a>\
                    </div>\
                    </li>\
                    ');
