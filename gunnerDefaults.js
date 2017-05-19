@@ -22,6 +22,9 @@ function launch(type){
         document.write('<script src="https://scripts.gunner.online/googleAnalytics.js"></script>');
         current = current + 1
         console.log("Google analytics script located ("+current+"/"+total+")")
+        document.write('<script src="https://scripts.gunner.online/hashAddress.js"></script>');
+        current = current + 1
+        console.log("Hash address remover script located ("+current+"/"+total+")")
     }
     else if (type == "deutsch") {
         total = 6
