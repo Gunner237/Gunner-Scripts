@@ -34,7 +34,7 @@ function language(){
     }
     
     else{
-        alert("Code "+language+"not recognised. Options: en(glish), de(utsch), fr(ancais), es(panol), th(ai), la(tin)")
+        alert("Code "+language+" not recognised. Options: en(glish), de(utsch), fr(ancais), es(panol), th(ai), la(tin)")
         language()
     }
 }
