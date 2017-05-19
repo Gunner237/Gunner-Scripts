@@ -25,11 +25,11 @@ function language(){
         window.location.href = "https://es.gunner.online"
     }
     
-    if (language == "th"){
+    else if (language == "th"){
         window.location.href = "https://th.gunner.online"
     }
     
-    if (language == "la"){
+    else if (language == "la"){
         window.location.href = "https://la.gunner.online"
     }
     
