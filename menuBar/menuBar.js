@@ -264,10 +264,6 @@ function desktopMB(lang){
     }
     document.write(documents)
     document.write('</a>\
-                   <div class="dropdown-content">\
-                   <a href="https://betasite.gunner.online/academia">')
-    document.write(academia)
-    document.write('</a>\
                    <a href="https://www.gunner.online/downloads">')
     document.write(downloads)
     document.write('</a>\
