@@ -368,7 +368,7 @@ function desktopMB(lang){
     document.write('</a>\
                    <div class="dropdown-content">\
                    <a href="https://progsoc.gunner.online/html">HTML (SG)</a>\
-                   <a href="https://www.eclecticon.info/test1.htm">HTML (AF)</a>\
+                   <a href="http://www.eclecticon.info/test1.htm">HTML (AF)</a>\
                    <a href="https://progsoc.gunner.online/converter">Speed converter</a>\
                    <a href="https://progsoc.gunner.online/textReverser">Text Reverser</a>\
                    </a>\
