@@ -245,7 +245,7 @@ function desktopMB(lang){
     document.write(homepage)
     document.write('</a>\
                    <div class="dropdown-content">\
-                   <a href="https://www.gunner.online/aboutIndex">')
+                   <a href="https://www.gunner.online/about">')
     document.write(about)
     document.write('</a>\
                    <a href="https://www.gunner.online/contact">')
@@ -444,7 +444,7 @@ function mobileMB(lang){
                        <a href="https://www.gunner.online/externalLinks">')
         document.write(usefulLinks)
         document.write('</a>\
-                       <a href="https://www.gunner.online/aboutIndex">')
+                       <a href="https://www.gunner.online/about">')
         document.write(about)
         document.write('</a>\
                        <a onClick="return language()">Switch Language</a>\

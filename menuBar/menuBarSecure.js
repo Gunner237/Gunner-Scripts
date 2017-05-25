@@ -146,7 +146,7 @@ function mobileMB(){
                    <a href="https://www.gunner.onine/construction_mobile">Media</a>\
                    <a href="https://www.gunner.onine/tools">Tools\\Utilities</a>\
                    <a href="https://www.gunner.onine/externalLinks">Useful Websites</a>\
-                   <a href="https://www.gunner.onine/aboutIndex">About</a>\
+                   <a href="https://www.gunner.onine/about">About</a>\
                    </div>\
                    </li>\
                    </ul>\
