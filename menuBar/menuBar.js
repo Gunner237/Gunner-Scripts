@@ -245,17 +245,17 @@ function desktopMB(lang){
     document.write(homepage)
     document.write('</a>\
                    <div class="dropdown-content">\
-                   <a href="https://www.gunner.online/about">')
+                   <a href="about">')
     document.write(about)
     document.write('</a>\
-                   <a href="https://www.gunner.online/contact">')
+                   <a href="contact">')
     document.write(contact)
     document.write('</a>\
                    ')
     document.write('</div>\
                    </li>\
                    <li class="dropdown">\
-                   <a href="https://www.gunner.online/documents"')
+                   <a href="documents"')
     if (localStorage.directory == "documents"){
         document.write('class = "active">')
     }
@@ -265,16 +265,16 @@ function desktopMB(lang){
     document.write(documents)
     document.write('</a>\
                    <div class="dropdown-content">\
-                   <a href="https://www.gunner.online/downloads">')
+                   <a href="downloads">')
     document.write(downloads)
     document.write('</a>\
-                   <a href="https://www.gunner.online/techDocs">')
+                   <a href="techDocs">')
     document.write(techDocs)
     document.write('</a>\
                    </div>\
                    </li>\
                    <li class="dropdown">\
-                   <a href="https://www.gunner.online/games" ')
+                   <a href="games" ')
     if (localStorage.directory == "games"){
         document.write('class = "active">')
     }
@@ -284,19 +284,19 @@ function desktopMB(lang){
     document.write(games)
     document.write('</a>\
                    <div class="dropdown-content">\
-                   <a href="https://www.gunner.online/numberGuesserLatest">')
+                   <a href="numberGuesserLatest">')
     document.write(numberGuesser)
     document.write('</a>\
-                   <a href="https://www.gunner.online/piFinder">')
+                   <a href="piFinder">')
     document.write(piFinder)
     document.write('</a>\
-                   <a href="https://www.gunner.online/rockPaperScissorsLatest">')
+                   <a href="rockPaperScissorsLatest">')
     document.write(rockPaperScissors)
     document.write('</a>\
                    </div>\
                    </li>\
                    <li class="dropdown">\
-                   <a href="https://www.gunner.online/media"')
+                   <a href="media"')
     if (localStorage.directory == "media"){
         document.write('class = "active">')
     }
@@ -306,16 +306,16 @@ function desktopMB(lang){
     document.write(media)
     document.write('</a>\
                    <div class="dropdown-content">\
-                   <a href="https://www.gunner.online/imageGallery">')
+                   <a href="imageGallery">')
     document.write(photoGallery)
     document.write('</a>\
-                   <a href="https://www.gunner.online/videoGallery">')
+                   <a href="videoGallery">')
     document.write(videoGallery)
     document.write('</a>\
                    </div>\
                    </li>\
                    <li class="dropdown">\
-                   <a href="https://www.gunner.online/tools" ')
+                   <a href="tools" ')
     if (localStorage.directory == "tools"){
         document.write('class = "active">')
     }
@@ -326,13 +326,13 @@ function desktopMB(lang){
     document.write('</a>\
                    <div class="dropdown-content">\
                    ')
-    document.write('<a href="https://www.gunner.online/primeFinder">')
+    document.write('<a href="primeFinder">')
     document.write(primeFinder)
     document.write('</a>\
                    </div>\
                    </li>\
                    <li class="dropdown">\
-                   <a href="https://www.gunner.online/externalLinks"')
+                   <a href="externalLinks"')
     if (localStorage.directory == "external"){
         document.write('class = "active">')
     }
@@ -429,22 +429,22 @@ function mobileMB(lang){
                        <a href="https://www.gunner.online">')
         document.write(homepage)
         document.write('</a>\
-                       <a href="https://www.gunner.online/documents">')
+                       <a href="documents">')
         document.write(documents)
         document.write('</a>\
-                       <a href="https://www.gunner.online/construction_mobile">')
+                       <a href="construction_mobile">')
         document.write(games)
         document.write('</a>\
-                       <a href="https://www.gunner.online/media">')
+                       <a href="media">')
         document.write(media)
         document.write('</a>\
-                       <a href="https://www.gunner.online/tools">')
+                       <a href="tools">')
         document.write(tools)
         document.write('</a>\
-                       <a href="https://www.gunner.online/externalLinks">')
+                       <a href="externalLinks">')
         document.write(usefulLinks)
         document.write('</a>\
-                       <a href="https://www.gunner.online/about">')
+                       <a href="about">')
         document.write(about)
         document.write('</a>\
                        <a onClick="return language()">Switch Language</a>\
