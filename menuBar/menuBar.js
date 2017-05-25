@@ -84,7 +84,7 @@ function de(){
     ytChannel = "YouTube Kanal"
     progSoc = "Prog:Soc"
     currLang = "Deutsch (Deutschland)"
-    engRedirect = "https://www.gunner.online"
+    engRedirect = "https://www.gunner.online/"
 }
 function fr(){
     prefix = "fr"
@@ -108,7 +108,7 @@ function fr(){
     ytChannel = "Chaîne YouTube"
     progSoc = "Prog:Soc"
     currLang = "Français (France)"
-    engRedirect = "https://www.gunner.online"
+    engRedirect = "https://www.gunner.online/"
 }
 function es(){
     prefix = "es"
@@ -132,7 +132,7 @@ function es(){
     ytChannel = "Canal de YouTube"
     progSoc = "Prog:Soc"
     currLang = "Español (España)"
-    engRedirect = "https://www.gunner.online"
+    engRedirect = "https://www.gunner.online/"
 }
 function th(){
     prefix = "th"
@@ -156,7 +156,7 @@ function th(){
     ytChannel = "YouTube Channel"
     progSoc = "Prog:Soc"
     currLang = "&#3652;&#3607;&#3618; (&#3611;&#3619;&#3632;&#3648;&#3607;&#3624;&#3652;&#3607;&#3618;)"
-    engRedirect = "https://www.gunner.online"
+    engRedirect = "https://www.gunner.online/"
 }
 function la(){
     prefix = "la"
@@ -180,7 +180,7 @@ function la(){
     ytChannel = "canalis TuTubae"
     progSoc = "Prog:Soc"
     currLang = "lingua Latina (Roma)"
-    engRedirect = "https://www.gunner.online"
+    engRedirect = "https://www.gunner.online/"
 }
 function uk(){
     prefix = "www"
@@ -204,7 +204,7 @@ function uk(){
     ytChannel = "YouTube Channel"
     progSoc = "Prog:Soc"
     currLang = "Select Language"
-    engRedirect = "https://www.gunner.online"
+    engRedirect = "https://www.gunner.online/"
 }
 
 
