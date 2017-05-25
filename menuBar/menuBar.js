@@ -38,7 +38,7 @@ function language(){
         language()
     }
 }
-function en(){
+function en(special){
     prefix = "www"
     homepage = "Homepage"
     about = "About"
@@ -60,7 +60,13 @@ function en(){
     ytChannel = "YouTube Channel"
     progSoc = "Prog:Soc"
     currLang = "English (United Kingdom)"
-    engRedirect = ""
+    if (special === true){
+        engRedirect ="https://www.gunner.online/"
+    }
+    else{
+        engRedirect = ""
+    }
+    
 }
 function de(){
     prefix = "de"
@@ -183,6 +189,7 @@ function la(){
     engRedirect = "https://www.gunner.online/"
 }
 function uk(){
+    console.warn("Page language not recognised")
     prefix = "www"
     homepage = "Homepage"
     about = "About (new)"
@@ -212,6 +219,10 @@ function desktopMB(lang){
     if (lang === "en"){
         en()
         console.log("English menuBar selected")
+    }
+    else if (lang === "en-prefix"){
+        en(true)
+        console.log("English menuBar (custom prefix) selected")
     }
     else if (lang === "de"){
         de()
