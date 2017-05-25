@@ -60,6 +60,7 @@ function en(){
     ytChannel = "YouTube Channel"
     progSoc = "Prog:Soc"
     currLang = "English (United Kingdom)"
+    engRedirect = ""
 }
 function de(){
     prefix = "de"
@@ -83,6 +84,7 @@ function de(){
     ytChannel = "YouTube Kanal"
     progSoc = "Prog:Soc"
     currLang = "Deutsch (Deutschland)"
+    engRedirect = "https://www.gunner.online"
 }
 function fr(){
     prefix = "fr"
@@ -106,6 +108,7 @@ function fr(){
     ytChannel = "Chaîne YouTube"
     progSoc = "Prog:Soc"
     currLang = "Français (France)"
+    engRedirect = "https://www.gunner.online"
 }
 function es(){
     prefix = "es"
@@ -129,6 +132,7 @@ function es(){
     ytChannel = "Canal de YouTube"
     progSoc = "Prog:Soc"
     currLang = "Español (España)"
+    engRedirect = "https://www.gunner.online"
 }
 function th(){
     prefix = "th"
@@ -152,6 +156,7 @@ function th(){
     ytChannel = "YouTube Channel"
     progSoc = "Prog:Soc"
     currLang = "&#3652;&#3607;&#3618; (&#3611;&#3619;&#3632;&#3648;&#3607;&#3624;&#3652;&#3607;&#3618;)"
+    engRedirect = "https://www.gunner.online"
 }
 function la(){
     prefix = "la"
@@ -175,6 +180,7 @@ function la(){
     ytChannel = "canalis TuTubae"
     progSoc = "Prog:Soc"
     currLang = "lingua Latina (Roma)"
+    engRedirect = "https://www.gunner.online"
 }
 function uk(){
     prefix = "www"
@@ -198,6 +204,7 @@ function uk(){
     ytChannel = "YouTube Channel"
     progSoc = "Prog:Soc"
     currLang = "Select Language"
+    engRedirect = "https://www.gunner.online"
 }
 
 
@@ -245,17 +252,23 @@ function desktopMB(lang){
     document.write(homepage)
     document.write('</a>\
                    <div class="dropdown-content">\
-                   <a href="about">')
+                   <a href="')
+    document.write(engRedirect)
+    document.write('about">')
     document.write(about)
     document.write('</a>\
-                   <a href="contact">')
+                   <a href="')
+    document.write(engRedirect)
+    document.write('contact">')
     document.write(contact)
     document.write('</a>\
                    ')
     document.write('</div>\
                    </li>\
                    <li class="dropdown">\
-                   <a href="documents"')
+                   <a href="')
+    document.write(engRedirect)
+    document.write('documents"')
     if (localStorage.directory == "documents"){
         document.write('class = "active">')
     }
@@ -265,16 +278,22 @@ function desktopMB(lang){
     document.write(documents)
     document.write('</a>\
                    <div class="dropdown-content">\
-                   <a href="downloads">')
+                   <a href="')
+    document.write(engRedirect)
+    document.write('downloads">')
     document.write(downloads)
     document.write('</a>\
-                   <a href="techDocs">')
+                   <a href="')
+    document.write(engRedirect)
+    document.write('techDocs">')
     document.write(techDocs)
     document.write('</a>\
                    </div>\
                    </li>\
                    <li class="dropdown">\
-                   <a href="games" ')
+                   <a href="')
+    document.write(engRedirect)
+    document.write('games" ')
     if (localStorage.directory == "games"){
         document.write('class = "active">')
     }
@@ -284,19 +303,27 @@ function desktopMB(lang){
     document.write(games)
     document.write('</a>\
                    <div class="dropdown-content">\
-                   <a href="numberGuesserLatest">')
+                   <a href="')
+    document.write(engRedirect)
+    document.write('numberGuesserLatest">')
     document.write(numberGuesser)
     document.write('</a>\
-                   <a href="piFinder">')
+                   <a href="')
+    document.write(engRedirect)
+    document.write('piFinder">')
     document.write(piFinder)
     document.write('</a>\
-                   <a href="rockPaperScissorsLatest">')
+                   <a href="')
+    document.write(engRedirect)
+    document.write('rockPaperScissorsLatest">')
     document.write(rockPaperScissors)
     document.write('</a>\
                    </div>\
                    </li>\
                    <li class="dropdown">\
-                   <a href="media"')
+                   <a href="')
+    document.write(engRedirect)
+    document.write('media"')
     if (localStorage.directory == "media"){
         document.write('class = "active">')
     }
@@ -306,16 +333,22 @@ function desktopMB(lang){
     document.write(media)
     document.write('</a>\
                    <div class="dropdown-content">\
-                   <a href="imageGallery">')
+                   <a href="')
+    document.write(engRedirect)
+    document.write('imageGallery">')
     document.write(photoGallery)
     document.write('</a>\
-                   <a href="videoGallery">')
+                   <a href="')
+    document.write(engRedirect)
+    document.write('videoGallery">')
     document.write(videoGallery)
     document.write('</a>\
                    </div>\
                    </li>\
                    <li class="dropdown">\
-                   <a href="tools" ')
+                   <a href="')
+    document.write(engRedirect)
+    document.write('tools" ')
     if (localStorage.directory == "tools"){
         document.write('class = "active">')
     }
@@ -326,13 +359,17 @@ function desktopMB(lang){
     document.write('</a>\
                    <div class="dropdown-content">\
                    ')
-    document.write('<a href="primeFinder">')
+    document.write('<a href="')
+    document.write(engRedirect)
+    document.write('primeFinder">')
     document.write(primeFinder)
     document.write('</a>\
                    </div>\
                    </li>\
                    <li class="dropdown">\
-                   <a href="externalLinks"')
+                   <a href="')
+    document.write(engRedirect)
+    document.write('externalLinks"')
     if (localStorage.directory == "external"){
         document.write('class = "active">')
     }
@@ -429,22 +466,34 @@ function mobileMB(lang){
                        <a href="https://www.gunner.online">')
         document.write(homepage)
         document.write('</a>\
-                       <a href="documents">')
+                       <a href="')
+        document.write(engRedirect)
+        document.write('documents">')
         document.write(documents)
         document.write('</a>\
-                       <a href="construction_mobile">')
+                       <a href="')
+        document.write(engRedirect)
+        document.write('construction_mobile">')
         document.write(games)
         document.write('</a>\
-                       <a href="media">')
+                       <a href="')
+        document.write(engRedirect)
+        document.write('media">')
         document.write(media)
         document.write('</a>\
-                       <a href="tools">')
+                       <a href="')
+        document.write(engRedirect)
+        document.write('tools">')
         document.write(tools)
         document.write('</a>\
-                       <a href="externalLinks">')
+                       <a href="')
+        document.write(engRedirect)
+        document.write('externalLinks">')
         document.write(usefulLinks)
         document.write('</a>\
-                       <a href="about">')
+                       <a href="')
+        document.write(engRedirect)
+        document.write('about">')
         document.write(about)
         document.write('</a>\
                        <a onClick="return language()">Switch Language</a>\
