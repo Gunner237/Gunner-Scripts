@@ -2,6 +2,7 @@ var total = 0
 var current = 0
 var located = 0
 function launch(type){
+    document.write('<meta name="robots" content="noindex">');
     console.log("Gunner Intranet "+type+" scripts initialising...")
     console.warn("ATTENTION! THIS IS A BETA SCRIPT.")
     if (type === "standard") {
