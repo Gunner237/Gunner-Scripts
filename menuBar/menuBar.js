@@ -272,8 +272,7 @@ function desktopMB(lang){
     document.write(engRedirect)
     document.write('contact">')
     document.write(contact)
-    document.write('</a>\
-                   <a href="http://gunner237.wordpress.com/">Blog (WordPress)</a>')
+    document.write('</a>')
     document.write('</div>\
                    </li>\
                    <li class="dropdown">\
