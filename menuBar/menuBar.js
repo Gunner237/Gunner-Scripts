@@ -293,9 +293,9 @@ function desktopMB(lang){
         document.write('class="dropbtn">')
     }
     document.write(documents)
-    /*document.write('</a>\
-                   <div class="dropdown-content">\
-                   <a href="http://documents.gunner.online/articles">')
+    document.write('</a>\
+                   <div class="dropdown-content">\')
+    /*document.write('<a href="http://documents.gunner.online/articles">')
     document.write(articles)*/
     document.write('</a>\
                    <a href="')
