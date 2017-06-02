@@ -44,6 +44,7 @@ function en(special){
     about = "About"
     contact = "Contact me"
     documents = "Documents"
+    articles = "Articles"
     academia = "Academia"
     downloads = "Downloads"
     techDocs = "Technology Guides"
@@ -74,6 +75,7 @@ function de(){
     about = "&Uuml;ber die Website"
     contact = "Kontactieren sie mich"
     documents = "Dokumente"
+    articles = "Artikelen"
     academia = "Wissenschaft (beta)"
     downloads = "Downloads"
     techDocs = "Technologie Hilfe"
@@ -98,6 +100,7 @@ function fr(){
     about = "A propos"
     contact = "Contactez moi"
     documents = "Documents"
+    articles = "articles"
     academia = "Travail (beta)"
     downloads = "Téléchargements"
     techDocs = "Support technique"
@@ -122,6 +125,7 @@ function es(){
     about = "Sobre"
     contact = "Me Contacto"
     documents = "Documentos"
+    articles = "artículos"
     academia = "Trabajo (beta)"
     downloads = "Descargas"
     techDocs = "Apoyo técnico"
@@ -146,6 +150,7 @@ function th(){
     about = "About (new)"
     contact = "Contact me"
     documents = "Documents"
+    articles = "articles"
     academia = "Academia"
     downloads = "Downloads"
     techDocs = "Technology Guides"
@@ -170,6 +175,7 @@ function la(){
     about = "de loco telae"
     contact = "mihi eda"
     documents = "tabula"
+    articles = "vasa"
     academia = "academia"
     downloads = "recepta"
     techDocs = "tabula technologia"
@@ -195,6 +201,7 @@ function uk(){
     about = "About (new)"
     contact = "Contact me"
     documents = "Documents"
+    articles = "Articles"
     academia = "Academia"
     downloads = "Downloads"
     techDocs = "Technology Guides"
@@ -288,6 +295,9 @@ function desktopMB(lang){
     document.write(documents)
     document.write('</a>\
                    <div class="dropdown-content">\
+                   <a href="http://documents.gunner.online/articles">')
+    document.write(articles)
+    document.write('</a>\
                    <a href="')
     document.write(engRedirect)
     document.write('downloads">')
