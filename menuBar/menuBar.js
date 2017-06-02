@@ -296,9 +296,9 @@ function desktopMB(lang){
     document.write('</a>\
                    <div class="dropdown-content">\')
     /*document.write('<a href="http://documents.gunner.online/articles">')
-    document.write(articles)*/
-    document.write('</a>\
-                   <a href="')
+    document.write(articles)
+    document.write('</a>')*/
+    document.write('<a href="')
     document.write(engRedirect)
     document.write('downloads">')
     document.write(downloads)
