@@ -42,8 +42,8 @@ function footer(type){
     else if (type === "media"){
         document.write('</div>\
                        <div id="category_border" id="footer" class="video">\
-                       <span id="contact">All media is Gunner Family 1995-2017 unless stated otherwise</span>\
-                       <a class="footer_contact" href="https://www.gunner.online/contact">Contact Sebastian</a>\
+                       <span id="contact">Gunner 2017</span>\
+                       <a class="footer_contact" href="https://www.gunner.online/contact">Contact Me</a>\
                        </div>\
                        ')
         console.log("The media page footer has been loaded and applied");
