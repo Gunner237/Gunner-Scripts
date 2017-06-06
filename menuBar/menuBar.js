@@ -325,7 +325,7 @@ function desktopMB(lang){
                    <div class="dropdown-content">\
                    <a href="')
     document.write(engRedirect)
-    document.write('numberGuesserLatest">')
+    document.write('numberGuesser">')
     document.write(numberGuesser)
     document.write('</a>\
                    <a href="')
@@ -335,7 +335,7 @@ function desktopMB(lang){
     document.write('</a>\
                    <a href="')
     document.write(engRedirect)
-    document.write('rockPaperScissorsLatest">')
+    document.write('rockPaperScissors">')
     document.write(rockPaperScissors)
     document.write('</a>\
                    </div>\
