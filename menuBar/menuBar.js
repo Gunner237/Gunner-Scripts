@@ -9,14 +9,15 @@ function hasher2(){
 }
 function language(){
     var language = prompt("Please type the two letter country code","en")
-    if (language == "en"){
+    if (language == "en" || language == "test"){
         window.location.href = "https://www.gunner.online"
     }
-    
     else if (language == "de"){
         window.location.href = "https://de.gunner.online"
     }
-    
+    else if (language == "De"){
+        window.location.href = "https://de.gunner.online"
+    }
     else if (language == "fr"){
         window.location.href = "https://fr.gunner.online"
     }
