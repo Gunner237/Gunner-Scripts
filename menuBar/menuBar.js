@@ -9,7 +9,10 @@ function hasher2(){
 }
 function language(){
     var language = prompt("Please type the two letter country code","en")
-    if (language == "en" || language == "En" || language == "de" || language == "De" || language == "fr" || language == "Fr" || language == "es" || language == "Es" || language == "th" || language == "Th" || language == "la" || language == "La"){
+    if (language == "en" || language == "En"){
+        window.location.href = "https://www.gunner.online"
+    }
+    else if(language == "de" || language == "De" || language == "fr" || language == "Fr" || language == "es" || language == "Es" || language == "th" || language == "Th" || language == "la" || language == "La"){
         window.location.href = "https://"+language+".gunner.online"
     }
     else{
@@ -177,7 +180,7 @@ function uk(){
     console.warn("Page language not recognised")
     prefix = "www"
     homepage = "Homepage"
-    about = "About (new)"
+    about = "About"
     contact = "Contact me"
     documents = "Documents"
     articles = "Articles"
@@ -191,7 +194,7 @@ function uk(){
     media = "Media"
     photoGallery = "Photo Gallery"
     videoGallery = "Video Gallery"
-    tools = "Tools//Utilities"
+    tools = "Tools/Utilities"
     primeFinder = "Prime Finder"
     usefulLinks = "Useful Websites"
     ytChannel = "YouTube Channel"
