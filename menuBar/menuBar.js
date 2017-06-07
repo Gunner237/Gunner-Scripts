@@ -9,31 +9,9 @@ function hasher2(){
 }
 function language(){
     var language = prompt("Please type the two letter country code","en")
-    if (language == "en" || language == "test"){
-        window.location.href = "https://www.gunner.online"
+    if (language == "en" || language == "En" || language == "de" || language == "De" || language == "fr" || language == "Fr" || language == "es" || language == "Es" || language == "th" || language == "Th" || language == "la" || language == "La"){
+        window.location.href = "https://"+language+".gunner.online"
     }
-    else if (language == "de"){
-        window.location.href = "https://de.gunner.online"
-    }
-    else if (language == "De"){
-        window.location.href = "https://de.gunner.online"
-    }
-    else if (language == "fr"){
-        window.location.href = "https://fr.gunner.online"
-    }
-    
-    else if (language == "es"){
-        window.location.href = "https://es.gunner.online"
-    }
-    
-    else if (language == "th"){
-        window.location.href = "https://th.gunner.online"
-    }
-    
-    else if (language == "la"){
-        window.location.href = "https://la.gunner.online"
-    }
-    
     else{
         alert("Code "+language+" not recognised. Options: en(glish), de(utsch), fr(ancais), es(panol), th(ai), la(tin)")
         language()
