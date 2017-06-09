@@ -252,6 +252,9 @@ else {
     current = current + 1
     console.log("Menubar script located ("+current+"/"+total+")")
 }
+    document.write('<script src="https://scripts.gunner.online/removeLaunchAnimations.js"></script>');
+    
+    
 if (current != total){
     console.error("Error 004: Script count mismatch. Not all scripts may be loaded. Loading "+current+" out of "+total+" scripts")
 }
