@@ -343,6 +343,24 @@ function desktopMB(lang){
                    </div>\
                    </li>\
                    <li class="dropdown">\
+                   <a href="https://progsoc.gunner.online/"')
+    if (localStorage.directory == "progsoc"){
+        document.write('class = "active">')
+    }
+    else{
+        document.write('class="dropbtn">')
+    }
+    document.write(progSoc)
+    document.write('</a>\
+                   <div class="dropdown-content">\
+                   <a href="https://progsoc.gunner.online/html">HTML (SG)</a>\
+                   <a href="http://www.eclecticon.info/test1.htm">HTML (AF)</a>\
+                   <a href="https://progsoc.gunner.online/converter">Speed converter</a>\
+                   <a href="https://progsoc.gunner.online/textReverser">Text Reverser</a>\
+                   </a>\
+                   </div>\
+                   </li>\
+                   <li class="dropdown">\
                    <a href="')
     document.write(engRedirect)
     document.write('tools" ')
@@ -393,26 +411,7 @@ function desktopMB(lang){
     document.write(ytChannel)
     document.write('</a>\
                    </div>\
-                   </li>\
-                   <li class="dropdown">\
-                   <a href="https://progsoc.gunner.online/"')
-    if (localStorage.directory == "progsoc"){
-        document.write('class = "active">')
-    }
-    else{
-        document.write('class="dropbtn">')
-    }
-    document.write(progSoc)
-    document.write('</a>\
-                   <div class="dropdown-content">\
-                   <a href="https://progsoc.gunner.online/html">HTML (SG)</a>\
-                   <a href="http://www.eclecticon.info/test1.htm">HTML (AF)</a>\
-                   <a href="https://progsoc.gunner.online/converter">Speed converter</a>\
-                   <a href="https://progsoc.gunner.online/textReverser">Text Reverser</a>\
-                   </a>\
-                   </div>\
-                   </li>\
-                   ');
+                   </li>')
     document.write('<li style="float:right" class="dropdown"><a id = username class="dropbtn" href="https://')
     document.write(prefix)
     document.write('.gunner.online">')
