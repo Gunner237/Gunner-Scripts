@@ -278,8 +278,8 @@ function desktopMB(lang){
     document.write('</a>\
                    <div class="dropdown-content">')
     /*document.write('<a href="http://documents.gunner.online/articles">')
-    document.write(articles)
-    document.write('</a>')*/
+     document.write(articles)
+     document.write('</a>')*/
     document.write('<a href="')
     document.write(engRedirect)
     document.write('downloads">')
@@ -309,11 +309,6 @@ function desktopMB(lang){
     document.write(engRedirect)
     document.write('numberGuesser">')
     document.write(numberGuesser)
-    document.write('</a>\
-                   <a href="')
-    document.write(engRedirect)
-    document.write('piFinder">')
-    document.write(piFinder)
     document.write('</a>\
                    <a href="')
     document.write(engRedirect)
@@ -360,8 +355,12 @@ function desktopMB(lang){
     document.write(tools)
     document.write('</a>\
                    <div class="dropdown-content">\
-                   ')
-    document.write('<a href="')
+                   <a href="')
+    document.write(engRedirect)
+    document.write('piFinder">')
+    document.write(piFinder)
+    document.write('</a>\
+                   <a href="')
     document.write(engRedirect)
     document.write('primeFinder">')
     document.write(primeFinder)
