@@ -403,7 +403,8 @@ function desktopMB(lang){
                    <a href="https://www.bbc.co.uk">BBC</a>\
                    <a href="https://www.dropbox.com/login/">Dropbox</a>\
                    <a href="https://www.linustechtips.com/main">LinusTechTips</a>\
-                   <a href="https://portal.office365.com">Outlook Online</a>\
+                   <a href="https://mail.gunner.online">Outlook Online</a>\
+                   <a href="https://uk.pcpartpicker.com/user/SftGunner23/saved/">PcPartPicker</a>\
                    <a href="https://www.synology.co.uk">Synology</a>\
                    <a href="https://www.wolframalpha.com">Wolfram Alpha</a>\
                    <a href="https://www.youtube.com/feed/subscriptions">Youtube</a>\
