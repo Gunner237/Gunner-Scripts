@@ -398,17 +398,17 @@ function desktopMB(lang){
     document.write(usefulLinks)
     document.write('</a>\
                    <div class="dropdown-content">\
-                   <a href="https://www.google.co.uk">Google</a>\
-                   <a href="https://www.apple.co.uk">Apple</a>\
-                   <a href="https://www.bbc.co.uk">BBC</a>\
-                   <a href="https://www.dropbox.com/login/">Dropbox</a>\
-                   <a href="https://www.linustechtips.com/main">LinusTechTips</a>\
+                   <a href="https://www.gunner.online/redirect#google.co.uk">Google</a>\
+                   <a href="https://www.gunner.online/redirect#apple.co.uk">Apple</a>\
+                   <a href="https://www.gunner.online/redirect#bbc.co.uk">BBC</a>\
+                   <a href="https://www.gunner.online/redirect#dropbox.com/login/">Dropbox</a>\
+                   <a href="https://www.gunner.online/redirect#linustechtips.com/main">LinusTechTips</a>\
                    <a href="https://mail.gunner.online">Outlook Online</a>\
-                   <a href="https://uk.pcpartpicker.com/user/SftGunner23/saved/">PcPartPicker</a>\
-                   <a href="https://www.synology.co.uk">Synology</a>\
-                   <a href="https://www.wolframalpha.com">Wolfram Alpha</a>\
-                   <a href="https://www.youtube.com/feed/subscriptions">Youtube</a>\
-                   <a href="https://www.youtube.com/channel/UCicjrjHFJtrN7Gg9OlLG7dg">')
+                   <a href="https://www.gunner.online/redirect#pcpartpicker.com/user/SftGunner23/saved/">PcPartPicker</a>\
+                   <a href="https://www.gunner.online/redirect#synology.co.uk">Synology</a>\
+                   <a href="https://www.gunner.online/redirect#wolframalpha.com">Wolfram Alpha</a>\
+                   <a href="https://www.gunner.online/redirect#youtube.com/feed/subscriptions">Youtube</a>\
+                   <a href="https://www.gunner.online/redirect#youtube.com/channel/UCicjrjHFJtrN7Gg9OlLG7dg">')
     document.write(ytChannel)
     document.write('</a>\
                    </div>\
