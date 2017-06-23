@@ -343,24 +343,6 @@ function desktopMB(lang){
                    </div>\
                    </li>\
                    <li class="dropdown">\
-                   <a href="https://progsoc.gunner.online/"')
-    if (localStorage.directory == "progsoc"){
-        document.write('class = "active">')
-    }
-    else{
-        document.write('class="dropbtn">')
-    }
-    document.write(progSoc)
-    document.write('</a>\
-                   <div class="dropdown-content">\
-                   <a href="https://progsoc.gunner.online/html">HTML (SG)</a>\
-                   <a href="http://www.eclecticon.info/test1.htm">HTML (AF)</a>\
-                   <a href="https://progsoc.gunner.online/converter">Speed converter</a>\
-                   <a href="https://progsoc.gunner.online/textReverser">Text Reverser</a>\
-                   </a>\
-                   </div>\
-                   </li>\
-                   <li class="dropdown">\
                    <a href="')
     document.write(engRedirect)
     document.write('tools" ')
@@ -405,6 +387,7 @@ function desktopMB(lang){
                    <a href="https://redirect.gunner.online/#linustechtips.com/main">LinusTechTips</a>\
                    <a href="https://mail.gunner.online">Outlook Online</a>\
                    <a href="https://redirect.gunner.online/#pcpartpicker.com/user/SftGunner23/saved/">PcPartPicker</a>\
+                   <a href="https://redirect.gunner.online/#progsoc.online">ProgSoc</a>\
                    <a href="https://redirect.gunner.online/#synology.co.uk">Synology</a>\
                    <a href="https://redirect.gunner.online/#wolframalpha.com">Wolfram Alpha</a>\
                    <a href="https://redirect.gunner.online/#youtube.com/feed/subscriptions">Youtube</a>\
