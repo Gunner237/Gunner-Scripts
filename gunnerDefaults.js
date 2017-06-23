@@ -45,7 +45,7 @@ function launch(type){
         current = current + 1
         console.log("Google analytics script located ("+current+"/"+total+")")
     }
-    else if (type == "basic") {
+    else if (type == "basic" | type == "lite") {
         total = 3
         document.write('<script src="https://scripts.gunner.online/error.js"></script>');
         current = current + 1
