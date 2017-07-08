@@ -384,6 +384,7 @@ function desktopMB(lang){
                    <a href="https://redirect.gunner.online/#apple.co.uk">Apple</a>\
                    <a href="https://redirect.gunner.online/#bbc.co.uk">BBC</a>\
                    <a href="https://redirect.gunner.online/#dropbox.com/login/">Dropbox</a>\
+                   <a href="https://redirect.gunner.online/#intranet/">Intranet</a>\
                    <a href="https://redirect.gunner.online/#linustechtips.com/main">LinusTechTips</a>\
                    <a href="https://mail.gunner.online">Outlook Online</a>\
                    <a href="https://redirect.gunner.online/#pcpartpicker.com/user/SftGunner23/saved/">PcPartPicker</a>\
