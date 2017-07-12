@@ -3,18 +3,6 @@ var current = 0
 function launch(type){
     document.write('<meta name="robots" content="noindex">');
     console.log("Gunner Website "+type+" scripts initialising...")
-    
-    var currPage = window.location.href
-    
-    // split the string into an array of parts
-    var currPageParts = currPage.split("/");
-    if (spl[0] == "https:") {
-        console.log("HTTPS page detected")
-    }
-    else{
-        console.warn("Page is not HTTPS")
-    }
-    
     if (type == "standard") {
         total = 6
         document.write('<script src="https://scripts.gunner.online/CSS/responsiveCSS.js"></script>');
