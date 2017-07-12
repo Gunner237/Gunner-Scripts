@@ -3,8 +3,6 @@ var current = 0
 function launch(type){
     document.write('<meta name="robots" content="noindex">');
     console.log("Gunner Website "+type+" scripts initialising...")
-    document.write('<script src="https://scripts.gunner.online/pageDetect.js"></script>')
-    console.log("Page Detection script located")
     if (type == "standard") {
         total = 6
         document.write('<script src="https://scripts.gunner.online/CSS/responsiveCSS.js"></script>');
@@ -269,6 +267,9 @@ function launch(type){
         console.log("Menubar script located ("+current+"/"+total+")")
     }
     document.write('<script src="https://scripts.gunner.online/removeLaunchAnimations.js"></script>');
+    console.log("Remove launch animations script located")
+    document.write('<script src="https://scripts.gunner.online/pageDetect.js"></script>')
+    console.log("Page Detection script located")
     
     
     if (current != total){
