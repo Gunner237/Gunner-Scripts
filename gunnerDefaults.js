@@ -3,6 +3,18 @@ var current = 0
 function launch(type){
     document.write('<meta name="robots" content="noindex">');
     console.log("Gunner Website "+type+" scripts initialising...")
+    
+    var currPage = window.location.href
+    
+    // split the string into an array of parts
+    var currPageParts = currPage.split("/");
+    if (spl[0] == "https:") {
+        console.log("HTTPS page detected")
+    }
+    else{
+        console.warn("Page is not HTTPS")
+    }
+    
     if (type == "standard") {
         total = 6
         document.write('<script src="https://scripts.gunner.online/CSS/responsiveCSS.js"></script>');
@@ -44,6 +56,49 @@ function launch(type){
         document.write('<script src="https://scripts.gunner.online/googleAnalytics.js"></script>');
         current = current + 1
         console.log("Google analytics script located ("+current+"/"+total+")")
+        
+        //New code to determine the page prefix and address (along with protocol used)
+        if (window.jQuery) {
+            var currPage = window.location.href
+            console.log("Current page is "+currPage)
+            
+            // split the string into an array of parts
+            var currPageParts = currPage.split("/");
+            console.log("Current page array is "+currPageParts)
+            if (currPageParts[0] == "https:") {
+                console.log("HTTPS page detected")
+                var pageprefix = currPageParts[2].split(".")
+                console.log("page prefix is "+pageprefix[0])
+            }
+            else if (currPageParts[0] == "file:"){
+                console.log("Local page detected")
+                var thingminus1 = $.inArray("Website", currPageParts)
+                var pageprefix = currPageParts[thingminus1+1].split(".")
+                console.log("page prefix is "+pageprefix[0])
+                
+                
+            }
+            else{
+                console.warn("Page is neither HTTPS, nor a file.")
+                var httpstart = $.inArray("http", currPageParts)
+                
+                if (httpstart == -1){
+                    var pageprefix = currPageParts[0].split(".")
+                    console.log("page prefix is "+pageprefix[0])
+                }
+                else if (httpstart == 0){
+                    var pageprefix = currPageParts[2].split(".")
+                    console.log("page prefix is "+pageprefix[0])
+                }
+                else{
+                    console.error("Page prefix could not be determined")
+                }
+            }
+        }
+        else{
+            console.warn("jQuery not loaded")
+        }
+        
     }
     else if (type == "basic" | type == "lite") {
         total = 3
@@ -57,7 +112,7 @@ function launch(type){
         current = current + 1
         console.log("Google analytics script located ("+current+"/"+total+")")
     }
-
+    
     else if (type == "deutsch") {
         total = 6
         document.write('<script src="https://scripts.gunner.online/CSS/responsiveCSS.js"></script>');
@@ -247,32 +302,32 @@ function launch(type){
         console.log("Menubar script located ("+current+"/"+total+")")
     }
     //---------------------NOT FOUND-----------------
-else {
-    total = 4
-    console.warn("Page type could not be found or identified. Type identifier: " + type )
-    //alert("Script type MUST be updated: Page type could not be found or identified. Type identifier: " + type )
-    console.log("Gunner Intranet default scripts initialising...")
-    document.write('<script src="https://scripts.gunner.online/CSS/desktopCSS.js"></script>');
-    current = current + 1
-    console.log("Desktop CSS located ("+current+"/"+total+")")
-    document.write('<script src="https://scripts.gunner.online/jQuery.js"></script>');
-    current = current + 1
-    console.log("jQuery located ("+current+"/"+total+")")
-    document.write('<script src="https://scripts.gunner.online/email.js"></script>');
-    current = current + 1
-    console.log("Email script located ("+current+"/"+total+")")
-    document.write('<script src="https://scripts.gunner.online/menuBar/responsiveMenuBar.js"></script>');
-    current = current + 1
-    console.log("Menubar script located ("+current+"/"+total+")")
-}
+    else {
+        total = 4
+        console.warn("Page type could not be found or identified. Type identifier: " + type )
+        //alert("Script type MUST be updated: Page type could not be found or identified. Type identifier: " + type )
+        console.log("Gunner Intranet default scripts initialising...")
+        document.write('<script src="https://scripts.gunner.online/CSS/desktopCSS.js"></script>');
+        current = current + 1
+        console.log("Desktop CSS located ("+current+"/"+total+")")
+        document.write('<script src="https://scripts.gunner.online/jQuery.js"></script>');
+        current = current + 1
+        console.log("jQuery located ("+current+"/"+total+")")
+        document.write('<script src="https://scripts.gunner.online/email.js"></script>');
+        current = current + 1
+        console.log("Email script located ("+current+"/"+total+")")
+        document.write('<script src="https://scripts.gunner.online/menuBar/responsiveMenuBar.js"></script>');
+        current = current + 1
+        console.log("Menubar script located ("+current+"/"+total+")")
+    }
     document.write('<script src="https://scripts.gunner.online/removeLaunchAnimations.js"></script>');
     
     
-if (current != total){
-    console.error("Error 004: Script count mismatch. Not all scripts may be loaded. Loading "+current+" out of "+total+" scripts")
-}
-else{
-    console.log("All scripts located. Loading "+current+" scripts.")
-}
+    if (current != total){
+        console.error("Error 004: Script count mismatch. Not all scripts may be loaded. Loading "+current+" out of "+total+" scripts")
+    }
+    else{
+        console.log("All scripts located. Loading "+current+" scripts.")
+    }
 }
 //SFTG 2017
