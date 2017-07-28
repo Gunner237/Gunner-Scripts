@@ -1,7 +1,6 @@
 var total = 0
 var current = 0
 function launch(type){
-    document.write('<meta name="robots" content="noindex">');
     console.log("Gunner Website "+type+" scripts initialising...")
     if (type == "standard") {
         total = 6
