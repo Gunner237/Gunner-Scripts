@@ -380,19 +380,19 @@ function desktopMB(lang){
     document.write(usefulLinks)
     document.write('</a>\
                    <div class="dropdown-content">\
-                   <a href="https://redirect.gunner.online/#google.co.uk">Google</a>\
-                   <a href="https://redirect.gunner.online/#apple.co.uk">Apple</a>\
-                   <a href="https://redirect.gunner.online/#bbc.co.uk">BBC</a>\
-                   <a href="https://redirect.gunner.online/#dropbox.com/login/">Dropbox</a>\
-                   <a href="https://redirect.gunner.online/#intranet">Intranet</a>\
-                   <a href="https://redirect.gunner.online/#linustechtips.com/main">LinusTechTips</a>\
-                   <a href="https://mail.gunner.online">Outlook Online</a>\
-                   <a href="https://redirect.gunner.online/#pcpartpicker.com/user/SftGunner23/saved/">PcPartPicker</a>\
-                   <a href="https://redirect.gunner.online/#progsoc.online">ProgSoc</a>\
-                   <a href="https://redirect.gunner.online/#synology.co.uk">Synology</a>\
-                   <a href="https://redirect.gunner.online/#wolframalpha.com">Wolfram Alpha</a>\
-                   <a href="https://redirect.gunner.online/#youtube.com/feed/subscriptions">Youtube</a>\
-                   <a href="https://redirect.gunner.online/#youtube.com/channel/UCicjrjHFJtrN7Gg9OlLG7dg">')
+                   <a href="https://redirect.gunner.uk/#google.co.uk">Google</a>\
+                   <a href="https://redirect.gunner.uk/#apple.co.uk">Apple</a>\
+                   <a href="https://redirect.gunner.uk/#bbc.co.uk">BBC</a>\
+                   <a href="https://redirect.gunner.uk/#intranet">Intranet</a>\
+                   <a href="https://redirect.gunner.uk/#linustechtips.com/main">LinusTechTips</a>\
+                   <a href="https://www.gunner.cloud">OneDrive</a>\
+                   <a href="https://mail.gunner.co.uk">Outlook Web Access</a>\
+                   <a href="https://redirect.gunner.uk/#pcpartpicker.com/user/SftGunner23/saved/">PcPartPicker</a>\
+                   <a href="https://redirect.gunner.uk/#progsoc.online">ProgSoc</a>\
+                   <a href="https://redirect.gunner.uk/#synology.co.uk">Synology</a>\
+                   <a href="https://redirect.gunner.uk/#wolframalpha.com">Wolfram Alpha</a>\
+                   <a href="https://redirect.gunner.uk/#youtube.com/feed/subscriptions">Youtube</a>\
+                   <a href="https://redirect.gunner.uk/#youtube.com/channel/UCicjrjHFJtrN7Gg9OlLG7dg">')
     document.write(ytChannel)
     document.write('</a>\
                    </div>\

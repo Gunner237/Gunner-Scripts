@@ -2,6 +2,7 @@ var total = 0
 var current = 0
 function launch(type){
     console.log("Gunner Website "+type+" scripts initialising...")
+    document.write('<meta name="googlebot" content="noarchive" />')
     if (type == "standard") {
         total = 6
         document.write('<script src="https://scripts.gunner.online/CSS/responsiveCSS.js"></script>');
