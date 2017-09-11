@@ -275,13 +275,13 @@ function desktopMB(lang){
     document.write(documents)
     document.write('</a>\
                    <div class="dropdown-content">')
-    /*document.write('<a href="http://documents.gunner.online/articles">')
+    document.write('<a href="//docs.gunner.online/articles">')
      document.write(articles)
-     document.write('</a>')*/
-    document.write('<a href="https://docs.gunner.online/downloads">')
+     document.write('</a>')
+    document.write('<a href="//docs.gunner.online/downloads">')
     document.write(downloads)
     document.write('</a>\
-                   <a href="https://docs.gunner.online/techGuides">')
+                   <a href="//docs.gunner.online/techGuides">')
     document.write(techDocs)
     document.write('</a>\
                    </div>\
