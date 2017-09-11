@@ -265,7 +265,7 @@ function desktopMB(lang){
     document.write('</div>\
                    </li>\
                    <li class="dropdown">\
-                   <a href="//docs.gunner.online/"')
+                   <a href="https://docs.gunner.online/"')
     if (localStorage.directory == "documents"){
         document.write('class = "active">')
     }
@@ -278,9 +278,7 @@ function desktopMB(lang){
     /*document.write('<a href="http://documents.gunner.online/articles">')
      document.write(articles)
      document.write('</a>')*/
-    document.write('<a href="')
-    document.write(engRedirect)
-    document.write('downloads">')
+    document.write('<a href="https://docs.gunner.online/downloads">')
     document.write(downloads)
     document.write('</a>\
                    <a href="https://docs.gunner.online/techGuides">')
