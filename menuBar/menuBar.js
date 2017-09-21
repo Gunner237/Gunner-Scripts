@@ -374,7 +374,7 @@ function desktopMB(lang){
     document.write(usefulLinks)
     document.write('</a>\
                    <div class="dropdown-content">\
-                   <a href="http://redirect.gunner.uk/?google.co.uk">Google</a>\
+                   <a href="http://www.google.co.uk">Google</a>\
                    <a href="http://redirect.gunner.uk/?apple.co.uk">Apple</a>\
                    <a href="http://redirect.gunner.uk/?bbc.co.uk">BBC</a>\
                    <a href="http://redirect.gunner.uk/?eclecticon.info">Dr French\'s Eclecticon</a>\
@@ -390,9 +390,9 @@ function desktopMB(lang){
     <li class="dropdown">\
     <a class="dropbtn">Affiliated Sites</a>\
                    <div class="dropdown-content">\
-                   <a href="http://redirect.gunner.uk/?intranet">Intranet</a>\
-                   <a href="http://redirect.gunner.uk/?progsoc.online">ProgSoc</a>\
-                   <a href="http://redirect.gunner.uk/?youtube.com/channel/UCicjrjHFJtrN7Gg9OlLG7dg">')
+                   <a href="http://intranet.gunner.uk">Intranet</a>\
+                   <a href="http://www.progsoc.online">ProgSoc</a>\
+                   <a href="http://www.youtube.com/channel/UCicjrjHFJtrN7Gg9OlLG7dg">')
     document.write(ytChannel)
     document.write('</a>\
                    </div>\
@@ -451,9 +451,7 @@ function mobileMB(lang){
                        <a href="https://www.gunner.online">')
         document.write(homepage)
         document.write('</a>\
-                       <a href="')
-        document.write(engRedirect)
-        document.write('documents">')
+                       <a href="https://docs.gunner.online/">')
         document.write(documents)
         document.write('</a>\
                        <a href="')
