@@ -351,7 +351,7 @@ function desktopMB(lang){
                    <div class="dropdown-content">\
                    <a href="')
     document.write(engRedirect)
-    document.write('baseConverter">')
+    document.write('/tools/baseConverter">')
     document.write('Base Converter')
     document.write('</a>\
                    <a href="')
