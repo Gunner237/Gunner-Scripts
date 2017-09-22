@@ -1,3 +1,4 @@
+/*Code from https://stackoverflow.com/a/36640126*/
 function copyToClipboard(containerid) {
     if (document.selection) {
         var range = document.body.createTextRange();
@@ -10,5 +11,5 @@ function copyToClipboard(containerid) {
         range.selectNode(document.getElementById(containerid));
         window.getSelection().addRange(range);
         document.execCommand("Copy");
-        alert("text copied")
+        //alert("text copied")
     }}
