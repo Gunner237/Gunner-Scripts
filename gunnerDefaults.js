@@ -4,7 +4,7 @@ function launch(type){
     console.log("Gunner Website "+type+" scripts initialising...")
     document.write('<meta name="googlebot" content="noarchive" />')
     if (type == "standard") {
-        total = 6
+        total = 7
         document.write('<script src="https://scripts.gunner.online/CSS/responsiveCSS.js"></script>');
         current = current + 1
         console.log("responsive CSS located ("+current+"/"+total+")")
@@ -23,6 +23,9 @@ function launch(type){
         document.write('<script src="https://scripts.gunner.online/googleAnalytics.js"></script>');
         current = current + 1
         console.log("Google analytics script located ("+current+"/"+total+")")
+        document.write('<script src="https://scripts.gunner.online/copyToClipboard.js"></script>');
+        current = current + 1
+        console.log("Clipboard script located ("+current+"/"+total+")")
     }
     else if (type == "standard-prefix") {
         total = 6
