@@ -352,7 +352,12 @@ function desktopMB(lang){
                    <a href="')
     document.write(engRedirect)
     document.write('baseConverter">')
-    document.write('Base Converter')
+    document.write('ASCII Base Converter')
+    document.write('</a>\
+                   <a href="')
+    document.write(engRedirect)
+    document.write('baseConverter_num">')
+    document.write('Numeric Base Converter')
     document.write('</a>\
                    <a href="')
     document.write(engRedirect)
