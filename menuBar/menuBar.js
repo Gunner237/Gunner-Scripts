@@ -239,8 +239,8 @@ function desktopMB(lang){
     
     
     var executed = "none";
-    document.write('<ul>\
-                   <li class="dropdown">\
+    document.write('<ul class="mb">\
+                   <li class="mb dropdown">\
                    <a href="https://www.gunner.online/"\
                    ')
     if (localStorage.directory == "home"){
@@ -264,7 +264,7 @@ function desktopMB(lang){
     document.write('</a>')
     document.write('</div>\
                    </li>\
-                   <li class="dropdown">\
+                   <li class="mb dropdown">\
                    <a href="https://docs.gunner.online/"')
     if (localStorage.directory == "documents"){
         document.write('class = "active">')
@@ -286,7 +286,7 @@ function desktopMB(lang){
     document.write('</a>\
                    </div>\
                    </li>\
-                   <li class="dropdown">\
+                   <li class="mb dropdown">\
                    <a href="')
     document.write(engRedirect)
     document.write('games" ')
@@ -311,7 +311,7 @@ function desktopMB(lang){
     document.write('</a>\
                    </div>\
                    </li>\
-                   <li class="dropdown">\
+                   <li class="mb dropdown">\
                    <a href="')
     document.write(engRedirect)
     document.write('media"')
@@ -336,7 +336,7 @@ function desktopMB(lang){
     document.write('</a>\
                    </div>\
                    </li>\
-                   <li class="dropdown">\
+                   <li class="mb dropdown">\
                    <a href="')
     document.write(engRedirect)
     document.write('tools" ')
@@ -371,7 +371,7 @@ function desktopMB(lang){
     document.write('</a>\
                    </div>\
                    </li>\
-                   <li class="dropdown">\
+                   <li class="mb dropdown">\
                    <a href="')
     document.write(engRedirect)
     document.write('externalLinks"')
@@ -397,7 +397,7 @@ function desktopMB(lang){
                    <a href="http://redirect.gunner.uk/?youtube.com/feed/subscriptions">Youtube</a>\
                    </div>\
                    </li>\
-    <li class="dropdown">\
+    <li class="mb dropdown">\
     <a class="dropbtn">Affiliated Sites</a>\
                    <div class="dropdown-content">\
                    <a href="http://intranet.gunner.uk">Intranet</a>\
@@ -455,8 +455,8 @@ function mobileMB(lang){
         uk()
     }
     if (onerun < 1){
-        document.write('<ul>\
-                       <li class="dropdown"><a class="dropbtn" class = "menubar" href="#">&#9776;</a>\
+        document.write('ul class="mb">\
+                       <li class="mb dropdown"><a class="dropbtn" class = "menubar" href="#">&#9776;</a>\
                        <div class="dropdown-content">\
                        <a href="https://www.gunner.online">')
         document.write(homepage)
