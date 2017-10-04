@@ -455,7 +455,7 @@ function mobileMB(lang){
         uk()
     }
     if (onerun < 1){
-        document.write('ul class="mb">\
+        document.write('<ul class="mb">\
                        <li class="mb dropdown"><a class="dropbtn" class = "menubar" href="#">&#9776;</a>\
                        <div class="dropdown-content">\
                        <a href="https://www.gunner.online">')
