@@ -361,6 +361,11 @@ function desktopMB(lang){
     document.write('</a>\
                    <a href="')
     document.write(engRedirect)
+    document.write('germanIrregVerb">')
+    document.write('German Verb tester')
+    document.write('</a>\
+                   <a href="')
+    document.write(engRedirect)
     document.write('piFinder">')
     document.write(piFinder)
     document.write('</a>\
