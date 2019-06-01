@@ -6,6 +6,10 @@ function lightmode(manualmode=true){
     $("#searchsubmit").removeClass("btn-secondary border-info");
     $("nav").removeClass("navbardarkblue");
     $("nav").addClass("navbarlightblue");
+    $("a.dark-link").addClass("light-link");
+    $("a.dark-link").removeClass("dark-link");
+    $("svg.dark-svg").addClass("light-svg");
+    $("svg.dark-svg").removeClass("dark-svg");
     $(".card").removeClass("bg-dark border-secondary text-white");
     $(".card-header").removeClass("bg-secondary  border-secondary text-white");
     $(".table").removeClass("table-dark");
@@ -31,6 +35,10 @@ function darkmode(manualmode=true){
     $("#searchsubmit").addClass("btn-secondary border-info");
     $("nav").addClass("navbardarkblue");
     $("nav").removeClass("navbarlightblue");
+    $("a.light-link").addClass("dark-link");
+    $("a.light-link").removeClass("light-link");
+    $("svg.light-svg").addClass("dark-svg");
+    $("svg.light-svg").removeClass("light-svg");
     $(".card:not(#statuscard)").addClass("bg-dark border-secondary text-white");
     $(".card-header:not(#statuscard-header)").addClass("bg-secondary border-secondary text-white");
     $(".table").addClass("table-dark");
@@ -81,7 +89,7 @@ function automode(io=true){
 }
 
 //OPTIONAL - Add CSS for custom coloured menubars
-var css = 'nav.navbarlightblue { background-color: #003399; } nav.navbardarkblue { background-color: #003366; }',
+var css = 'nav.navbarlightblue { background-color: #003399; } nav.navbardarkblue { background-color: #003366; }a.dark-link {color:lightgrey;}a.dark-link:hover {color:steelblue;}svg.light-svg{fill:#586069}svg.dark-svg{fill:#A79F96}',
 head = document.head || document.getElementsByTagName('head')[0],
 style = document.createElement('style');
 
