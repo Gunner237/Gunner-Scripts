@@ -3,6 +3,8 @@ function lightmode(manualmode=true){
     $("input").removeClass("bg-secondary border-dark text-light");
     $("textarea").removeClass("bg-secondary border-dark text-light");
     $(".table").removeClass("table-dark");
+    $(".modal-content").removeClass("bg-dark");
+    $(".close").removeClass("text-light");
     $("#gsearch").removeClass("bg-secondary border-primary");
     $("#searchsubmit").removeClass("btn-secondary border-info");
     $("nav").removeClass("navbardarkblue");
@@ -33,6 +35,8 @@ function darkmode(manualmode=true){
     $("input").addClass("bg-secondary border-dark text-light");
     $("textarea").addClass("bg-secondary border-dark text-light");
     $(".table").addClass("table-dark");
+    $(".modal-content").addClass("bg-dark");
+    $(".close").addClass("text-light");
     $("#gsearch").addClass("bg-secondary border-primary");
     $("#searchsubmit").addClass("btn-secondary border-info");
     $("nav").addClass("navbardarkblue");
