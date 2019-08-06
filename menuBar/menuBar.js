@@ -453,7 +453,7 @@ function desktopMB(lang){
                    history.replaceState( {}, "Title of the page", front[0]+qs+window.location.hash);\
                    }\
                    </script>\
-                   <div id="notifbar" class="text" info=""><b>The Gunner Website will soon become unavailable. Click <a href="/depreciation.html">here</a> to find out more');
+                   <div id="notifbar" class="text" info=""><b>The Gunner Website will soon become unavailable. Click <a href="https://beta.sebg.uk/blog/2019/08/05/www-gunner-online-depreciation">here</a> to find out more');
     if (window.depreciationurl){
         document.write(', or <a href="'+window.depreciationurl+'">here</a> to view the updated version of this page');
     }
@@ -555,7 +555,7 @@ function mobileMB(lang){
                        history.replaceState( {}, "Title of the page", front[0]+qs+window.location.hash);\
                        }\
                        </script>\
-                       <div id="notifbar" class="text" info=""><b>The Gunner Website will soon become unavailable. Click <a href="/depreciation.html">here</a> to find out more');
+                       <div id="notifbar" class="text" info=""><b>The Gunner Website will soon become unavailable. Click <a href="https://beta.sebg.uk/blog/2019/08/05/www-gunner-online-depreciation">here</a> to find out more');
         if (window.depreciationurl){
             document.write(', or <a href="'+window.depreciationurl+'">here</a> to view the updated version of this page');
         }
