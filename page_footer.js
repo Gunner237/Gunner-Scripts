@@ -2,7 +2,7 @@ function footer(type){
     if (type === "standard"){
         document.write('</div>\
                        <div id="category_border" id="footer" class="video">\
-                       <span id="contact"> SFTG 2017</span>\
+                       <span id="contact"> SFTG 2017-2019</span>\
                        <a class="footer_contact" href="https://www.gunner.online/contact">Contact Me</a>\
                        </div>\
                        ')
@@ -12,7 +12,7 @@ function footer(type){
     else if (type === "deutsch"){
         document.write('</div>\
                        <div id="category_border" id="footer" class="video">\
-                       <span id="contact"> SFTG 2017</span>\
+                       <span id="contact"> SFTG 2017-2019</span>\
                        <a class="footer_contact" href="https://www.gunner.online/contact">Kontaktieren Sie mich (en-gb)</a>\
                        </div>\
                        ')
@@ -22,7 +22,7 @@ function footer(type){
     else if (type === "thai"){
         document.write('</div>\
                        <div id="category_border" id="footer" class="video">\
-                       <span id="contact"> SFTG 2017</span>\
+                       <span id="contact"> SFTG 2560-2562</span>\
                        <a class="footer_contact" href="https://www.gunner.online/contact">&#3605;&#3636;&#3604;&#3605;&#3656;&#3629;&#3593;&#3633;&#3609; (en-gb)</a>\
                        </div>\
                        ')
@@ -32,7 +32,7 @@ function footer(type){
     else if (type === "beta"){
         document.write('</div>\
                        <div id="category_border" id="footer" class="video">\
-                       <span id="contact"> SFTG 2017</span>\
+                       <span id="contact"> SFTG 2017-2019</span>\
                        <a class="footer_contact" href="https://www.gunner.online/contact">Contact Me</a>\
                        </div>\
                        ')
@@ -42,7 +42,7 @@ function footer(type){
     else if (type === "media"){
         document.write('</div>\
                        <div id="category_border" id="footer" class="video">\
-                       <span id="contact">Gunner 2017</span>\
+                       <span id="contact">Gunner 2017-2019</span>\
                        <a class="footer_contact" href="https://www.gunner.online/contact">Contact Me</a>\
                        </div>\
                        ')
@@ -51,7 +51,7 @@ function footer(type){
     else if (type === "2016"){
         document.write('</div>\
                        <div id="category_border" id="footer" class="video">\
-                       <span id="contact"> SFTG 2016</span>\
+                       <span id="contact"> SFTG 2016-2019</span>\
                        <a class="footer_contact" href="https://www.gunner.online/contact">Contact Me</a>\
                        </div>\
                        ')
@@ -60,7 +60,7 @@ function footer(type){
     else if (type === "progsoc"){
         document.write('</div>\
                        <div id="category_border" id="footer" class="video">\
-                       <span id="contact">Programming Society 2017</span>\
+                       <span id="contact">Programming Society 2017-2019</span>\
                        </div>\
                        ')
         console.log("The progsoc page footer has been loaded and applied");
@@ -68,7 +68,7 @@ function footer(type){
     else {
         document.write('</div>\
                        <div id="category_border" id="footer" class="video">\
-                       <span id="contact">SFTG 2017</span>\
+                       <span id="contact">SFTG 2017-2019</span>\
                        <a class="footer_contact" href="https://www.gunner.online/contact">Contact Me</a>\
                        </div>\
                        ')
