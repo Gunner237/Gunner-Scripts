@@ -428,6 +428,37 @@ function desktopMB(lang){
                    </li>\
                    </ul>\
                    ');
+    document.write('<!--DEPRECIATION HTML-->\
+                   <style>\
+                   #notifbar{\
+                   background:yellow;\
+                   color:black;\
+                   width:100%;\
+                   padding:10px 7px 10px 5px\
+                   }\
+                   #notifbarX{\
+                   float:right;\
+                   font-size:1.1em;\
+                   color:black;\
+                   text-decoration:none;\
+                   }\
+                   </style>\
+                   <script>\
+                   function hidenotifbar(){\
+                   $("#notifbar").slideUp();\
+                   }\
+                   var qs = "?";\
+                   curpage = window.location.href\
+                   var front = curpage.split("?");\
+                   history.replaceState( {}, "Title of the page", front[0]+qs+window.location.hash);\
+                   }\
+                   </script>\
+                   <div id="notifbar" class="text" info=""><b>The Gunner Website will soon become unavailable. Click <a href="/depreciation.html">here</a> to find out more');
+    if (window.depreciationurl){
+        document.write(', or <a href="'+window.depreciationurl+'">here</a> to view the updated version of this page');
+    }
+    document.write('.<a id="notifbarX" class="yesscript" onclick="return hidenotifbar()" href="javascript:">&times;</a></b></div>\
+                   <!--/DEPRECIATION HTML-->');
     console.log("Desktop version of the Menu Bar has been loaded and applied.")
 }
 var onerun = 0
@@ -499,6 +530,37 @@ function mobileMB(lang){
                        </li>\
                        </ul>\
                        ');
+        document.write('<!--DEPRECIATION HTML-->\
+                       <style>\
+                       #notifbar{\
+                       background:yellow;\
+                       color:black;\
+                       width:100%;\
+                       padding:10px 7px 10px 5px\
+                       }\
+                       #notifbarX{\
+                       float:right;\
+                       font-size:1.1em;\
+                       color:black;\
+                       text-decoration:none;\
+                       }\
+                       </style>\
+                       <script>\
+                       function hidenotifbar(){\
+                       $("#notifbar").slideUp();\
+                       }\
+                       var qs = "?";\
+                       curpage = window.location.href\
+                       var front = curpage.split("?");\
+                       history.replaceState( {}, "Title of the page", front[0]+qs+window.location.hash);\
+                       }\
+                       </script>\
+                       <div id="notifbar" class="text" info=""><b>The Gunner Website will soon become unavailable. Click <a href="/depreciation.html">here</a> to find out more');
+        if (window.depreciationurl){
+            document.write(', or <a href="'+window.depreciationurl+'">here</a> to view the updated version of this page');
+        }
+        document.write('.<a id="notifbarX" class="yesscript" onclick="return hidenotifbar()" href="javascript:">&times;</a></b></div>\
+                       <!--/DEPRECIATION HTML-->');
         console.log("Mobile version of the Menu Bar has been loaded and applied.")
         console.log("onerun is "+onerun)
         onerun = onerun + 1
