@@ -7,14 +7,14 @@ function lightmode(manualmode=true){
     $(".close").removeClass("text-light");
     $("#gsearch").removeClass("bg-secondary border-primary");
     $("#searchsubmit").removeClass("btn-secondary border-info");
-    $("nav").removeClass("navbardarkblue");
-    $("nav").addClass("navbarlightblue");
+    $("nav.navbar").removeClass("navbardarkblue");
+    $("nav.navbar").addClass("navbarlightblue");
     $("a.dark-link").addClass("light-link");
     $("a.dark-link").removeClass("dark-link");
     $("svg.dark-svg").addClass("light-svg");
     $("svg.dark-svg").removeClass("dark-svg");
     $(".card").removeClass("bg-dark border-secondary text-white");
-    $(".card-header").removeClass("bg-secondary  border-secondary text-white");
+    $(".card-header").removeClass("bg-secondary border-secondary text-white");
     $(".table").removeClass("table-dark");
     $(".masthead").addClass("mastheadbg");
     $("#searchsubmit").addClass("btn-primary");
@@ -39,8 +39,8 @@ function darkmode(manualmode=true){
     $(".close").addClass("text-light");
     $("#gsearch").addClass("bg-secondary border-primary");
     $("#searchsubmit").addClass("btn-secondary border-info");
-    $("nav").addClass("navbardarkblue");
-    $("nav").removeClass("navbarlightblue");
+    $("nav.navbar").addClass("navbardarkblue");
+    $("nav.navbar").removeClass("navbarlightblue");
     $("a.light-link").addClass("dark-link");
     $("a.light-link").removeClass("light-link");
     $("svg.light-svg").addClass("dark-svg");
