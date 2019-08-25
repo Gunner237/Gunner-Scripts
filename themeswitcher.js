@@ -1,6 +1,7 @@
 function lightmode(manualmode=true){
     $("body").removeClass("bg-dark text-white");
     $("input").removeClass("bg-secondary border-dark text-light");
+    $("code").removeClass("text-dark");
     $("textarea").removeClass("bg-secondary border-dark text-light");
     $(".table").removeClass("table-dark");
     $(".modal-content").removeClass("bg-dark");
@@ -33,6 +34,7 @@ function lightmode(manualmode=true){
 function darkmode(manualmode=true){
     $("body").addClass("bg-dark text-white");
     $("input").addClass("bg-secondary border-dark text-light");
+    $("code").addClass("text-dark");
     $("textarea").addClass("bg-secondary border-dark text-light");
     $(".table").addClass("table-dark");
     $(".modal-content").addClass("bg-dark");
