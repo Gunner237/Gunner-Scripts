@@ -6,6 +6,7 @@ function lightmode(manualmode=true){
     $(".table").removeClass("table-dark");
     $(".modal-content").removeClass("bg-dark");
     $(".close").removeClass("text-light");
+    $(".footer").removeClass("footer-dark");
     $("#gsearch").removeClass("bg-secondary border-primary");
     $("#searchsubmit").removeClass("btn-secondary border-info");
     $("nav.navbar").removeClass("navbardarkblue");
@@ -39,6 +40,7 @@ function darkmode(manualmode=true){
     $(".table").addClass("table-dark");
     $(".modal-content").addClass("bg-dark");
     $(".close").addClass("text-light");
+    $(".footer").addClass("footer-dark");
     $("#gsearch").addClass("bg-secondary border-primary");
     $("#searchsubmit").addClass("btn-secondary border-info");
     $("nav.navbar").addClass("navbardarkblue");
@@ -97,7 +99,7 @@ function automode(io=true){
 }
 
 //OPTIONAL - Add CSS for custom coloured menubars
-var css = 'nav.navbarlightblue { background-color: #003399; } nav.navbardarkblue { background-color: #003366; }a.dark-link {color:lightgrey;}a.dark-link:hover {color:steelblue;}svg.light-svg{fill:#586069}svg.dark-svg{fill:#A79F96}',
+var css = 'nav.navbarlightblue { background-color: #003399; } nav.navbardarkblue { background-color: #003366; }a.dark-link {color:lightgrey;}a.dark-link:hover {color:steelblue;}svg.light-svg{fill:#586069}svg.dark-svg{fill:#A79F96}footer.footer-dark{background-color: #222}',
 head = document.head || document.getElementsByTagName('head')[0],
 style = document.createElement('style');
 
