@@ -1,6 +1,6 @@
 function lightmode(manualmode=true){
     $("body").removeClass("bg-dark text-white");
-    $("input").removeClass("bg-secondary border-dark text-light");
+    $("input").removeClass("bg-secondary border-dark text-light darkplaceholder");
     $("code").removeClass("text-dark");
     $("textarea").removeClass("bg-secondary border-dark text-light");
     $(".table").removeClass("table-dark");
@@ -34,7 +34,7 @@ function lightmode(manualmode=true){
 
 function darkmode(manualmode=true){
     $("body").addClass("bg-dark text-white");
-    $("input").addClass("bg-secondary border-dark text-light");
+    $("input").addClass("bg-secondary border-dark text-light darkplaceholder");
     $("code").addClass("text-dark");
     $("textarea").addClass("bg-secondary border-dark text-light");
     $(".table").addClass("table-dark");
@@ -99,7 +99,7 @@ function automode(io=true){
 }
 
 //OPTIONAL - Add CSS for custom coloured menubars
-var css = 'nav.navbarlightblue { background-color: #003399; } nav.navbardarkblue { background-color: #003366; }a.dark-link {color:lightgrey;}a.dark-link:hover {color:steelblue;}svg.light-svg{fill:#586069}svg.dark-svg{fill:#A79F96}footer.footer-dark{background-color: #222}',
+var css = 'nav.navbarlightblue { background-color: #003399; } nav.navbardarkblue { background-color: #003366; }a.dark-link {color:lightgrey;}a.dark-link:hover {color:steelblue;}svg.light-svg{fill:#586069}svg.dark-svg{fill:#A79F96}footer.footer-dark{background-color: #222}input.darkplaceholder::placeholder{color:white;}',
 head = document.head || document.getElementsByTagName('head')[0],
 style = document.createElement('style');
 
