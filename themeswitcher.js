@@ -20,6 +20,15 @@ function lightmode(manualmode=true){
     $(".table").removeClass("table-dark");
     $(".masthead").addClass("mastheadbg");
     $("#searchsubmit").addClass("btn-primary");
+    //reCaptcha
+    captchal1 = $(".g-recaptcha").children("div");
+    captchal2 = captchal1.children("div");
+    captchal3 = captchal2.children("iframe");
+    captchasrc = captchal3[0].src;
+    updatedsrc = captchasrc.replace("theme=dark", "theme=light");
+    captchal3[0].src = updatedsrc;
+    $('.g-recaptcha').attr('data-theme', 'light');
+    //Change icon
     $("#manuallighting-selector").attr("onclick","darkmode()");
     $("#manuallighting-selector").attr("href","#darkmode");
     $("#manuallighting-selector").html('<i class="fas fa-moon"></i> Dark');
@@ -54,6 +63,15 @@ function darkmode(manualmode=true){
     $(".table").addClass("table-dark");
     $(".masthead").removeClass("mastheadbg");
     $("#searchsubmit").removeClass("btn-primary");
+    //reCaptcha
+    captchal1 = $(".g-recaptcha").children("div");
+    captchal2 = captchal1.children("div");
+    captchal3 = captchal2.children("iframe");
+    captchasrc = captchal3[0].src;
+    updatedsrc = captchasrc.replace("theme=light", "theme=dark");
+    captchal3[0].src = updatedsrc;
+    $('.g-recaptcha').attr('data-theme', 'dark');
+    //Change icon
     $("#manuallighting-selector").attr("onclick","lightmode()");
     $("#manuallighting-selector").attr("href","#lightmode");
     $("#manuallighting-selector").html('<i class="fas fa-sun"></i> Light');
@@ -133,24 +151,24 @@ if (localStorage.getItem("theme-selector") == "auto"){
 }
 else if (localStorage.getItem("theme") == "dark"){
     $(document).ready(function(){
-                      darkmode();
-                      });
+        darkmode();
+    });
 }
 else if (localStorage.getItem("theme") == "light"){
     $(document).ready(function(){
-                      lightmode();
-                      });
+        lightmode();
+    });
 }
 else{
     $(document).ready(function(){
-                      lightmode();
-                      });
+        lightmode();
+    });
 }
 
 //Wait until all the HTML is loaded before trying to modify lighting
 $(document).ready(function(){
-                  dynamicverifylighting(true);
-                  })
+    dynamicverifylighting(true);
+})
 
 //Write menubar (if no JS, then these functiosn won't work anyway
 anchorelement = document.currentScript
