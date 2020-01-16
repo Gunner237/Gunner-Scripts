@@ -21,13 +21,15 @@ function lightmode(manualmode=true){
     $(".masthead").addClass("mastheadbg");
     $("#searchsubmit").addClass("btn-primary");
     //reCaptcha
-    captchal1 = $(".g-recaptcha").children("div");
-    captchal2 = captchal1.children("div");
-    captchal3 = captchal2.children("iframe");
-    captchasrc = captchal3[0].src;
-    updatedsrc = captchasrc.replace("theme=dark", "theme=light");
-    captchal3[0].src = updatedsrc;
-    $('.g-recaptcha').attr('data-theme', 'light');
+    if ( $( ".g-recaptcha" ).length ) {
+        captchal1 = $(".g-recaptcha").children("div");
+        captchal2 = captchal1.children("div");
+        captchal3 = captchal2.children("iframe");
+        captchasrc = captchal3[0].src;
+        updatedsrc = captchasrc.replace("theme=dark", "theme=light");
+        captchal3[0].src = updatedsrc;
+        $('.g-recaptcha').attr('data-theme', 'light');
+    }
     //Change icon
     $("#manuallighting-selector").attr("onclick","darkmode()");
     $("#manuallighting-selector").attr("href","#darkmode");
@@ -64,13 +66,15 @@ function darkmode(manualmode=true){
     $(".masthead").removeClass("mastheadbg");
     $("#searchsubmit").removeClass("btn-primary");
     //reCaptcha
-    captchal1 = $(".g-recaptcha").children("div");
-    captchal2 = captchal1.children("div");
-    captchal3 = captchal2.children("iframe");
-    captchasrc = captchal3[0].src;
-    updatedsrc = captchasrc.replace("theme=light", "theme=dark");
-    captchal3[0].src = updatedsrc;
-    $('.g-recaptcha').attr('data-theme', 'dark');
+    if ( $( ".g-recaptcha" ).length ) {
+        captchal1 = $(".g-recaptcha").children("div");
+        captchal2 = captchal1.children("div");
+        captchal3 = captchal2.children("iframe");
+        captchasrc = captchal3[0].src;
+        updatedsrc = captchasrc.replace("theme=light", "theme=dark");
+        captchal3[0].src = updatedsrc;
+        $('.g-recaptcha').attr('data-theme', 'dark');
+    }
     //Change icon
     $("#manuallighting-selector").attr("onclick","lightmode()");
     $("#manuallighting-selector").attr("href","#lightmode");

@@ -14,4 +14,4 @@ This project is hosted using [GitHub Pages](https://pages.github.com). For more 
 
 ## Roadmap/Known Issues
 
-- No known issues / planned features
+- `themeswitcher.js`: Google's reCaptcha will re-render as the original theme on timeout.
