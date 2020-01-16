@@ -25,9 +25,11 @@ function lightmode(manualmode=true){
         captchal1 = $(".g-recaptcha").children("div");
         captchal2 = captchal1.children("div");
         captchal3 = captchal2.children("iframe");
-        captchasrc = captchal3[0].src;
-        updatedsrc = captchasrc.replace("theme=dark", "theme=light");
-        captchal3[0].src = updatedsrc;
+        if (captchal3.length){
+            captchasrc = captchal3[0].src;
+            updatedsrc = captchasrc.replace("theme=dark", "theme=light");
+            captchal3[0].src = updatedsrc;
+        }
         $('.g-recaptcha').attr('data-theme', 'light');
     }
     //Change icon
@@ -70,9 +72,11 @@ function darkmode(manualmode=true){
         captchal1 = $(".g-recaptcha").children("div");
         captchal2 = captchal1.children("div");
         captchal3 = captchal2.children("iframe");
-        captchasrc = captchal3[0].src;
-        updatedsrc = captchasrc.replace("theme=light", "theme=dark");
-        captchal3[0].src = updatedsrc;
+        if (captchal3.length){
+            captchasrc = captchal3[0].src;
+            updatedsrc = captchasrc.replace("theme=light", "theme=dark");
+            captchal3[0].src = updatedsrc;
+        }
         $('.g-recaptcha').attr('data-theme', 'dark');
     }
     //Change icon
